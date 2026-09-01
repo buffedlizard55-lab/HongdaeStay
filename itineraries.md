@@ -1,211 +1,504 @@
-# HongdaeStay — Verified Itineraries
+# Master list of itineraries — Mercure Ambassador Seoul Hongdae
 
-Stay: **Mercure Ambassador Seoul Hongdae**  
-📍 144 Yanghwa-ro, Mapo-gu, Seoul (Hongik Univ. Station Exit 9, ~2 min walk)  
-🛎️ Check-in: **Mon Nov 16, 2026 (after 3:00 PM)**  
-🛏️ Check-out: **Sun Nov 22, 2026 (by 12:00 PM)**
+**Stay:** Mon 16 Nov 2026 (check-in from 15:00) → Sun 22 Nov 2026 (check-out by 12:00) · 2 travellers
+**Verification pass:** 2026-09-01 — nothing below entered an itinerary before its hours/date were read off an official page.
+**Live site:** https://buffedlizard55-lab.github.io/HongdaeStay/
 
-> Every activity below was verified line-by-line against official sources in the KoreaFun / Koreafood repos and/or live official pages. Nothing here is guessed. Status labels: ✅ confirmed · 🔎 verified place · ⏳ re-check.
+## Summary
+
+| # | Itinerary | Days needing transit | Best for |
+|---|---|---|---|
+| 1 | **Zero-Transit Hongdae** — Six days without ever needing a subway ticket. | none | Travellers who want to unpack once and walk everywhere. |
+| 2 | **Slow Hongdae & Yeonnam** — The rest-heavy version — two anchors a day, nothing before 10:00. | none | A stay where the point is the neighbourhood, not the checklist. |
+| 3 | **Mapo Riverside & Sangam** — Two cluster days out west, the rest on foot in Hongdae. | 2 | Travellers who want landmarks without crossing the city. |
+| 4 | **Food-Forward Hongdae** — Every meal from the verified list, clustered so no meal needs transit. | 1 | Two travellers eating their way through Mapo. |
+| 5 | **Concerts & Stages** — All three confirmed ticketed events, each on its own evening. | 3 | Travellers who booked tickets and want the days around them kept light. |
+| 6 | **The Balanced Six** — Two busy days, two moderate, two relaxed — the default recommendation. | 2 | Two travellers who want one big night, one landmark day, and plenty of nothing. |
+
+## Confirmed dated events in the window
+
+| Event | When | Price | Source |
+|---|---|---|---|
+| Kings of Convenience — “SJF at the Theater 2026” | Wed 18 Nov 2026 · 20:00 | R ₩143,000 / S ₩132,000 / A ₩110,000 / B ₩99,000 | [YES24 Ticket — official English booking page (Perf 59136)](https://ticket.yes24.com/English/Perf/59136) |
+| Seoul Arts Center — 《The Glass Menagerie》 (유리동물원) | In-window performances: Wed 18 Nov 14:30 · Thu 19 Nov 19:30 · Fri 20 Nov 14:30 & 19:30 · Sat 21 Nov 14:00 & 19:00 · Sun 22 Nov 15:00 | R ₩99,000 / S ₩77,000 / A ₩55,000 / OP ₩99,000 | [Seoul Arts Center official production page (SN=83392)](https://www.sac.or.kr/site/main/show/show_view?SN=83392) |
+| National Gugak Center — 2026 토요명품 (Saturday Masterpieces) | Sat 21 Nov 2026 · 15:00 | A ₩30,000 / B ₩20,000 | [National Gugak Center — November 2026 monthly schedule](https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11) · [Performance detail (id 37050)](https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&performance_id=37050) |
+| Gugak Museum — English Tour | Sat 21 Nov 2026 · 14:00 | No price printed on the official listing (museum entry is free) | [National Gugak Center — November 2026 monthly schedule](https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11) · [English Tours detail (id 37733)](https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&performance_id=37733) |
+| Bongeunsa — Thursday Temple Life (English) | Thu 19 Nov 2026 · 14:00–16:00 | ₩30,000 | [Bongeunsa Templestay — Temple Life official page](http://temple.bongeunsa.org/public_html/explain/temple_life.asp) |
+| Mapo Music Gallery (마포 뮤직 갤러리) | Open through 31 Dec 2026 — open every day of the stay | Free admission (무료입장) | [Mapo Foundation for Arts and Culture — performance/exhibition schedule](https://www.mfac.or.kr/performance/whole_list.jsp) |
 
 ---
 
-## Verified activity inventory — Nov 16–22 window
+## 1. Zero-Transit Hongdae
 
-### ✅ Confirmed events / activities (dated, in-window)
+*Six days without ever needing a subway ticket.*
 
-| # | Activity | Date(s) in window | Hours | Price (official) | Source |
-|---|---|---|---|---|---|
-| E1 | **Melon Music Awards (MMA 2026)** — ✅ CONFIRMED dates Nov 14–15, but **out of window** (before check-in) | — | — | — | [Kakao/Melon announcement Jun 9 2026](https://www.melon.com) |
-| E2 | **Kings of Convenience — SJF at the Theater** — ✅ CONFIRMED | **Wed Nov 18, 20:00** | ~90 min | ticket price on YES24 | [YES24 Ticket](https://ticket.yes24.com/English/Perf/59136) · [OhmyStar](https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0003247950) |
-| E3 | **National Gugak Center — 토요명품 (Saturday Masterpieces)** — ✅ CONFIRMED | **Sat Nov 21, 15:00** | 15:00 start | A ₩30,000 / B ₩20,000 | [gugak.go.kr November 2026 schedule](https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11) |
-| E4 | **Gugak Museum — English Tours** — ✅ CONFIRMED every Saturday | **Sat Nov 21, 14:00** | ~30–40 min | Free (museum entry free) | [gugak.go.kr English Tours detail](https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&performance_id=37733) |
-| E5 | **Bongeunsa — Thursday Temple Life (English)** — ✅ CONFIRMED weekly | **Thu Nov 19, 14:00–16:00** | 14:00–16:00 | ₩30,000 | [temple.bongeunsa.org Temple Life page](http://temple.bongeunsa.org/public_html/explain/temple_life.asp) |
-| E6 | **Seoul Arts Center — 《The Glass Menagerie》** — ✅ CONFIRMED Oct 17–Nov 22 | **Thu Nov 19 19:30 · Sat Nov 21 14:00 & 19:00 · Sun Nov 22 15:00** | 120 min | R ₩99,000 / S ₩77,000 / A ₩55,000 / OP ₩99,000 | [sac.or.kr show page](https://www.sac.or.kr/site/main/show/show_view?SN=83392) |
-| E7 | **Seoul Metropolitan Opera — 《La Bohème》** — ✅ CONFIRMED Nov 5–8 | **Out of window** (ends Nov 8) | — | — | [sejongpac.or.kr](https://www.sejongpac.or.kr) |
-| E8 | **LG Arts Center — 《Rothko》** — ✅ CONFIRMED Nov 13–15 | **Out of window** (ends Nov 15) | ~4 hrs | see LG Arts | [lgart.com CoMPAS 26](https://www.lgart.com) |
-| E9 | **2026 Re:Bound Festival** — ⏳ DATES CONFIRMED Oct 13–Nov 22, **program not posted** | whole window | TBA | TBA | [sac.or.kr 2026 planned programmes](https://www.sac.or.kr/site/main/content/2026_SACpresents) |
-| E10 | **SAC monthly series — 11 o'Clock Concert (2nd Thu) & Saturday Concert (3rd Sat)** — ⏳ derived from official pattern | Thu Nov 12 (out) · **Sat Nov 21 17:00** | 17:00 | TBA for Nov | [sac.or.kr 2026 planned programmes](https://www.sac.or.kr/site/main/content/2026_SACpresents) |
-| E11 | **2026 Disability Arts exhibition** — ✅ CONFIRMED Oct 30–Nov 15 | **Out of window** (ends Nov 15) | 10:00–19:00 | Free | [sac.or.kr](https://www.sac.or.kr/site/main/show/show_view?SN=76434) |
-| E12 | **SAC The Next — Song Hyun-jung oboe recital** — ✅ CONFIRMED Thu Nov 5 19:30 | **Out of window** | — | — | [sac.or.kr](https://www.sac.or.kr/site/main/show/show_view?SN=75581) |
+Every single item is inside the Hongdae core or the Yeonnam-dong strip that runs off the end of Gyeongui Line Forest Park. Longest walk on any day is about 840 m. No dated ticketed event is included, so nothing can be missed.
 
-> ⚠️ **Note:** Nov 18 (Wed) has the Kings of Convenience show at Sejong Center in Gwanghwamun — this is **not in Hongdae**, requires subway (Line 2 → Line 5, ~25–30 min). Nov 21 (Sat) has multiple options some distance away (Gugak Center in Seocho, SAC in Seocho). These are flagged as "outing" days.
+- **Best for:** Travellers who want to unpack once and walk everywhere.
+- **Days needing public transport:** none — every day is walkable from the hotel
 
-### 🔎 Verified places / activities (open during window, no date restriction)
+### Mon 16 Nov — Arrive & settle (relax)
 
-## Hongdae / Mapo core (walkable from hotel, ≤10 min)
-
-| # | Place | Location | Hours (official) | Price | Source |
-|---|---|---|---|---|---|
-| H1 | **KT&G Sangsangmadang Hongdae** (culture complex: cinema, live hall, gallery, art shop) | 65 Eoulmadang-ro, Mapo-gu | Venue programs vary; building open daily | Free to browse; events ticketed | [seouldanurim.net](https://www.seouldanurim.net/en/inforcenter/D/TOURINFOTYPE6/42978) · [creatrip](https://creatrip.com/en/spot/5614) |
-| H2 | **Hongdae Playground / Hongik Children's Park** (street performance hub, Free Market venue on Saturdays) | 19-3 Wausan-ro 21-gil, Mapo-gu | Park open daily | Free | [Visit Seoul — Hongdae Playground](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070) |
-| H3 | **Hongdae Free Market** (홍대앞 예술시장) — Sat only, Mar–Nov | Hongik Children's Park, 19-3 Wausan-ro 21-gil | **Sat 13:00–18:00** (Nov 21 is in window) | Free | [Trazy](https://www.trazy.com/spot/1474/hongdae-hongik-university-street-%ED%99%8D%EB%8C%80) · [Visit Seoul](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070) · [aroimakmak](https://aroimakmak.com/hongdae-free-market/) |
-| H4 | **Gyeongui Line Book Street** (경의선책거리) | Wausan-ro 37-gil 35, in front of Hongik Univ. Stn exit 6 | **Tue–Sun 11:00–20:00** (closed Mon; Nov 16 is Mon — closed) | Free | [Seoul Mediahub](https://mediahub.seoul.go.kr/archives/1290354) · [KTO](https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=eb3c87c6-8662-4f21-9e28-1a6da338d367) |
-| H5 | **Gyeongui Line Forest Park** (경의선숲길) | linear park, Wausan-ro / Yeonnam-dong | Open daily (park hours ~24h) | Free | [TripAdvisor](https://www.tripadvisor.com/Attraction_Review-g294197-d12202187-Reviews-Gyeongui_Line_Forest-Seoul.html) · [gyeongui-line-forest-park.com-place.com](https://gyeongui-line-forest-park.com-place.com/) |
-| H6 | **Trick Eye Museum Seoul** | 20 Hongik-ro 3-gil, Mapo-gu, Seogyo Plaza B2 | **Daily 9:00–22:00** (last entry 21:00); open year-round, no closing day | Adult ₩12,000 / Child ₩10,000 (Trickeye.com) | [Trickeye.com](https://www.trickeye.com/seoul) · [TripAdvisor](https://www.tripadvisor.com/Attraction_Review-g294197-d2203080-Reviews-Trickeye_Museum_Seoul-Seoul.html) |
-| H7 | **Blue Roof Town Hongdae Branch** (KBBQ) | 1F, 128 Yanghwa-ro, Mapo-gu (Hongik Univ. Stn exit 9, 271 m) | **Daily 11:15–22:00**, year-round | — (no price verified) | [Visit Seoul](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
-| H8 | **Busanjib Hongdae** (jajangmyeon + KBBQ) | 2F, 100-6 Eoulmadang-ro, Mapo-gu | **11:30–22:00** (last order 21:00) | — | [Visit Seoul](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
-| H9 | **MGM Hongdae Branch** (KBBQ — cauldron-lid grilling) | 1F, 8 World Cup buk-ro 4-gil, Mapo-gu (Hongik Univ. Stn exit 1, 379 m) | **Daily 12:00–00:00** (last order 23:30) | — | [Visit Seoul](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
-| H10 | **Eongteori Saenggogi Hongdae** (all-you-can-eat KBBQ) | 118 Eoulmadang-ro, Mapo-gu | **11:00–23:00**, year-round | — | [VisitKorea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862) |
-| H11 | **Chosun Hwaro Gui** (KBBQ — 1++ Korean beef + domestic pork) | 5 World Cup buk-ro, Mapo-gu (Seogyo-dong, Hongdae) | **11:30–24:00**; break 15:00–17:00; last order 23:30; **closed Sundays** | — | [VisitKorea](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996) |
-| H12 | **YANG IN HWAN DAE Hongdae** (grilled lamb) | 1F, 86 Wausan-ro 29ga-gil, Mapo-gu | **Mon–Fri 16:00–22:00** (last order 21:00); **weekend hours not printed** — confirm before Sat/Sun | — | [Visit Seoul](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
-| H13 | **Hongdae shopping streets / Eoulmadang-ro** | Eoulmadang-ro, from Hongik Univ. Stn exit 9 | Streets free; individual shops ~11:00–late | Free to walk | [Visit Seoul](https://english.visitseoul.net/editorspicks/myeong-dong_/44370) · [Koreatodo](https://www.koreatodo.com/hongdae-hongik-university-street) |
-| H14 | **Mercure Ambassador Seoul Hongdae** (hotel — onsite restaurant Tian Mi Mi / Chinese restaurant) | 144 Yanghwa-ro, Mapo-gu | Check-in 15:00–23:59; check-out 11:00–12:00; restaurant hours per hotel | — | [Ambatel official](https://mercure-ambassador-seoul-hongdae.seoul-hotels-kr.com/en/) · [HotelsSeoul](https://www.hotelsseoul.org/en/property/mercure-ambassador-seoul-hongdae.html) |
-| H15 | **Yeonnam-dong cafe street** (Gyeongui Line Forest Park along Yeonnam-ro / Seongmisan-ro) | Yeonnam-dong, Mapo-gu (adjacent to Hongdae, ~10 min walk from hotel) | Individual cafes vary; typical ~11:00–21:00 | — | [Cove Korea](https://blog.covekorea.com/live-in-yeonnam-dong/) · [KOTourLive](https://www.kotourlive.com/en/travel-guide/seoul/yeonnam-dong/) · [EatBook](https://eatbook.sg/yeonnam-dong-cafes/) |
-
-## Hongdae-adjacent (1 subway stop or ≤15 min walk)
-
-| # | Place | Location / transit | Hours | Price | Source |
-|---|---|---|---|---|---|
-| A1 | **Jeoldusan Martyrs' Shrine & Korean Martyrs Museum** | Tojeong-ro 6, Hapjeong (Line 2/6 Hapjeong exit 7, ~10 min from Hongdae) | **09:30–17:00**; closed Mondays (Nov 16 is Mon — closed) | Voluntary offering | [CBCK](https://cbck.or.kr/koreanmartyrs/Shrines/73) · [missa.cbck.or.kr](https://missa.cbck.or.kr/Shrines) |
-| A2 | **Mapo Music Gallery** (마포 뮤직 갤러리) — free music exhibition | Gallery MAC, Mapo Arts Center, Daeheung-ro 20-gil 28 | **Apr 10–Dec 31, 2026 · 10:00–18:00** | Free | [Mapo Arts Center](https://www.mfac.or.kr/performance/whole_list.jsp) |
-| A3 | **Seogang Kkeopdegi** (KBBQ — pork rind) | 36 World Cup-ro, Mapo-gu (Hapjeong) | **16:00–03:30** (next day), year-round | — | [Visit Seoul](https://english.visitseoul.net/restaurants/Seogang-Kkeopdegi/ENP012289) |
-| A4 | **Original Jobak House** (pork ribs since 1979) | 313-1 Tojeong-ro, Mapo-gu (Mapo Stn exit 1, 199 m) | **Mon–Sat 11:30–22:00**; break 15:00–17:00; **closed Sundays** | — | [Visit Seoul](https://english.visitseoul.net/restaurants/OriginalJoBakJip/ENPon4w77) |
-| A5 | **Masichaina** (맛이차이나 — hotel-style Korean-Chinese) | 68 Dongmak-ro, Mapo-gu (Sangsu / Hapjeong, one stop from Hongik Univ.) | **Mon–Sun 11:30–22:00**; break 16:00–17:00; year-round | — | [VisitKorea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66922) |
-| A6 | **Hyeongje Galbi** (charcoal-grilled beef galbi) | 2 Myeongmul 1-gil, Seodaemun-gu (Sinchon Stn exit 3, 261 m) | **Daily 11:00–22:00**; closed Seollal & Chuseok | — | [Visit Seoul](https://english.visitseoul.net/restaurants/Hyeongje-Galbi/ENP011643) |
-| A7 | **Cochon Tonkatsu** (tonkatsu-only) | 2 Myeongmul 1-gil, Seodaemun-gu (Sinchon Stn exit 3, 261 m) | **11:00–19:00**; break 16:00–17:00 | — | [Visit Seoul](https://english.visitseoul.net/restaurants/CochonTonkatsu/ENPf7618z) |
-| A8 | **Jamdubong The Nine** (KBBQ — former Han River dock) | 352-6 Hapjeong-dong, Mapo-gu (Hapjeong Stn exit 7, 804 m) | **Daily 12:00–22:00** | — | [Visit Seoul](https://english.visitseoul.net/restaurants/the9bongbong/ENPuv9y9f) |
-| A9 | **Yeonnam Seosikdang** (standing grilled ribs) | 32 Baekbeom-ro 2-gil, Mapo-gu (Gongdeok / Mapo Stn side) | **12:00–02:00** (next day); no closing day printed | — | [VisitKorea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=52350) |
-| A10 | **Culture Tank / Oil Tank Culture Park** (문화비축기지) | Jeungsan-ro 87, next to World Cup Park (Line 6 World Cup Stadium) | Outdoor park **24 h**; docent space tour **Tue, Thu, Fri, Sat 10:00 & 15:00**; T1–T6 interiors closed to walk-ins since Apr 2025 | Park free; tours free (Google-form booking) | [parks.seoul.go.kr](https://parks.seoul.go.kr/template/sub/culturetank.do) |
-
-## Further afield (subway trip required — outing days)
-
-| # | Place | Transit from Hongdae | Hours (Nov winter) | Price | Source |
-|---|---|---|---|---|---|
-| O1 | **Seodaemun Prison History Hall** + special exhibition 《붉은 벽돌집》 | Line 2/3 Dongnimmun exit 5 (~15–20 min from Hongdae) | **Nov–Feb 09:30–17:00**, last entry 30 min before close; **closed Mondays** (Nov 16 closed) | Adult ₩3,000 / Youth ₩1,500 / Child ₩1,000 | [seodaemun prison official via Kinside](https://www.kinside.kr/en/places/attractions/19) · [excursionmania](https://www.excursionmania.com/ttd/8096/seodaemun-prison-history-hall-blg-8096) · 《붉은 벽돌집》 runs Aug 15 2026–Dec 31 2028 [sphh.sscmc.or.kr](https://sphh.sscmc.or.kr/) |
-| O2 | **National Gugak Center + Gugak Museum** (Seocho) | Line 3 Nambu Terminal + bus, or Line 2 Seocho (~25–30 min) | Performance: Sat 15:00; Museum English tour: Sat 14:00; museum open Tue–Sun | A ₩30,000 / B ₩20,000 (performance); museum free | [gugak.go.kr](https://www.gugak.go.kr) |
-| O3 | **Seoul Arts Center (SAC)** — CJ Towol Theater / Hangeul Museum area | Line 2 Seoul Nat'l Univ. of Education + shuttle/bus, or Line 3 Gangnam + bus (~30–40 min) | 《Glass Menagerie》 times above; Hangeul Museum **⛔ CLOSED** until Oct 2028 | Ticket per show | [sac.or.kr](https://www.sac.or.kr) |
-| O4 | **Sejong Center Grand Theater** (Gwanghwamun) — Kings of Convenience | Line 5 Gwanghwamun (~25–30 min from Hongdae, Line 2→5 transfer) | Nov 18 20:00 | ticket per YES24 | [YES24](https://ticket.yes24.com/English/Perf/59136) |
-| O5 | **Bongeunsa Temple** (Gangnam, COEX area) | Line 9 Bongeunsa exit 1 (~30–40 min from Hongdae) | Thu Temple Life 14:00–16:00 | ₩30,000 | [temple.bongeunsa.org](http://temple.bongeunsa.org/public_html/explain/temple_life.asp) |
-| O6 | **Seoul Museum of History — 《서울도시계획 대관람》** | Sinmunno 2-ga 55, beside Gyeonghuigung (Line 5 Gwanghwamun / Line 3 Anguk) | **Aug 14–Nov 8, 2026** — **OUT OF WINDOW** (ends Nov 8, before check-in) | Free | [museum.seoul.go.kr](https://museum.seoul.go.kr/www/NR_index.do) |
-| O7 | **Changgyeonggung Mulbit Yeonhwa** (autumn media show) | Line 4 Hyehwa exit 4 | **Sep 8–Nov 8, 2026** — **OUT OF WINDOW** (ends Nov 8) | Palace ₩1,000 | [kh.or.kr](https://www.kh.or.kr/cms/content/view/1526) |
-| O8 | **MMCA Seoul — Artist of the Year 2026 + Christine Sun Kim** | Gyeongbokgung / Tongin area | **Jul 24–Dec 6, 2026** (open whole window); open daily; **hours: Mon/Tue/Thu/Fri/Sun 09:30–17:30, Wed/Sat 09:30–21:00** | Free | [mmca.go.kr](https://www.mmca.go.kr) |
-| O9 | **SeMA Seosomun — Lynn Hershman Leeson + GanaArt Collection** | Behind Deoksugung (Line 1/2 City Hall, Line 5 Gwanghwamun) | **Lynn Hershman Leeson: Oct 21–Feb 21 2027** (open whole window); **GanaArt: Apr 16–Nov 22 2026** (open whole window, closes departure day); Tue–Sat 10:00–20:00, Fri to 21:00, weekends 10:00–18:00; closed Mon | Free | [sema.seoul.go.kr](https://sema.seoul.go.kr) |
-| O10 | **Leeum Museum of Art — Inside Other Spaces + Koo Jeong A: OUSSSMOS** | Hannam-dong / Itaewon (Line 6 Hangangjin) | **Inside Other Spaces: through Nov 29**; **Koo Jeong A: Sep 5–Dec 27**; Tue–Sun 10:00–18:00 | ticket per Leeum | [leeumhoam.org](https://www.leeumhoam.org) |
-| O11 | **National Museum of Korea** — Chusa Kim Jeong-hui + donated works + Wed/Sat late | Ichon (Line 4 / Gyeongui-Jungang) | **Chusa: Aug 11–Nov 22** (open whole window, closes departure day); **Donated works 2: Jul 27–Nov 15** (open first part of window); Mon/Tue/Thu/Fri/Sun 09:30–17:30, Wed/Sat 09:30–21:00; **⚠️ Buddhist painting/sculpture + metal crafts galleries closed for renovation until Jan 2027** | Free | [museum.go.kr](https://www.museum.go.kr) |
-
-### ⏳ Re-check items (real, but not fully confirmed for Nov 2026)
-
-| Item | Note | Action |
+| Time | Plan | Verified source |
 |---|---|---|
-| Mapo Arts Center play 〈투신〉 — Nov 13–21 | Announced in season lineup only; **no ticket page yet** as of Aug 19 | Re-check MFAC calendar in early Oct |
-| 2026 Re:Bound Festival at SAC Jayu Theater | Oct 13–Nov 22 on plan; no detail page/price | Re-check SAC in Oct |
-| SAC 11 o'Clock Concert Nov 12 / Saturday Concert Nov 21 | Dates derived from official pattern; Nov pages not published | Re-check SAC in Oct |
-| YANG IN HWAN DAE Hongdae weekend hours | Only Mon–Fri printed; Sat/Sun unconfirmed | Confirm before Sat/Sun visit |
-| Hongdae Free Market weather cancellation | Rain can cancel; call 02-325-8553 | Check day-of |
-| Gyeongui Line Book Street operator page | Hours from city/tourism pages; operator page not reachable Aug 19 | Confirm on day |
-| Nodeul Island November program | Not posted as of Aug 19 | Check nodeul.org in Oct |
+| 15:00 | Check in at the hotel, 144 Yanghwa-ro (Exit 9) | — |
+| 16:00 | Kakao Friends Hongdae Flagship — 51 m from the station exit, open to 22:00 | [H2 Kakao Friends Hongdae Flagship](https://english.visitseoul.net/shopping/Kakao-Friends-Hongdae-Flagship-Store/ENP027304) |
+| 17:30 | Dinner: Blue Roof Town Hongdae Branch — 271 m, open to 22:00 | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
+| 19:30 | Slow loop of the Eoulmadang-ro block and back | — |
+
+> ⚑ Monday closures respected: Hongik Cultural Park, Parole & Langue, Jeoldusan museum, Oil Tank exhibition halls and the stadium tour are all shut today and appear on no Monday in any itinerary.
+
+### Tue 17 Nov — Books, park, Yeonnam (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 08:00 | Breakfast at Avelop Hongdae Flagship (opens 08:00 on weekdays) | [F7 Avelop Hongdae Flagship](https://english.visitseoul.net/area/Avelop/ENP22oa3h) |
+| 11:00 | Gyeongui Line Book Street — opens 11:00 (break 12:30–13:30) | [H5 Gyeongui Line Book Street (경의선책거리)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574) |
+| 13:30 | Lunch: Jincheongyujeom, Yeonnam — arrive before the 15:30 weekday break | [Y2 Jincheongyujeom (진천유점)](https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38) |
+| 15:00 | Walk the Yeontral Park stretch of Gyeongui Line Forest Park | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 16:30 | Coffee at Antique Coffee Yeonnam | [Y1 Antique Coffee Yeonnam Branch](https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc) |
+| 18:30 | Dinner: YANG IN HWAN DAE (weekday-only hours, opens 16:00) | [F5 YANG IN HWAN DAE Hongdae](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
+
+### Wed 18 Nov — Culture complex day (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | KT&G Sangsangmadang — opens 11:00; design shop and gallery floors | [H4 KT&G Sangsangmadang Hongdae](https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561) |
+| 13:00 | Lunch: Busanjib Hongdae (last order 21:00, no alcohol) | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 15:00 | Hongik Cultural Park / Drawing Village — open Tue–Sun 10:00–18:00 | [H7 Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground)](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070) |
+| 17:00 | Café Layered Yeonnam or Parole & Langue (both open today) | [Y4 Café Layered Yeonnam](https://english.visitseoul.net/restaurants/Caf%C3%A9%20Layered%20Yeonnam_/48856) |
+| 19:30 | Dinner: Chosun Hwaro Gui — after its 15:00–17:00 break | [F6 Chosun Hwaro Gui (조선화로구이)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996) |
+
+### Thu 19 Nov — Slow morning, film evening (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 10:00 | Long unhurried walk up the forest park and back | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 12:30 | Lunch: Eongteori Saenggogi (all-you-can-eat, 11:00–23:00) | [F4 Eongteori Saenggogi Hongdae (엉터리생고기 홍대)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862) |
+| 15:00 | Rest at the hotel — pool of free afternoon deliberately left empty | — |
+| 18:00 | Indiespace — 80 m from Exit 8, open to 20:00 | [H1 Indiespace (인디스페이스)](https://english.visitseoul.net/entertainment/Indiespace/ENP040673) |
+| 20:30 | Late dinner: MGM Hongdae (last order 23:30) | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
+
+### Fri 20 Nov — Yeonnam deep cut (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 10:00 | Antique Coffee Yeonnam for the first coffee | [Y1 Antique Coffee Yeonnam Branch](https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc) |
+| 11:30 | Yeonnam back alleys on foot — Donggyo-ro 46-gil and Seongmisan-ro | — |
+| 13:00 | Lunch: Jincheongyujeom (second visit; different menu) | [Y2 Jincheongyujeom (진천유점)](https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38) |
+| 15:00 | Parole & Langue — opens 13:00, closed Mondays but open today | [Y3 Parole & Langue](https://english.visitseoul.net/restaurants/Parole-Langue/ENP0p4bkd) |
+| 18:00 | Dinner: YANG IN HWAN DAE or Blue Roof Town | [F5 YANG IN HWAN DAE Hongdae](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
+
+### Sat 21 Nov — Saturday in the core (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | Avelop (Sat opens 11:00) then Gyeongui Line Book Street | [F7 Avelop Hongdae Flagship](https://english.visitseoul.net/area/Avelop/ENP22oa3h) |
+| 13:00 | Walk past Hongik Cultural Park — if the Free Market is running it will be here; it is NOT confirmed for 2026, so nothing is planned around it | [H8 Hongdae Free Market (홍대앞 예술시장 프리마켓)](http://www.freemarket.or.kr/) |
+| 14:00 | Lunch: Busanjib Hongdae | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 16:00 | Trick Eye Museum — open to 22:00, last admission 21:00 | [H3 Trick Eye Museum Seoul](https://www.trickeye.com/seoul/Visit) |
+| 19:00 | Dinner: MGM Hongdae | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
+
+### Sun 22 Nov — Check out (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 08:00 | Hotel breakfast (07:00–10:00, last entry 09:30) | — |
+| 10:00 | Final walk on the forest park | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 12:00 | Check out — 12:00 is the hotel's stated latest time | — |
+
+> ⚑ Chosun Hwaro Gui is closed Sundays and is not scheduled today.
 
 ---
 
-## Master itinerary list (5 itineraries)
+## 2. Slow Hongdae & Yeonnam
 
-Each itinerary is a full day-by-day plan for Nov 16–22. All activities are from the verified inventory above. Transportation times are noted. Days are labelled **Busy** / **Moderate** / **Relax**.
+*The rest-heavy version — two anchors a day, nothing before 10:00.*
 
----
+Same zero-transit footprint as Itinerary 1, but each day carries at most two fixed items and every afternoon has a deliberate empty block. Cafés do the heavy lifting.
 
-### Itinerary 1 — "Hongdae Immersion" (mostly walkable, minimal transit)
+- **Best for:** A stay where the point is the neighbourhood, not the checklist.
+- **Days needing public transport:** none — every day is walkable from the hotel
 
-> Theme: Stay within walking distance of the hotel. Hongdae culture, food, Free Market, museums in Mapo. One away day (Seodaemun) late in the stay.
+### Mon 16 Nov — Arrive (relax)
 
-| Day | Date | Pace | Plan |
-|---|---|---|---|
-| **Day 1** | **Mon Nov 16** | 🔵 Relax | Arrive ICN → AREX to Hongik Univ. Stn (35 min). Check in after 3:00 PM at Mercure Ambassador (144 Yanghwa-ro, ~2 min from Exit 9). 🔹 Late lunch/early dinner: **Busanjib Hongdae** (H8, 11:30–22:00, 2F 100-6 Eoulmadang-ro — 3 min walk). 🔹 Evening stroll: **Hongdae Playground** (H2) + **Hongdae shopping streets / Eoulmadang-ro** (H13) — street performers, busking. 🔹 Late snack: convenience store or hotel Tian Mi Mi restaurant. |
-| **Day 2** | **Tue Nov 17** | 🟢 Moderate | 🔹 Breakfast at hotel. 🔹 Morning: **KT&G Sangsangmadang Hongdae** (H1) — browse art shop, cinema, gallery (building open daily, 5 min walk). 🔹 Lunch: **MGM Hongdae Branch** (H9, daily 12:00–00:00, Hongik Univ. exit 1, 379 m — 5 min walk). 🔹 Afternoon: **Gyeongui Line Book Street** (H4, Tue–Sun 11:00–20:00, Wausan-ro 37-gil 35 — 8 min walk) + **Gyeongui Line Forest Park** (H5) stroll into Yeonnam-dong. 🔹 Cafe stop in **Yeonnam-dong cafe street** (H15). 🔹 Dinner: **Blue Roof Town Hongdae Branch** (H7, daily 11:15–22:00, 128 Yanghwa-ro, 271 m from Exit 9 — 2 min walk). 🔹 Evening: **Hongdae Free Market** is Sat-only, so tonight = busking/red road energy. |
-| **Day 3** | **Wed Nov 18** | 🟡 Busy (outing) | 🔹 Breakfast at hotel. 🔹 **Kings of Convenience — SJF at the Theater** (E2): **Wed Nov 18, 20:00, Sejong Center Grand Theater** (Gwanghwamun, Line 5). Transit: Line 2 → Line 5 transfer (~25–30 min). ✅ Book via [YES24 Ticket](https://ticket.yes24.com/English/Perf/59136). 🔹 Pre-show dinner in Gwanghwamun / Jeongdong area. 🔹 Post-show: return to Hongdae (~30 min) or stay in Jeongdong/Myeongdong for evening walk. 🔹 Optional add-on: **SeMA Seosomun** (O9) is near Gwanghwamun — Lynn Hershman Leoson + GanaArt Collection, Tue–Sat, free. Open Wed (Nov 18). |
-| **Day 4** | **Thu Nov 19** | 🟢 Moderate | 🔹 Breakfast at hotel. 🔹 Morning: **Jeoldusan Martyrs' Shrine & Korean Martyrs Museum** (A1, 09:30–17:00, Hapjeong, closed Mon — open Thu; ~10 min from Hongdae via Line 2/6 Hapjeong exit 7). 🔹 Lunch: **Masichaina** (A5, Mon–Sun 11:30–22:00, 68 Dongmak-ro, Sangsu/Hapjeong — 1 stop from Hongik Univ.). 🔹 Afternoon: **Mapo Music Gallery** (A2, free, 10:00–18:00, Daeheung-ro 20-gil 28) — check MFAC for current exhibition. 🔹 **Bongeunsa Thursday Temple Life** (E5): **Thu Nov 19, 14:00–16:00**, ₩30,000 — optional outing to Gangnam (Line 9 Bongeunsa, ~30–40 min). Book via [temple.bongeunsa.org](http://temple.bongeunsa.org/public_html/explain/temple_life.asp). If skipping this, relax at hotel / cafe. 🔹 Dinner near hotel: **Eongteori Saenggogi Hongdae** (H10, 11:00–23:00, 118 Eoulmadang-ro) or **Chosun Hwaro Gui** (H11, 11:30–24:00, 5 World Cup buk-ro — closed Sundays, open Thu). |
-| **Day 5** | **Fri Nov 20** | 🔵 Relax | 🔹 Breakfast at hotel. 🔹 Morning: **Gyeongui Line Forest Park** (H5) + **Yeonnam-dong cafe street** (H15) — slow walk, coffee, people-watch. 🔹 Lunch: **Hyeongje Galbi** (A6, daily 11:00–22:00, 2 Myeongmul 1-gil, Sinchon exit 3 — 1 stop from Hongik Univ., Line 2). Also **Cochon Tonkatsu** (A7, 11:00–19:00, same block) nearby for a tonkatsu option. 🔹 Afternoon: rest at hotel / hotel gym / pool (if any) OR **Trick Eye Museum Seoul** (H6, daily 9:00–22:00, 20 Hongik-ro 3-gil, Seogyo Plaza B2 — 5 min walk). 🔹 Dinner: **YANG IN HWAN DAE Hongdae** (H12) — **Mon–Fri 16:00–22:00**; Friday is open (weekend hours unverified, so Friday is the safe choice). 1F 86 Wausan-ro 29ga-gil. [Visit Seoul](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom). 🔹 Evening: **Hongdae Free Market** is Sat-only; Friday = busking + night food stalls on Eoulmadang-ro. |
-| **Day 6** | **Sat Nov 21** | 🟡 Busy (outing + local) | 🔹 Breakfast at hotel. 🔹 **Hongdae Free Market** (H3): **Sat 13:00–18:00**, Hongik Children's Park, 19-3 Wausan-ro 21-gil — 8 min walk. ✅ Free. [Visit Seoul](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070) · [Trazy](https://www.trazy.com/spot/1474/hongdae-hongik-university-street-%ED%99%8D%EB%8C%80). 🔹 Lunch at the market or nearby. 🔹 Afternoon option A (outing): **National Gugak Center — 토요명품** (E3) **Sat Nov 21, 15:00**, A ₩30,000 / B ₩20,000 + **Gugak Museum English Tour** (E4) **14:00, free** — Seocho. Transit ~25–30 min. [gugak.go.kr](https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11). ⚠️ This clashes with Free Market tail (13:00–18:00) — choose one focus. 🔹 Afternoon option B (local): **Trick Eye Museum** (H6) + **Hongdae shopping** + **Seogang Kkeopdegi** (A3, 16:00–03:30, 36 World Cup-ro, Hapjeong) for late dinner. 🔹 Evening: **《The Glass Menagerie》** (E6) **Sat Nov 21, 19:00** at SAC CJ Towol Theater (Seocho) — optional outing, R ₩99,000 / S ₩77,000 / A ₩55,000. [sac.or.kr](https://www.sac.or.kr/site/main/show/show_view?SN=83392). Or stay local for Hongdae night. |
-| **Day 7** | **Sun Nov 22** | 🔵 Relax (check-out) | 🔹 Breakfast at hotel. 🔹 Morning: **Gyeongui Line Forest Park** (H5) + **Yeonnam-dong** (H15) final walk. 🔹 Check-out by 12:00 PM. 🔹 If flight/train later: **Seodaemun Prison History Hall** (O1, Sun open 09:30–17:00, Dongnimmun exit 5, ₩3,000) — closed Mon but open Sun. OR **SeMA Seosomun** (O9) — Sun open 10:00–18:00, free, both exhibitions through departure day. OR **Leeum Museum** (O10) — Sun open 10:00–18:00, Hannam-dong (Line 6 Hangangjin). |
+| Time | Plan | Verified source |
+|---|---|---|
+| 15:00 | Check in | — |
+| 17:00 | Dinner: Busanjib Hongdae (5 min walk) | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 19:00 | Nothing scheduled | — |
 
-**Transportation note for Itinerary 1:** Days 1, 2, 4 (local part), 5, 6 (local part), 7 are **walkable or 1 subway stop**. Day 3 (Gwanghwamun) and Day 6 (Gugak/SAC) are **outing days** requiring subway.
+### Tue 17 Nov — One café, one park (relax)
 
----
+| Time | Plan | Verified source |
+|---|---|---|
+| 10:30 | Antique Coffee Yeonnam | [Y1 Antique Coffee Yeonnam Branch](https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc) |
+| 12:00 | Forest park, Yeonnam stretch | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 18:00 | Dinner: Blue Roof Town | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
 
-### Itinerary 2 — "Culture & Museums" (Museum-heavy, balanced with Hongdae)
+### Wed 18 Nov — Books and a long lunch (relax)
 
-> Theme: National/ city museums + arts center + Hongdae food. Blend of outing days and local days.
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | Gyeongui Line Book Street | [H5 Gyeongui Line Book Street (경의선책거리)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574) |
+| 13:30 | Lunch: Jincheongyujeom (before the 15:30 break) | [Y2 Jincheongyujeom (진천유점)](https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38) |
+| 19:00 | Dinner: Eongteori Saenggogi | [F4 Eongteori Saenggogi Hongdae (엉터리생고기 홍대)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862) |
 
-| Day | Date | Pace | Plan |
-|---|---|---|---|
-| **Day 1** | **Mon Nov 16** | 🔵 Relax | Arrive → check in after 3:00 PM. 🔹 Dinner: **Busanjib Hongdae** (H8). 🔹 Evening walk: **Hongdae Playground** (H2) + **Eoulmadang-ro** (H13). |
-| **Day 2** | **Tue Nov 17** | 🟡 Busy (outing) | 🔹 Morning: **National Museum of Korea** (O11) — Ichon (Line 4 / Gyeongui-Jungang, ~25 min). **Chusa Kim Jeong-hui** exhibition (Aug 11–Nov 22, free) + **Donated Works 2** (Jul 27–Nov 15, free). Wed/Sat late opening not relevant on Tue — hours 09:30–17:30. ⚠️ Buddhist painting/sculpture + metal crafts galleries closed for renovation until Jan 2027 — avoid those rooms. [museum.go.kr](https://www.museum.go.kr). 🔹 Lunch near museum (Ichon/Yongsan). 🔹 Afternoon: return to Hongdae. 🔹 Dinner: **MGM Hongdae Branch** (H9) or **Eongteori Saenggogi Hongdae** (H10). |
-| **Day 3** | **Wed Nov 18** | 🟡 Busy (outing) | 🔹 Morning: **SeMA Seosomun** (O9) — Lynn Hershman Leeson + GanaArt Collection, free, Wed 10:00–20:00 (open late to 21:00 Fri only; Wed closes 20:00). Behind Deoksugung, City Hall / Gwanghwamun area (~25–30 min). 🔹 Lunch in Jeongdong / Myeongdong. 🔹 Afternoon: **Deoksugung stonewall walk** + **Seoul Museum of History** area (note: 《서울도시계획 대관람》 ended Nov 8 — out of window). 🔹 Evening: **Kings of Convenience** (E2) **20:00 Sejong Center** (Gwanghwamun, Line 5). [YES24](https://ticket.yes24.com/English/Perf/59136). |
-| **Day 4** | **Thu Nov 19** | 🟢 Moderate | 🔹 Morning: **Jeoldusan Martyrs' Shrine** (A1, 09:30–17:00, Hapjeong). 🔹 Lunch: **Masichaina** (A5, 68 Dongmak-ro). 🔹 Afternoon: **Mapo Music Gallery** (A2, free). 🔹 Optional: **Bongeunsa Thursday Temple Life** (E5) 14:00–16:00, ₩30,000 — Gangnam outing. [temple.bongeunsa.org](http://temple.bongeunsa.org/public_html/explain/temple_life.asp). 🔹 Dinner: **Chosun Hwaro Gui** (H11, closed Sundays — open Thu) or **Blue Roof Town Hongdae** (H7). |
-| **Day 5** | **Fri Nov 20** | 🔵 Relax | 🔹 Morning: **Gyeongui Line Forest Park** + **Yeonnam-dong** (H5, H15). 🔹 Lunch: **Hyeongje Galbi** (A6) + **Cochon Tonkatsu** (A7) in Sinchon. 🔹 Afternoon: **Trick Eye Museum** (H6) or rest at hotel. 🔹 Dinner: **YANG IN HWAN DAE Hongdae** (H12, Mon–Fri 16:00–22:00 — Friday open). 🔹 Evening: Hongdae busking. |
-| **Day 6** | **Sat Nov 21** | 🟡 Busy (outing) | 🔹 Morning: **National Gugak Center — 토요명품** (E3) **15:00** + **Gugak Museum English Tour** (E4) **14:00** — Seocho. [gugak.go.kr](https://www.gugak.go.kr). OR **《The Glass Menagerie》** (E6) **14:00 or 19:00** at SAC. [sac.or.kr](https://www.sac.or.kr/site/main/show/show_view?SN=83392). 🔹 If Gugak in afternoon, morning free: **Hongdae Free Market** (H3) **13:00–18:00** is same time — pick one. 🔹 Lunch near Gugak/SAC or back in Hongdae. 🔹 Late afternoon/evening: back to Hongdae for **Hongdae Free Market** tail (if not done morning) or **Hongdae night**. 🔹 Dinner: **Seogang Kkeopdegi** (A3, 16:00–03:30) or **Original Jobak House** (A4, closed Sundays — skip) or **Jamdubong The Nine** (A8, daily 12:00–22:00). |
-| **Day 7** | **Sun Nov 22** | 🟢 Moderate (departure) | 🔹 Morning: **Leeum Museum of Art** (O10) — Sun 10:00–18:00, Inside Other Spaces + Koo Jeong A: OUSSSMOS. Line 6 Hangangjin (~20 min). [leeumhoam.org](https://www.leeumhoam.org). OR **SeMA Seosomun** (O9) — Sun 10:00–18:00. OR **Seodaemun Prison History Hall** (O1) — Sun 09:30–17:00, ₩3,000. 🔹 Check-out by 12:00. 🔹 Final lunch: **Yeonnam Seosikdang** (A9, 12:00–02:00, 32 Baekbeom-ro 2-gil) or **Masichaina** (A5). |
+### Thu 19 Nov — Pie and a film (relax)
 
----
+| Time | Plan | Verified source |
+|---|---|---|
+| 13:00 | Parole & Langue opens 13:00 | [Y3 Parole & Langue](https://english.visitseoul.net/restaurants/Parole-Langue/ENP0p4bkd) |
+| 16:00 | Café Layered Yeonnam, 120 m away | [Y4 Café Layered Yeonnam](https://english.visitseoul.net/restaurants/Caf%C3%A9%20Layered%20Yeonnam_/48856) |
+| 18:30 | Indiespace | [H1 Indiespace (인디스페이스)](https://english.visitseoul.net/entertainment/Indiespace/ENP040673) |
 
-### Itinerary 3 — "Food Focus" (Hongdae/Mapo verified restaurants + food markets)
+### Fri 20 Nov — Design floor day (relax)
 
-> Theme: Verified restaurants from Koreafood + Visit Seoul / VisitKorea. Cluster by neighborhood each day.
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | KT&G Sangsangmadang | [H4 KT&G Sangsangmadang Hongdae](https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561) |
+| 13:00 | Lunch: Busanjib Hongdae | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 18:00 | Dinner: YANG IN HWAN DAE (weekday hours) | [F5 YANG IN HWAN DAE Hongdae](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
 
-| Day | Date | Pace | Plan |
-|---|---|---|---|
-| **Day 1** | **Mon Nov 16** | 🔵 Relax | Arrive → check in. 🔹 Dinner: **Blue Roof Town Hongdae Branch** (H7, 128 Yanghwa-ro, 2 min walk) — Suwon wang galbi + LA galbi, English-speaking staff. [Visit Seoul](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7). 🔹 Evening: **Hongdae Playground** (H2) + **Eoulmadang-ro** (H13). |
-| **Day 2** | **Tue Nov 17** | 🟢 Moderate | 🔹 Breakfast at hotel. 🔹 Morning: **KT&G Sangsangmadang** (H1) + **Gyeongui Line Book Street** (H4, Tue open 11:00–20:00). 🔹 Lunch: **Busanjib Hongdae** (H8, 11:30–22:00, 2F 100-6 Eoulmadang-ro) — jajangmyeon + LA galbi + fried chicken. [Visit Seoul](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw). 🔹 Afternoon: **Gyeongui Line Forest Park** + **Yeonnam-dong cafe street** (H5, H15). 🔹 Dinner: **MGM Hongdae Branch** (H9, 12:00–00:00, 8 World Cup buk-ro 4-gil) — cauldron-lid grilling. [Visit Seoul](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy). 🔹 Evening: Hongdae busking. |
-| **Day 3** | **Wed Nov 18** | 🟡 Busy (outing) | 🔹 Morning: light Hongdae walk. 🔹 **Kings of Convenience** (E2) **20:00 Sejong Center**. Pre-show dinner in Jeongdong/Myeongdong. 🔹 Pre-show food option near Gwanghwamun: **Ouga** (Visit Seoul [ENP004698](https://english.visitseoul.net/restaurants/Ouga-EN/ENP004698), 11:00–22:00 daily, 39 Myeongdong 8ga-gil, Myeongdong Exit 9) or **Arirang** (Visit Seoul [ENP009490](https://english.visitseoul.net/restaurants/Arirang/ENP009490), 11:30–22:00, closed Sundays, 23 Namdaemun-ro 7-gil) — both verified KBBQ in Myeongdong/Jung-gu from Koreafood by-location table. |
-| **Day 4** | **Thu Nov 19** | 🟢 Moderate | 🔹 Morning: **Jeoldusan Martyrs' Shrine** (A1, 09:30–17:00, Hapjeong). 🔹 Lunch: **Masichaina** (A5, 68 Dongmak-ro, 11:30–22:00) — jajangmyeon + oyster jjamppong. [VisitKorea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66922). 🔹 Afternoon: **Mapo Music Gallery** (A2, free). 🔹 Optional outing: **Bongeunsa Temple Life** (E5) 14:00–16:00. 🔹 Dinner: **Chosun Hwaro Gui** (H11, 11:30–24:00, closed Sundays — open Thu) — 1++ Korean beef + domestic pork. [VisitKorea](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996). OR **Eongteori Saenggogi Hongdae** (H10, 11:00–23:00, AYCE). [VisitKorea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862). |
-| **Day 5** | **Fri Nov 20** | 🔵 Relax | 🔹 Morning: **Gyeongui Line Forest Park** + **Yeonnam-dong** (H5, H15). 🔹 Lunch: Sinchon cluster — **Hyeongje Galbi** (A6, daily 11:00–22:00) + **Cochon Tonkatsu** (A7, 11:00–19:00) — both at 2 Myeongmul 1-gil, Sinchon exit 3. [Visit Seoul](https://english.visitseoul.net/restaurants/Hyeongje-Galbi/ENP011643) · [Visit Seoul](https://english.visitseoul.net/restaurants/CochonTonkatsu/ENPf7618z). 🔹 Afternoon: rest / **Trick Eye Museum** (H6). 🔹 Dinner: **YANG IN HWAN DAE Hongdae** (H12, Mon–Fri 16:00–22:00 — Friday open) — grilled lamb. [Visit Seoul](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom). 🔹 Late: **Hongdae street food stalls** (food carts on Eoulmadang-ro; vendor-specific). |
-| **Day 6** | **Sat Nov 21** | 🟡 Busy (food + market) | 🔹 Morning: **Hongdae Free Market** opens 13:00 — morning free. 🔹 Late breakfast/early lunch: **Jamdubong The Nine** (A8, daily 12:00–22:00, 352-6 Hapjeong-dong, Hapjeong exit 7) — samgyeopsal + tteokgalbi. [Visit Seoul](https://english.visitseoul.net/restaurants/the9bongbong/ENPuv9y9f). 🔹 **Hongdae Free Market** (H3) **13:00–18:00** — snacks + artisan food at market. [Visit Seoul](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070). 🔹 Afternoon: **Seogang Kkeopdegi** (A3, 16:00–03:30, 36 World Cup-ro, Hapjeong) — KBBQ pork rind, late-opening. [Visit Seoul](https://english.visitseoul.net/restaurants/Seogang-Kkeopdegi/ENP012289). OR **Original Jobak House** (A4, closed Sundays — skip). 🔹 Evening option: **《The Glass Menagerie》** (E6) **19:00 SAC** (outing) or stay local. |
-| **Day 7** | **Sun Nov 22** | 🟢 Moderate (departure) | 🔹 Morning: **Gyeongui Line Forest Park** + **Yeonnam-dong** final walk. 🔹 Check-out by 12:00. 🔹 Final meal: **Yeonnam Seosikdang** (A9, 12:00–02:00, 32 Baekbeom-ro 2-gil) — standing grilled ribs, open late. [VisitKorea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=52350). OR **Masichaina** (A5, 11:30–22:00 daily). |
+### Sat 21 Nov — Trick art and a late dinner (relax)
 
----
+| Time | Plan | Verified source |
+|---|---|---|
+| 12:00 | Hongik Cultural Park / Drawing Village | [H7 Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground)](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070) |
+| 15:00 | Trick Eye Museum | [H3 Trick Eye Museum Seoul](https://www.trickeye.com/seoul/Visit) |
+| 19:30 | Dinner: MGM Hongdae | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
 
-### Itinerary 4 — "Green Walks & Quiet Days" (parks, forest, relaxed pace)
+### Sun 22 Nov — Check out (relax)
 
-> Theme: Gyeongui Line Forest Park, Culture Tank, Jeoldusan riverside, Yeonnam-dong — lots of outdoor time, fewer crowds.
-
-| Day | Date | Pace | Plan |
-|---|---|---|---|
-| **Day 1** | **Mon Nov 16** | 🔵 Relax | Arrive → check in. 🔹 Walk: **Gyeongui Line Forest Park** (H5) from hotel direction into Yeonnam-dong (linear park, open daily). 🔹 Dinner: **Busanjib Hongdae** (H8). 🔹 Evening: **Hongdae Playground** (H2). |
-| **Day 2** | **Tue Nov 17** | 🟢 Moderate | 🔹 Morning: **Gyeongui Line Book Street** (H4, Tue 11:00–20:00) + **Gyeongui Line Forest Park** + **Yeonnam-dong cafe street** (H15). 🔹 Lunch: **Masichaina** (A5, 68 Dongmak-ro). 🔹 Afternoon: **KT&G Sangsangmadang** (H1) + **Mapo Music Gallery** (A2, free). 🔹 Dinner: **Blue Roof Town Hongdae** (H7). 🔹 Evening: **Hongdae Free Market** is Sat-only — tonight = **Hongdae Playground** busking. |
-| **Day 3** | **Wed Nov 18** | 🟡 Busy (outing) | 🔹 Morning: rest / light Hongdae walk. 🔹 **Kings of Convenience** (E2) **20:00 Sejong Center**. [YES24](https://ticket.yes24.com/English/Perf/59136). Pre-show: **SeMA Seosomun** (O9) + **Deoksugung** walk if time. |
-| **Day 4** | **Thu Nov 19** | 🟢 Moderate | 🔹 Morning: **Culture Tank / Oil Tank Culture Park** (A10) — outdoor park open 24 h; **docent tour Thu 10:00 or 15:00** (free, Google-form booking). Jeungsan-ro 87, Line 6 World Cup Stadium (~15 min from Hongdae). [parks.seoul.go.kr](https://parks.seoul.go.kr/template/sub/culturetank.do). ⚠️ T1–T6 interiors closed to walk-ins since Apr 2025 — only the docent tour accesses inside. 🔹 Lunch near World Cup Stadium or back in Hongdae. 🔹 Afternoon: **Jeoldusan Martyrs' Shrine** (A1, 09:30–17:00, Hapjeong) — riverside cliff + Korean Martyrs Museum. [CBCK](https://cbck.or.kr/koreanmartyrs/Shrines/73). 🔹 Dinner: **Eongteori Saenggogi Hongdae** (H10) or **Chosun Hwaro Gui** (H11, closed Sundays — open Thu). 🔹 Optional: **Bongeunsa Temple Life** (E5) 14:00–16:00 (outing). |
-| **Day 5** | **Fri Nov 20** | 🔵 Relax | 🔹 Morning: **Gyeongui Line Forest Park** + **Yeonnam-dong** (H5, H15) — repeat slow walk, different cafe. 🔹 Lunch: **Hyeongje Galbi** (A6) + **Cochon Tonkatsu** (A7) in Sinchon. 🔹 Afternoon: **Trick Eye Museum** (H6) or rest. 🔹 Dinner: **YANG IN HWAN DAE Hongdae** (H12, Mon–Fri 16:00–22:00 — Friday open). 🔹 Evening: **Culture Tank** docent tour is Tue/Thu/Fri/Sat — if missed Thu, **Fri 10:00 or 15:00** tour possible (but morning/early afternoon). Or just Hongdae evening. |
-| **Day 6** | **Sat Nov 21** | 🟢 Moderate | 🔹 Morning: **Hongdae Free Market** opens 13:00 — morning = **Gyeongui Line Forest Park** + **Yeonnam-dong** again, or **Seodaemun Prison History Hall** (O1, Sun? no, Sat open 09:30–17:00, ₩3,000). 🔹 **Hongdae Free Market** (H3) **13:00–18:00** — crafts + food. [Visit Seoul](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070). 🔹 Lunch at market. 🔹 Afternoon: **Jeoldusan Martyrs' Shrine** (A1) if not done Thu, or **Seogang Kkeopdegi** (A3, 16:00–03:30) for late dinner. 🔹 Evening: **《The Glass Menagerie》** (E6) **19:00 SAC** (optional outing) or Hongdae night. |
-| **Day 7** | **Sun Nov 22** | 🔵 Relax (departure) | 🔹 Morning: final **Gyeongui Line Forest Park** + **Yeonnam-dong** walk. 🔹 Check-out by 12:00. 🔹 Final cafe: **Yeonnam-dong cafe street** (H15). 🔹 If time: **Seodaemun Prison History Hall** (O1, Sun 09:30–17:00) — quiet, reflective end. |
+| Time | Plan | Verified source |
+|---|---|---|
+| 09:00 | Breakfast at the hotel | — |
+| 12:00 | Check out | — |
 
 ---
 
-### Itinerary 5 — "Performing Arts & Nights" (shows + Hongdae nightlife)
+## 3. Mapo Riverside & Sangam
 
-> Theme: Ticketed shows (Kings of Convenience, Glass Menagerie, Gugak) + Hongdae night energy. 2–3 outing evenings.
+*Two cluster days out west, the rest on foot in Hongdae.*
 
-| Day | Date | Pace | Plan |
-|---|---|---|---|
-| **Day 1** | **Mon Nov 16** | 🔵 Relax | Arrive → check in. 🔹 Dinner: **Eongteori Saenggogi Hongdae** (H10, AYCE, 11:00–23:00). [VisitKorea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862). 🔹 Evening: **Hongdae Playground** (H2) + **Eoulmadang-ro** (H13) night walk + busking. |
-| **Day 2** | **Tue Nov 17** | 🟢 Moderate | 🔹 Morning: **KT&G Sangsangmadang** (H1) + **Gyeongui Line Book Street** (H4). 🔹 Lunch: **Busanjib Hongdae** (H8). 🔹 Afternoon: **Mapo Music Gallery** (A2, free) + **Gyeongui Line Forest Park** (H5). 🔹 Dinner: **MGM Hongdae Branch** (H9). 🔹 Evening: Hongdae night — bars / live music venues near Hongdae (FF, NB2, Cocoon, Club Evans — verified nightlife area from web search [rubbisheatrubbishgrow](https://rubbisheatrubbishgrow.com/2026/07/01/things-to-do-in-hongdae-seoul/), [koreapeek](https://koreapeek.com/hongdae-guide/)). |
-| **Day 3** | **Wed Nov 18** | 🟡 Busy (outing evening) | 🔹 Morning/afternoon: **SeMA Seosomun** (O9, Wed 10:00–20:00, free) — Lynn Hershman Leeson + GanaArt Collection. [sema.seoul.go.kr](https://sema.seoul.go.kr). 🔹 Lunch in Jeongdong/Myeongdong. 🔹 Late afternoon: return toward Gwanghwamun area, pre-show walk. 🔹 **Kings of Convenience** (E2) **20:00 Sejong Center Grand Theater**. [YES24](https://ticket.yes24.com/English/Perf/59136). 🔹 Post-show: late dinner near Gwanghwamun or return to Hongdae. |
-| **Day 4** | **Thu Nov 19** | 🟡 Busy (outing evening) | 🔹 Morning: **Jeoldusan Martyrs' Shrine** (A1, 09:30–17:00). 🔹 Lunch: **Masichaina** (A5). 🔹 Afternoon: **Mapo Music Gallery** (A2) + rest. 🔹 Optional early evening outing: **Bongeunsa Temple Life** (E5) **14:00–16:00** (₩30,000) — Gangnam. [temple.bongeunsa.org](http://temple.bongeunsa.org/public_html/explain/temple_life.asp). 🔹 Evening outing: **《The Glass Menagerie》** (E6) **Thu Nov 19 19:30** at SAC CJ Towol Theater (Seocho). R ₩99,000 / S ₩77,000 / A ₩55,000. [sac.or.kr](https://www.sac.or.kr/site/main/show/show_view?SN=83392). 🔹 If skipping Glass Menagerie: dinner **Chosun Hwaro Gui** (H11, closed Sundays — open Thu) + Hongdae night. |
-| **Day 5** | **Fri Nov 20** | 🟢 Moderate | 🔹 Morning: **Gyeongui Line Forest Park** + **Yeonnam-dong** (H5, H15). 🔹 Lunch: Sinchon — **Hyeongje Galbi** (A6) + **Cochon Tonkatsu** (A7). 🔹 Afternoon: **Trick Eye Museum** (H6) or rest. 🔹 Dinner: **YANG IN HWAN DAE Hongdae** (H12, Mon–Fri 16:00–22:00 — Friday open). 🔹 Evening: Hongdae night — **Hongdae Free Market** is Sat-only, so Friday = **Eoulmadang-ro** food stalls + busking + clubs. |
-| **Day 6** | **Sat Nov 21** | 🟡 Busy (outing + night) | 🔹 Morning: **Hongdae Free Market** opens 13:00 — morning free for **Seodaemun Prison History Hall** (O1, Sat 09:30–17:00, ₩3,000) or **Gyeongui Line Forest Park**. 🔹 **Hongdae Free Market** (H3) **13:00–18:00**. [Visit Seoul](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070). 🔹 Afternoon outing option A: **National Gugak Center — 토요명품** (E3) **15:00** (A ₩30,000 / B ₩20,000) + **Gugak Museum English Tour** (E4) **14:00 free** — Seocho. [gugak.go.kr](https://www.gugak.go.kr). ⚠️ Clashes with Free Market — choose one. 🔹 Afternoon outing option B: **《The Glass Menagerie》** (E6) **Sat Nov 21 14:00 or 19:00** at SAC. [sac.or.kr](https://www.sac.or.kr/site/main/show/show_view?SN=83392). 🔹 Late dinner: **Seogang Kkeopdegi** (A3, 16:00–03:30) or **Jamdubong The Nine** (A8, 12:00–22:00). |
-| **Day 7** | **Sun Nov 22** | 🔵 Relax (departure) | 🔹 Morning: **Leeum Museum of Art** (O10, Sun 10:00–18:00, Inside Other Spaces + Koo Jeong A: OUSSSMOS) — Hannam-dong, Line 6 Hangangjin. [leeumhoam.org](https://www.leeumhoam.org). 🔹 Check-out by 12:00. 🔹 Final lunch: **Yeonnam Seosikdang** (A9, 12:00–02:00) or **Masichaina** (A5). |
+Only two days leave the walking radius, and each of those stays inside a single cluster: one Hapjeong/riverside day and one World Cup Park day. Everything else is the Hongdae core.
+
+- **Best for:** Travellers who want landmarks without crossing the city.
+- **Days needing public transport:** 2
+
+### Mon 16 Nov — Arrive (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 15:00 | Check in | — |
+| 17:00 | Dinner: Blue Roof Town | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
+| 19:00 | Kakao Friends flagship, open to 22:00 | [H2 Kakao Friends Hongdae Flagship](https://english.visitseoul.net/shopping/Kakao-Friends-Hongdae-Flagship-Store/ENP027304) |
+
+### Tue 17 Nov — Hapjeong / riverside cluster (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 10:00 | Walk or one stop to Hapjeong | — |
+| 10:30 | Korean Catholic Martyrs' Museum, Jeoldusan — 09:30–17:00, open today | [S1 Korean Catholic Martyrs' Museum, Jeoldusan Martyrs' Shrine](https://english.visitseoul.net/attractions/Korean-Catholic-Martyrs%E2%80%99-Museum_/29433) |
+| 12:30 | Lunch: Masichaina — arrive before the 16:00 break | [S2 Masichaina (맛이차이나)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66922) |
+| 15:00 | Han River side of Hapjeong on foot | — |
+| 17:00 | Dinner: Jamdubong The Nine (12:00–22:00) or Seogang Kkeopdegi from 16:00 | [S4 Jamdubong The Nine](https://english.visitseoul.net/restaurants/the9bongbong/ENPuv9y9f) |
+
+> ⚑ Every stop today is inside Hapjeong; no further transit after the single hop out.
+
+### Wed 18 Nov — Back in the core (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | KT&G Sangsangmadang | [H4 KT&G Sangsangmadang Hongdae](https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561) |
+| 13:00 | Lunch: Busanjib Hongdae | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 16:00 | Gyeongui Line Book Street and the forest park | [H5 Gyeongui Line Book Street (경의선책거리)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574) |
+| 19:00 | Dinner: Chosun Hwaro Gui (after the 15:00–17:00 break) | [F6 Chosun Hwaro Gui (조선화로구이)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996) |
+
+### Thu 19 Nov — World Cup Park cluster (busy)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 09:00 | Line 6 to World Cup Stadium Station | — |
+| 09:00 | Stadium Tour, session 1 — RESERVE IN ADVANCE, no walk-up sales | [W2 Seoul World Cup Stadium Tour](https://www.sisul.or.kr/open_content/worldcup/guidance/course.jsp) |
+| 10:30 | Oil Tank Culture Park — tanks open 10:00–18:00, walk over from the stadium | [W1 Oil Tank Culture Park (문화비축기지)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=62572) |
+| 13:00 | Café Tank6 (10:00–19:00) or on to Mangwon | [W1 Oil Tank Culture Park (문화비축기지)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=62572) |
+| 14:30 | Mangwon Market — open on a Thursday under either published schedule | [W3 Mangwon Market (망원시장)](https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950) |
+| 18:00 | Back to Hongdae; dinner MGM Hongdae | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
+
+### Fri 20 Nov — Recovery day (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 10:00 | Forest park walk | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 12:30 | Lunch: Eongteori Saenggogi | [F4 Eongteori Saenggogi Hongdae (엉터리생고기 홍대)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862) |
+| 15:00 | Free block | — |
+| 18:00 | Dinner: YANG IN HWAN DAE | [F5 YANG IN HWAN DAE Hongdae](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
+
+### Sat 21 Nov — Core Saturday (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | Hongik Cultural Park / Drawing Village | [H7 Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground)](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070) |
+| 13:00 | Lunch: Busanjib Hongdae | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 15:30 | Trick Eye Museum | [H3 Trick Eye Museum Seoul](https://www.trickeye.com/seoul/Visit) |
+| 19:00 | Dinner: Blue Roof Town | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
+
+### Sun 22 Nov — Check out (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 09:00 | Breakfast | — |
+| 12:00 | Check out | — |
 
 ---
 
-## Verification summary
+## 4. Food-Forward Hongdae
 
-- **Every activity** listed above traces to an official source URL in the table or the source column.
-- **Koreafood repo** (Hongdae/Mapo verified restaurants): H7, H8, H9, H10, H11, H12, A3, A4, A5, A6, A7, A8, A9 — all from [karagemop466-tech.github.io/Koreafood/cities/by-location.html](https://karagemop466-tech.github.io/Koreafood/cities/by-location.html) Hongdae/Mapo/yeonnam section.
-- **KoreaFun repo** (seoul.md, seoul-districts.md): E2, E3, E4, E5, E6, H4, A1, A2, A10, O1, O8, O9, O10, O11.
-- **Official hotel pages**: H14 — [Ambatel](https://mercure-ambassador-seoul-hongdae.seoul-hotels-kr.com/en/), [HotelsSeoul](https://www.hotelsseoul.org/en/property/mercure-ambassador-seoul-hongdae.html).
-- **Official attraction pages**: H3 (Visit Seoul, Trazy), H6 (Trickeye.com, TripAdvisor), H2 (Visit Seoul), H5 (TripAdvisor, gyeongui-line-forest-park.com-place.com), O1 (Kinside, excursionmania, sphh.sscmc.or.kr), O3 (sac.or.kr), O8 (mmca.go.kr), O9 (sema.seoul.go.kr), O10 (leeumhoam.org).
+*Every meal from the verified list, clustered so no meal needs transit.*
 
-### ⚠️ Irregularities flagged for review
+Built backwards from opening hours: breaks, last orders and closed days decide the order. The only day that leaves the walking radius is the Sinchon lunch pair, which is one stop away and sits at a single address.
 
-1. **YANG IN HWAN DAE Hongdae** — only Mon–Fri hours printed (16:00–22:00); weekend hours unverified. Friday Nov 20 is safe; Sat/Sun Nov 21–22 should be confirmed before visiting. [Visit Seoul](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom).
-2. **Hongdae Free Market** — rain can cancel; call 02-325-8553 or check @artfreemarket on Instagram day-of. Runs Sat Mar–Nov 13:00–18:00. [Trazy](https://www.trazy.com/spot/1474/hongdae-hongik-university-street-%ED%99%8D%EB%8C%80) · [Visit Seoul](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070).
-3. **Gyeongui Line Book Street** — operator page (gbookst.or.kr) not reachable during Aug 19 verification; hours from city/tourism pages (Tue–Sun 11:00–20:00). Confirm on day. [Seoul Mediahub](https://mediahub.seoul.go.kr/archives/1290354).
-4. **Culture Tank docent tour** — Tue/Thu/Fri/Sat 10:00 & 15:00; T1–T6 interiors closed to walk-ins since Apr 2025; only docent tour accesses inside. Book via Google form. [parks.seoul.go.kr](https://parks.seoul.go.kr/template/sub/culturetank.do).
-5. **《The Glass Menagerie》** — Korean-language production; 120 min; no interval noted. Ticket prices R ₩99,000 / S ₩77,000 / A ₩55,000 / OP ₩99,000. [sac.or.kr](https://www.sac.or.kr/site/main/show/show_view?SN=83392).
-6. **Kings of Convenience** — venue is Sejong Center Grand Theater in Gwanghwamun (not Hongdae); YES24 Ticket page intermittently 502s — retry or use Korean site. [YES24](https://ticket.yes24.com/English/Perf/59136) · [OhmyStar](https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0003247950).
-7. **MMA 2026 (Nov 14–15) and Cafe Show (Nov 11–14) and Seoul Outdoor Library (ends Nov 1)** — all end before check-in (Nov 16); out of window, not included in itineraries.
-8. **National Museum of Korea renovation** — Buddhist painting/sculpture (rooms 202-3·4, 203, 204) and Buddhist sculpture (301), metal crafts (302) closed until Jan 28 2027 — entire trip. Avoid those rooms. [museum.go.kr](https://www.museum.go.kr).
-9. **National Hangeul Museum** — closed until Oct 2028 (fire Feb 2025 + extension); do not plan. [hangeul.go.kr](https://www.hangeul.go.kr).
-10. **Hotel check-out** — 11:00–12:00; latest 12:00 PM. Plan last day accordingly. [Ambatel](https://mercure-ambassador-seoul-hongdae.seoul-hotels-kr.com/en/).
+- **Best for:** Two travellers eating their way through Mapo.
+- **Days needing public transport:** 1
+
+### Mon 16 Nov — First dinner (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 15:00 | Check in | — |
+| 18:00 | Blue Roof Town — Suwon wang galbi, LA galbi, ₩30,000 band | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
+
+### Tue 17 Nov — Chinese-Korean and lamb (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:30 | Lunch: Busanjib Hongdae — jjajangmyeon ₩14,000 | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 15:00 | Walk it off on the forest park | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 18:00 | Dinner: YANG IN HWAN DAE — French rack ₩35,000 (weekday hours only) | [F5 YANG IN HWAN DAE Hongdae](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
+
+### Wed 18 Nov — Sinchon lunch pair (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:30 | One stop to Sinchon; lunch at Cochon Tonkatsu — ₩4,000–₩8,000, closes 19:00 with a 16:00 break | [N2 Cochon Tonkatsu](https://english.visitseoul.net/restaurants/CochonTonkatsu/ENPf7618z) |
+| 13:30 | Coffee in Sinchon | — |
+| 17:30 | Back to Hongdae; dinner at Hyeongje Galbi is also possible at the same Sinchon address — or return for Chosun Hwaro Gui after 17:00 | [F6 Chosun Hwaro Gui (조선화로구이)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996) |
+
+> ⚑ Both Sinchon restaurants share 2 Myeongmul 1-gil — zero walking between them.
+
+### Thu 19 Nov — All-you-can-eat day (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 12:00 | Lunch: Eongteori Saenggogi — AYCE, salad bar, free rice refills | [F4 Eongteori Saenggogi Hongdae (엉터리생고기 홍대)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862) |
+| 16:00 | Antique Coffee Yeonnam | [Y1 Antique Coffee Yeonnam Branch](https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc) |
+| 20:00 | Late dinner: MGM Hongdae — cauldron-lid grill, last order 23:30 | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
+
+### Fri 20 Nov — Yeonnam table (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 12:00 | Lunch: Jincheongyujeom — perilla oil makguksu ₩10,500 | [Y2 Jincheongyujeom (진천유점)](https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38) |
+| 14:30 | Parole & Langue for pie | [Y3 Parole & Langue](https://english.visitseoul.net/restaurants/Parole-Langue/ENP0p4bkd) |
+| 19:00 | Dinner: Chosun Hwaro Gui — 1++ Korean beef, last order 23:30 | [F6 Chosun Hwaro Gui (조선화로구이)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996) |
+
+### Sat 21 Nov — Hapjeong late night (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 12:00 | Lunch: Masichaina, Sangsu — before the 16:00 break | [S2 Masichaina (맛이차이나)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66922) |
+| 15:00 | Walk back along the river | — |
+| 18:00 | Dinner: Seogang Kkeopdegi, Hapjeong Exit 9 — opens 16:00, runs to 03:30 | [S3 Seogang Kkeopdegi (서강껍데기)](https://english.visitseoul.net/restaurants/Seogang-Kkeopdegi/ENP012289) |
+
+### Sun 22 Nov — Last breakfast (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 09:00 | Hotel breakfast, last entry 09:30 | — |
+| 10:30 | Café Layered Yeonnam opens 10:00 if you want one more | [Y4 Café Layered Yeonnam](https://english.visitseoul.net/restaurants/Caf%C3%A9%20Layered%20Yeonnam_/48856) |
+| 12:00 | Check out | — |
+
+> ⚑ Chosun Hwaro Gui closed Sundays; YANG IN HWAN DAE weekend hours unknown — neither is scheduled today.
 
 ---
 
-*Built line-by-line from karagemop466-tech/KoreaFun and karagemop466-tech/Koreafood repos + live official pages. No hallucinations. Every entry has a source URL for manual review.*
+## 5. Concerts & Stages
+
+*All three confirmed ticketed events, each on its own evening.*
+
+The only itinerary that leaves Mapo more than twice — because three separate confirmed shows sit on three different dates. Each outing is a single destination, and the day before and after each is deliberately quiet and walkable.
+
+- **Best for:** Travellers who booked tickets and want the days around them kept light.
+- **Days needing public transport:** 3
+
+### Mon 16 Nov — Arrive (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 15:00 | Check in | — |
+| 18:00 | Dinner: Blue Roof Town | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
+
+### Tue 17 Nov — Quiet before the shows (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | Gyeongui Line Book Street | [H5 Gyeongui Line Book Street (경의선책거리)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574) |
+| 13:00 | Lunch: Busanjib Hongdae | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 18:00 | Dinner: YANG IN HWAN DAE | [F5 YANG IN HWAN DAE Hongdae](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
+
+### Wed 18 Nov — Kings of Convenience at Sejong Center (busy)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 12:00 | Light lunch in Hongdae: Eongteori Saenggogi | [F4 Eongteori Saenggogi Hongdae (엉터리생고기 홍대)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862) |
+| 18:00 | Travel to Gwanghwamun — Line 2 then Line 5 | — |
+| 20:00 | Kings of Convenience, SJF at the Theater — 80 minutes, ends ~21:20 | [E1 Kings of Convenience — “SJF at the Theater 2026”](https://ticket.yes24.com/English/Perf/59136) |
+| 22:00 | Back in Hongdae; MGM Hongdae takes a last order at 23:30 | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
+
+> ⚑ Nothing else is scheduled today. The Glass Menagerie also plays a 14:30 matinee today, but stacking both is a 4-hour transit day and is not recommended.
+
+### Thu 19 Nov — Bongeunsa, then the Glass Menagerie (busy)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 13:50 | Arrive at the Bongeunsa foreigner information desk | [E5 Bongeunsa — Thursday Temple Life (English)](http://temple.bongeunsa.org/public_html/explain/temple_life.asp) |
+| 14:00 | Thursday Temple Life in English — tour, tea ceremony, sutra copying. ₩30,000 | [E5 Bongeunsa — Thursday Temple Life (English)](http://temple.bongeunsa.org/public_html/explain/temple_life.asp) |
+| 16:00 | Early dinner in the Gangnam/Seocho area | — |
+| 19:30 | 《The Glass Menagerie》, CJ Towol Theater, SAC — 120 min, Korean language | [E2 Seoul Arts Center — 《The Glass Menagerie》 (유리동물원)](https://www.sac.or.kr/site/main/show/show_view?SN=83392) |
+
+> ⚑ Both stops are south of the river and close to each other, so this is one geographic cluster, not two trips. Skip the play if the temple afternoon is enough.
+
+### Fri 20 Nov — Recovery in the core (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | Forest park and Yeonnam | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 13:00 | Lunch: Jincheongyujeom | [Y2 Jincheongyujeom (진천유점)](https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38) |
+| 19:00 | Dinner: Chosun Hwaro Gui | [F6 Chosun Hwaro Gui (조선화로구이)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996) |
+
+### Sat 21 Nov — Gugak double bill in Seocho (busy)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 12:30 | Travel to the National Gugak Center | — |
+| 14:00 | Gugak Museum English Tour — free | [E4 Gugak Museum — English Tour](https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11) |
+| 15:00 | 2026 토요명품 in Umyeondang — A ₩30,000 / B ₩20,000 | [E3 National Gugak Center — 2026 토요명품 (Saturday Masterpieces)](https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11) |
+| 18:00 | Back to Hongdae; dinner MGM Hongdae | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
+
+> ⚑ Museum tour and concert are on the same campus — no travel between them.
+
+### Sun 22 Nov — Check out (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 09:00 | Breakfast | — |
+| 12:00 | Check out | — |
+
+> ⚑ The Glass Menagerie also has a 15:00 show today, after check-out — only worth it if your flight is late and you can leave bags at the hotel.
+
+---
+
+## 6. The Balanced Six
+
+*Two busy days, two moderate, two relaxed — the default recommendation.*
+
+One ticketed evening (Kings of Convenience), one cluster day out west (World Cup Park), and four days entirely on foot in Hongdae and Yeonnam. Pace alternates deliberately so no two demanding days sit back to back.
+
+- **Best for:** Two travellers who want one big night, one landmark day, and plenty of nothing.
+- **Days needing public transport:** 2
+
+### Mon 16 Nov — Arrive & settle (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 15:00 | Check in | — |
+| 16:30 | Kakao Friends flagship, 51 m from the exit | [H2 Kakao Friends Hongdae Flagship](https://english.visitseoul.net/shopping/Kakao-Friends-Hongdae-Flagship-Store/ENP027304) |
+| 18:00 | Dinner: Blue Roof Town, 271 m | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
+
+### Tue 17 Nov — Core + Yeonnam (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 08:00 | Breakfast: Avelop (weekday 08:00 opening) | [F7 Avelop Hongdae Flagship](https://english.visitseoul.net/area/Avelop/ENP22oa3h) |
+| 11:00 | Gyeongui Line Book Street | [H5 Gyeongui Line Book Street (경의선책거리)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574) |
+| 13:00 | Lunch: Jincheongyujeom | [Y2 Jincheongyujeom (진천유점)](https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38) |
+| 15:30 | Forest park to Antique Coffee Yeonnam | [Y1 Antique Coffee Yeonnam Branch](https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc) |
+| 18:30 | Dinner: YANG IN HWAN DAE | [F5 YANG IN HWAN DAE Hongdae](https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom) |
+
+### Wed 18 Nov — Concert night (busy)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 12:00 | Lunch: Busanjib Hongdae | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 14:00 | KT&G Sangsangmadang | [H4 KT&G Sangsangmadang Hongdae](https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561) |
+| 18:00 | Travel to Gwanghwamun | — |
+| 20:00 | Kings of Convenience — 80 min | [E1 Kings of Convenience — “SJF at the Theater 2026”](https://ticket.yes24.com/English/Perf/59136) |
+| 22:00 | Late dinner: MGM Hongdae | [F3 MGM Hongdae Branch](https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy) |
+
+### Thu 19 Nov — Deliberate nothing day (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | Forest park | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 12:30 | Lunch: Eongteori Saenggogi | [F4 Eongteori Saenggogi Hongdae (엉터리생고기 홍대)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862) |
+| 15:00 | Free block | — |
+| 18:00 | Indiespace, 80 m from Exit 8 | [H1 Indiespace (인디스페이스)](https://english.visitseoul.net/entertainment/Indiespace/ENP040673) |
+
+### Fri 20 Nov — World Cup Park cluster (busy)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 10:30 | Line 6 to World Cup Stadium | — |
+| 11:00 | Stadium Tour, session 2 — reserve in advance | [W2 Seoul World Cup Stadium Tour](https://www.sisul.or.kr/open_content/worldcup/guidance/course.jsp) |
+| 12:30 | Oil Tank Culture Park + Café Tank6 | [W1 Oil Tank Culture Park (문화비축기지)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=62572) |
+| 15:00 | Mangwon Market | [W3 Mangwon Market (망원시장)](https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950) |
+| 19:00 | Back to Hongdae; dinner Chosun Hwaro Gui | [F6 Chosun Hwaro Gui (조선화로구이)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996) |
+
+### Sat 21 Nov — Saturday on foot (moderate)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 11:00 | Hongik Cultural Park / Drawing Village | [H7 Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground)](https://english.visitseoul.net/area/Hongdae-Playground/ENP011070) |
+| 13:00 | Lunch: Masichaina in Sangsu, or Busanjib in the core | [F2 Busanjib Hongdae](https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw) |
+| 16:00 | Trick Eye Museum | [H3 Trick Eye Museum Seoul](https://www.trickeye.com/seoul/Visit) |
+| 19:30 | Dinner: Blue Roof Town | [F1 Blue Roof Town Hongdae Branch](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7) |
+
+### Sun 22 Nov — Check out (relax)
+
+| Time | Plan | Verified source |
+|---|---|---|
+| 08:30 | Breakfast, last entry 09:30 | — |
+| 10:00 | Final forest park walk | [H6 Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)](https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216) |
+| 12:00 | Check out | — |
+
+---
+
+## Flagged for review
+
+| Level | Item | Issue |
+|---|---|---|
+| high | Hongdae Free Market | Not confirmed for the 2026 season. The organiser domain freemarket.or.kr no longer serves the market (it resolves to a parked search page), the venue has been rebranded, and TripAdvisor's listing shows a “reported permanently closed” notice. Removed as a planned activity everywhere; kept only as “walk past on Saturday and see”. |
+| high | Hongik Cultural Park (old “Hongdae Playground”) | The site changed. Visit Seoul's page, edited 8 Jul 2026, states it was rebuilt in December 2025 and reopened as “Drawing Village”, now with hours 10:00–18:00, Tue–Sun, closed Mondays. Any guide still describing it as a 24-hour playground is out of date. |
+| high | Seoul World Cup Stadium Tour | Advance reservation is mandatory — the operator's page states 현장예매는 불가 (no on-the-day ticket sales). Book via Seoul's public service reservation site; payment is then taken on site. Tour is closed Mondays and on match days. |
+| med | YANG IN HWAN DAE Hongdae | Only Monday–Friday 16:00–22:00 is printed on the official page. Weekend hours are unknown, so it is scheduled on weekdays only. |
+| med | Mangwon Market | Two official Visit Seoul pages disagree: the market listing says daily 10:00–21:00; the traditional-markets feature says 09:00–22:00, closed Tuesdays and Sundays. Scheduled only Wed–Sat and never as a day's only activity. |
+| med | Trick Eye Museum admission price | The official site publishes hours (09:00–22:00, last admission 21:00, open year round) but no price on the hours or directions pages. Third-party prices circulate at ₩12,000–₩15,000; none of them is official, so no price is quoted here. |
+| med | Gyeongui Line Book Street Monday opening | VisitKorea's official listing says open all year round, 11:00–20:00 with a 12:30–13:30 break. Several travel guides claim a Monday closure. It is only ever used as a stroll, never a fixed appointment. |
+| med | KT&G Sangsangmadang page availability | The Visit Seoul detail page returned HTTP 500 on direct fetch during the verification pass. Hours (11:00–21:00 daily, year round) and the address were read from the same official page as served through search. Worth a look at the door. |
+| low | Kings of Convenience booking | YES24 requires a registered account with passport identity verification before purchase. Do this before the ticket you want sells out, not on the night. |
+| low | 《The Glass Menagerie》 language | Korean-language production, 120 minutes, no interval printed. Elementary-school age and above. Not recommended if neither traveller reads Korean. |
+| low | Mapo Art Center in the stay window | There is no ticketed MFAC performance at all between Nov 16 and Nov 22 on the official calendar. The next ones are Nov 25 and Nov 29, both after check-out. Only the free Mapo Music Gallery runs during the stay. |
+| low | Hotel check-out | Accor's official page states check-in from 15:00 and check-out up to 12:00. Sunday 22 Nov is planned around a 12:00 hard stop. |
+
+## Excluded (out of window or unverifiable)
+
+| Item | Reason |
+|---|---|
+| MAC Morning Concert #9, Mapo Art Center | Wed 25 Nov 2026 — three days after check-out. |
+| 《공놀이클럽의 사계절 체홉: 갈매기》 reading, Mapo Art Center | Sun 29 Nov 2026 — after check-out. |
+| National Gugak Center 토요명품 on Nov 7 and Nov 14 | Both Saturdays fall before check-in. Only Nov 21 is inside the stay. |
+| Gugak Museum English Tour on Nov 7 and Nov 14 | Before check-in. Only Nov 21 is inside the stay. |
+| Mapo Art Center — everything else in the Nov 2026 calendar | The official schedule shows no ticketed MFAC performance at all between Nov 16 and Nov 22. Only the free Mapo Music Gallery is running. |
+| Hongdae Free Market as a planned activity | Organiser domain no longer serves the market; venue rebranded; no 2026 season calendar on any official page. Downgraded to “walk past and see”. |
+
