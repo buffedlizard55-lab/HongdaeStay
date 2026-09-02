@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HongdaeStay · Verified itineraries — Mercure Ambassador Seoul Hongdae, Nov 16–22 2026</title>
 <meta name="description" content="Six source-verified itineraries for a Hongdae stay, 16–22 November 2026. Every place and event links to its official page.">
 <link rel="stylesheet" href="styles.css">
+<noscript><style>.panel{display:block !important}.tabs{display:none}</style></noscript>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     <div class="kicker">Mapo-gu, Seoul · 16–22 November 2026</div>
     <h1>Hongdae<span>Stay</span></h1>
     <p class="lede">Six itineraries for two travellers based at the Mercure Ambassador Seoul Hongdae. Every activity, restaurant and show below was read off its official page before it was allowed onto this site — and every one links back so you can check it yourself.</p>
-    <div class="hero-facts" id="heroFacts"></div>
+    <div class="hero-facts" id="heroFacts"><span class="fact">Check-in · <b>Mon 16 Nov, from 15:00</b></span><span class="fact">Check-out · <b>Sun 22 Nov, by 12:00</b></span><span class="fact">Itineraries · <b>6 to choose from</b></span><span class="fact">Verified items · <b>34 with official links</b></span></div>
   </div>
 </header>
 
@@ -36,7 +36,7 @@
     <div class="cards2">
       <div class="card">
         <h2>Your base</h2>
-        <table class="kv" id="hotelTable"></table>
+        <table class="kv" id="hotelTable"><tbody><tr><th>Hotel</th><td>Mercure Ambassador Seoul Hongdae</td></tr><tr><th>Address</th><td>144 Yanghwa-ro, Mapo-gu, Seoul 04050</td></tr><tr><th>Station</th><td>Hongik Univ. Station (Line 2 · AREX · Gyeongui–Jungang) — Exit 9</td></tr><tr><th>On foot</th><td>2-minute walk from the station (hotel description); AREX 5-minute walk</td></tr><tr><th>Check-in</th><td>Monday, November 16, 2026 — from 15:00</td></tr><tr><th>Check-out</th><td>Sunday, November 22, 2026 — by 12:00</td></tr><tr><th>Breakfast</th><td>Breakfast buffet 07:00–10:00 (last entry 09:30)</td></tr><tr><th>Facilities</th><td>270 rooms · restaurant &amp; bar · fitness center · coin laundry · free Wi-Fi · 100% non-smoking</td></tr><tr><th>Phone</th><td>+82 2-3774-1101</td></tr><tr><th>Source</th><td><a href="https://all.accor.com/hotel/B696/index.en.shtml" target="_blank" rel="noopener">Accor official hotel page (B696) ↗</a></td></tr></tbody></table>
       </div>
       <div class="card">
         <h2>How to use this</h2>
@@ -51,39 +51,686 @@
 
     <h2 class="sec">Choose your week</h2>
     <div class="tablewrap">
-      <table class="grid" id="masterTable"></table>
+      <table class="grid" id="masterTable"><thead><tr><th>#</th><th>Itinerary</th><th>Character</th><th>Days needing transit</th><th>Best for</th><th></th></tr></thead><tbody><tr>
+        <td><strong>1</strong></td>
+        <td><strong>Zero-Transit Hongdae</strong><br><span class="fine">Six days without ever needing a subway ticket.</span></td>
+        <td>4 relaxed · 3 moderate</td>
+        <td><span class="b confirmed">None</span></td>
+        <td class="fine">Travellers who want to unpack once and walk everywhere.</td>
+        <td><button class="chip" data-goto="I1">Open</button></td>
+      </tr><tr>
+        <td><strong>2</strong></td>
+        <td><strong>Slow Hongdae &amp; Yeonnam</strong><br><span class="fine">The rest-heavy version — two anchors a day, nothing before 10:00.</span></td>
+        <td>7 relaxed</td>
+        <td><span class="b confirmed">None</span></td>
+        <td class="fine">A stay where the point is the neighbourhood, not the checklist.</td>
+        <td><button class="chip" data-goto="I2">Open</button></td>
+      </tr><tr>
+        <td><strong>3</strong></td>
+        <td><strong>Mapo Riverside &amp; Sangam</strong><br><span class="fine">Two cluster days out west, the rest on foot in Hongdae.</span></td>
+        <td>4 relaxed · 2 moderate · 1 busy</td>
+        <td>2</td>
+        <td class="fine">Travellers who want landmarks without crossing the city.</td>
+        <td><button class="chip" data-goto="I3">Open</button></td>
+      </tr><tr>
+        <td><strong>4</strong></td>
+        <td><strong>Food-Forward Hongdae</strong><br><span class="fine">Every meal from the verified list, clustered so no meal needs transit.</span></td>
+        <td>3 relaxed · 4 moderate</td>
+        <td>1</td>
+        <td class="fine">Two travellers eating their way through Mapo.</td>
+        <td><button class="chip" data-goto="I4">Open</button></td>
+      </tr><tr>
+        <td><strong>5</strong></td>
+        <td><strong>Concerts &amp; Stages</strong><br><span class="fine">All three confirmed ticketed events, each on its own evening.</span></td>
+        <td>4 relaxed · 3 busy</td>
+        <td>3</td>
+        <td class="fine">Travellers who booked tickets and want the days around them kept light.</td>
+        <td><button class="chip" data-goto="I5">Open</button></td>
+      </tr><tr>
+        <td><strong>6</strong></td>
+        <td><strong>The Balanced Six</strong><br><span class="fine">Two busy days, two moderate, two relaxed — the default recommendation.</span></td>
+        <td>3 relaxed · 2 moderate · 2 busy</td>
+        <td>2</td>
+        <td class="fine">Two travellers who want one big night, one landmark day, and plenty of nothing.</td>
+        <td><button class="chip" data-goto="I6">Open</button></td>
+      </tr></tbody></table>
     </div>
 
-    <div class="cards3" id="statCards"></div>
+    <div class="cards3" id="statCards"><div class="stat"><div class="n">34</div><div class="l">items verified against an official page</div></div><div class="stat"><div class="n">6</div><div class="l">dated events confirmed inside 16–22 Nov</div></div><div class="stat"><div class="n">12</div><div class="l">irregularities flagged for your review</div></div></div>
 
     <h2 class="sec">What is confirmed for these exact dates</h2>
     <p class="sub">Dated events with an official 2026 listing that falls between check-in and check-out.</p>
-    <div class="tablewrap"><table class="grid" id="eventsTable"></table></div>
+    <div class="tablewrap"><table class="grid" id="eventsTable"><thead><tr><th>Event</th><th>When</th><th>Price</th><th>Official source</th></tr></thead><tbody><tr>
+      <td><span class="b confirmed">Confirmed</span><br><strong>Kings of Convenience — “SJF at the Theater 2026”</strong><br><span class="fine">Sejong Center (Gwanghwamun). Running time 80 minutes. Age limit 7 and over. Booking requires a YES24 account with passport identity verification.</span></td>
+      <td>Wed 18 Nov 2026 · 20:00</td>
+      <td>R ₩143,000 / S ₩132,000 / A ₩110,000 / B ₩99,000</td>
+      <td><a href="https://ticket.yes24.com/English/Perf/59136" target="_blank" rel="noopener">YES24 Ticket — official English booking page (Perf 59136) ↗</a></td>
+    </tr><tr>
+      <td><span class="b confirmed">Confirmed</span><br><strong>Seoul Arts Center — 《The Glass Menagerie》 (유리동물원)</strong><br><span class="fine">CJ Towol Theater, Seoul Arts Center (Seocho). Run 2026-10-17 → 2026-11-22. Korean language. 120 minutes. Elementary-school age and above. No Monday/Tuesday performances.</span></td>
+      <td>In-window performances: Wed 18 Nov 14:30 · Thu 19 Nov 19:30 · Fri 20 Nov 14:30 &amp; 19:30 · Sat 21 Nov 14:00 &amp; 19:00 · Sun 22 Nov 15:00</td>
+      <td>R ₩99,000 / S ₩77,000 / A ₩55,000 / OP ₩99,000</td>
+      <td><a href="https://www.sac.or.kr/site/main/show/show_view?SN=83392" target="_blank" rel="noopener">Seoul Arts Center official production page (SN=83392) ↗</a></td>
+    </tr><tr>
+      <td><span class="b confirmed">Confirmed</span><br><strong>National Gugak Center — 2026 토요명품 (Saturday Masterpieces)</strong><br><span class="fine">Umyeondang hall, National Gugak Center (Seocho). Listed on the official November 2026 monthly schedule as performance_id 37050.</span></td>
+      <td>Sat 21 Nov 2026 · 15:00</td>
+      <td>A ₩30,000 / B ₩20,000</td>
+      <td><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">National Gugak Center — November 2026 monthly schedule ↗</a><br><a href="https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&amp;performance_id=37050" target="_blank" rel="noopener">Performance detail (id 37050) ↗</a></td>
+    </tr><tr>
+      <td><span class="b confirmed">Confirmed</span><br><strong>Gugak Museum — English Tour</strong><br><span class="fine">국악박물관, same Seocho campus as E3. Listed on the official November 2026 schedule as performance_id 37733.</span></td>
+      <td>Sat 21 Nov 2026 · 14:00</td>
+      <td>No price printed on the official listing (museum entry is free)</td>
+      <td><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">National Gugak Center — November 2026 monthly schedule ↗</a><br><a href="https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&amp;performance_id=37733" target="_blank" rel="noopener">English Tours detail (id 37733) ↗</a></td>
+    </tr><tr>
+      <td><span class="b confirmed">Confirmed</span><br><strong>Bongeunsa — Thursday Temple Life (English)</strong><br><span class="fine">Weekly English-language programme for foreign visitors. 14:00–15:00 temple tour · 15:00–15:30 tea ceremony · 15:30–16:00 gold-ink sutra copying. Arrive at the foreigner information desk on the left of the Bongeunsa entrance by 13:50. Walk-in registration or website booking.</span></td>
+      <td>Thu 19 Nov 2026 · 14:00–16:00</td>
+      <td>₩30,000</td>
+      <td><a href="http://temple.bongeunsa.org/public_html/explain/temple_life.asp" target="_blank" rel="noopener">Bongeunsa Templestay — Temple Life official page ↗</a></td>
+    </tr><tr>
+      <td><span class="b confirmed">Confirmed</span><br><strong>Mapo Music Gallery (마포 뮤직 갤러리)</strong><br><span class="fine">Free exhibition in Gallery MAC at Mapo Art Center, 28 Daeheung-ro 20-gil. Hours 10:00–18:00 (the official listing adds that hours may change at the centre's discretion).</span></td>
+      <td>Open through 31 Dec 2026 — open every day of the stay</td>
+      <td>Free admission (무료입장)</td>
+      <td><a href="https://www.mfac.or.kr/performance/whole_list.jsp" target="_blank" rel="noopener">Mapo Foundation for Arts and Culture — performance/exhibition schedule ↗</a></td>
+    </tr></tbody></table></div>
 
     <h2 class="sec">Deliberately excluded</h2>
     <p class="sub">Real things that people will tell you to do, and the reason they are not in any itinerary.</p>
-    <div class="tablewrap"><table class="grid" id="excludedTable"></table></div>
+    <div class="tablewrap"><table class="grid" id="excludedTable"><thead><tr><th>Not included</th><th>Why</th><th>Checked at</th></tr></thead><tbody><tr><td><strong>MAC Morning Concert #9, Mapo Art Center</strong></td><td>Wed 25 Nov 2026 — three days after check-out.</td>
+      <td><a href="https://www.mfac.or.kr/performance/whole_list.jsp" target="_blank" rel="noopener">source ↗</a></td></tr><tr><td><strong>《공놀이클럽의 사계절 체홉: 갈매기》 reading, Mapo Art Center</strong></td><td>Sun 29 Nov 2026 — after check-out.</td>
+      <td><a href="https://www.mfac.or.kr/performance/whole_list.jsp" target="_blank" rel="noopener">source ↗</a></td></tr><tr><td><strong>National Gugak Center 토요명품 on Nov 7 and Nov 14</strong></td><td>Both Saturdays fall before check-in. Only Nov 21 is inside the stay.</td>
+      <td><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">source ↗</a></td></tr><tr><td><strong>Gugak Museum English Tour on Nov 7 and Nov 14</strong></td><td>Before check-in. Only Nov 21 is inside the stay.</td>
+      <td><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">source ↗</a></td></tr><tr><td><strong>Mapo Art Center — everything else in the Nov 2026 calendar</strong></td><td>The official schedule shows no ticketed MFAC performance at all between Nov 16 and Nov 22. Only the free Mapo Music Gallery is running.</td>
+      <td><a href="https://www.mfac.or.kr/performance/whole_list.jsp" target="_blank" rel="noopener">source ↗</a></td></tr><tr><td><strong>Hongdae Free Market as a planned activity</strong></td><td>Organiser domain no longer serves the market; venue rebranded; no 2026 season calendar on any official page. Downgraded to “walk past and see”.</td>
+      <td><a href="http://www.freemarket.or.kr/" target="_blank" rel="noopener">source ↗</a></td></tr></tbody></table></div>
   </section>
 
   <!-- ============ ITINERARIES ============ -->
   <section id="itins" class="panel">
-    <div class="chiprow" id="itinChips"></div>
-    <div id="itinBody"></div>
+    <div class="chiprow" id="itinChips"><button class="chip on" data-itin="I1">1. Zero-Transit Hongdae</button><button class="chip" data-itin="I2">2. Slow Hongdae &amp; Yeonnam</button><button class="chip" data-itin="I3">3. Mapo Riverside &amp; Sangam</button><button class="chip" data-itin="I4">4. Food-Forward Hongdae</button><button class="chip" data-itin="I5">5. Concerts &amp; Stages</button><button class="chip" data-itin="I6">6. The Balanced Six</button></div>
+    <div id="itinBody">
+      <div class="itin-head">
+        <h2>Zero-Transit Hongdae</h2>
+        <div class="tag">Six days without ever needing a subway ticket.</div>
+        <p>Every single item is inside the Hongdae core or the Yeonnam-dong strip that runs off the end of Gyeongui Line Forest Park. Longest walk on any day is about 840 m. No dated ticketed event is included, so nothing can be missed.</p>
+        <div class="metarow">
+          <span class="meta"><strong>Best for:</strong> Travellers who want to unpack once and walk everywhere.</span>
+          <span class="meta"><strong>Days needing transit:</strong> none — fully walkable</span>
+          <span class="meta"><strong>Nights:</strong> 6 · Mon 16 → Sun 22 Nov 2026</span>
+        </div>
+      </div>
+        <div class="day">
+          <div class="day-h">
+            <span class="d">Mon 16 Nov</span>
+            <span class="b relax">Relaxed</span>
+            <span class="t">Arrive &amp; settle</span>
+          </div>
+          <table class="sched"><tbody><tr>
+              <td class="tm">15:00</td>
+              <td>Check in at the hotel, 144 Yanghwa-ro (Exit 9)</td>
+              <td class="ref"></td>
+            </tr><tr>
+              <td class="tm">16:00</td>
+              <td>Kakao Friends Hongdae Flagship — 51 m from the station exit, open to 22:00</td>
+              <td class="ref"><a href="https://english.visitseoul.net/shopping/Kakao-Friends-Hongdae-Flagship-Store/ENP027304" target="_blank" rel="noopener" title="Kakao Friends Hongdae Flagship — official source">H2 ↗</a></td>
+            </tr><tr>
+              <td class="tm">17:30</td>
+              <td>Dinner: Blue Roof Town Hongdae Branch — 271 m, open to 22:00</td>
+              <td class="ref"><a href="https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7" target="_blank" rel="noopener" title="Blue Roof Town Hongdae Branch — official source">F1 ↗</a></td>
+            </tr><tr>
+              <td class="tm">19:30</td>
+              <td>Slow loop of the Eoulmadang-ro block and back</td>
+              <td class="ref"></td>
+            </tr></tbody></table>
+          <div class="daynote">⚑ Monday closures respected: Hongik Cultural Park, Parole &amp; Langue, Jeoldusan museum, Oil Tank exhibition halls and the stadium tour are all shut today and appear on no Monday in any itinerary.</div>
+        </div>
+        <div class="day">
+          <div class="day-h">
+            <span class="d">Tue 17 Nov</span>
+            <span class="b moderate">Moderate</span>
+            <span class="t">Books, park, Yeonnam</span>
+          </div>
+          <table class="sched"><tbody><tr>
+              <td class="tm">08:00</td>
+              <td>Breakfast at Avelop Hongdae Flagship (opens 08:00 on weekdays)</td>
+              <td class="ref"><a href="https://english.visitseoul.net/area/Avelop/ENP22oa3h" target="_blank" rel="noopener" title="Avelop Hongdae Flagship — official source">F7 ↗</a></td>
+            </tr><tr>
+              <td class="tm">11:00</td>
+              <td>Gyeongui Line Book Street — opens 11:00 (break 12:30–13:30)</td>
+              <td class="ref"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574" target="_blank" rel="noopener" title="Gyeongui Line Book Street (경의선책거리) — official source">H5 ↗</a></td>
+            </tr><tr>
+              <td class="tm">13:30</td>
+              <td>Lunch: Jincheongyujeom, Yeonnam — arrive before the 15:30 weekday break</td>
+              <td class="ref"><a href="https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38" target="_blank" rel="noopener" title="Jincheongyujeom (진천유점) — official source">Y2 ↗</a></td>
+            </tr><tr>
+              <td class="tm">15:00</td>
+              <td>Walk the Yeontral Park stretch of Gyeongui Line Forest Park</td>
+              <td class="ref"><a href="https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216" target="_blank" rel="noopener" title="Gyeongui Line Forest Park (경의선숲길 / Yeontral Park) — official source">H6 ↗</a></td>
+            </tr><tr>
+              <td class="tm">16:30</td>
+              <td>Coffee at Antique Coffee Yeonnam</td>
+              <td class="ref"><a href="https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc" target="_blank" rel="noopener" title="Antique Coffee Yeonnam Branch — official source">Y1 ↗</a></td>
+            </tr><tr>
+              <td class="tm">18:30</td>
+              <td>Dinner: YANG IN HWAN DAE (weekday-only hours, opens 16:00)</td>
+              <td class="ref"><a href="https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom" target="_blank" rel="noopener" title="YANG IN HWAN DAE Hongdae — official source">F5 ↗</a></td>
+            </tr></tbody></table>
+          
+        </div>
+        <div class="day">
+          <div class="day-h">
+            <span class="d">Wed 18 Nov</span>
+            <span class="b relax">Relaxed</span>
+            <span class="t">Culture complex day</span>
+          </div>
+          <table class="sched"><tbody><tr>
+              <td class="tm">11:00</td>
+              <td>KT&amp;G Sangsangmadang — opens 11:00; design shop and gallery floors</td>
+              <td class="ref"><a href="https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561" target="_blank" rel="noopener" title="KT&amp;G Sangsangmadang Hongdae — official source">H4 ↗</a></td>
+            </tr><tr>
+              <td class="tm">13:00</td>
+              <td>Lunch: Busanjib Hongdae (last order 21:00, no alcohol)</td>
+              <td class="ref"><a href="https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw" target="_blank" rel="noopener" title="Busanjib Hongdae — official source">F2 ↗</a></td>
+            </tr><tr>
+              <td class="tm">15:00</td>
+              <td>Hongik Cultural Park / Drawing Village — open Tue–Sun 10:00–18:00</td>
+              <td class="ref"><a href="https://english.visitseoul.net/area/Hongdae-Playground/ENP011070" target="_blank" rel="noopener" title="Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground) — official source">H7 ↗</a></td>
+            </tr><tr>
+              <td class="tm">17:00</td>
+              <td>Café Layered Yeonnam or Parole &amp; Langue (both open today)</td>
+              <td class="ref"><a href="https://english.visitseoul.net/restaurants/Caf%C3%A9%20Layered%20Yeonnam_/48856" target="_blank" rel="noopener" title="Café Layered Yeonnam — official source">Y4 ↗</a></td>
+            </tr><tr>
+              <td class="tm">19:30</td>
+              <td>Dinner: Chosun Hwaro Gui — after its 15:00–17:00 break</td>
+              <td class="ref"><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996" target="_blank" rel="noopener" title="Chosun Hwaro Gui (조선화로구이) — official source">F6 ↗</a></td>
+            </tr></tbody></table>
+          
+        </div>
+        <div class="day">
+          <div class="day-h">
+            <span class="d">Thu 19 Nov</span>
+            <span class="b relax">Relaxed</span>
+            <span class="t">Slow morning, film evening</span>
+          </div>
+          <table class="sched"><tbody><tr>
+              <td class="tm">10:00</td>
+              <td>Long unhurried walk up the forest park and back</td>
+              <td class="ref"><a href="https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216" target="_blank" rel="noopener" title="Gyeongui Line Forest Park (경의선숲길 / Yeontral Park) — official source">H6 ↗</a></td>
+            </tr><tr>
+              <td class="tm">12:30</td>
+              <td>Lunch: Eongteori Saenggogi (all-you-can-eat, 11:00–23:00)</td>
+              <td class="ref"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862" target="_blank" rel="noopener" title="Eongteori Saenggogi Hongdae (엉터리생고기 홍대) — official source">F4 ↗</a></td>
+            </tr><tr>
+              <td class="tm">15:00</td>
+              <td>Rest at the hotel — pool of free afternoon deliberately left empty</td>
+              <td class="ref"></td>
+            </tr><tr>
+              <td class="tm">18:00</td>
+              <td>Indiespace — 80 m from Exit 8, open to 20:00</td>
+              <td class="ref"><a href="https://english.visitseoul.net/entertainment/Indiespace/ENP040673" target="_blank" rel="noopener" title="Indiespace (인디스페이스) — official source">H1 ↗</a></td>
+            </tr><tr>
+              <td class="tm">20:30</td>
+              <td>Late dinner: MGM Hongdae (last order 23:30)</td>
+              <td class="ref"><a href="https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy" target="_blank" rel="noopener" title="MGM Hongdae Branch — official source">F3 ↗</a></td>
+            </tr></tbody></table>
+          
+        </div>
+        <div class="day">
+          <div class="day-h">
+            <span class="d">Fri 20 Nov</span>
+            <span class="b moderate">Moderate</span>
+            <span class="t">Yeonnam deep cut</span>
+          </div>
+          <table class="sched"><tbody><tr>
+              <td class="tm">10:00</td>
+              <td>Antique Coffee Yeonnam for the first coffee</td>
+              <td class="ref"><a href="https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc" target="_blank" rel="noopener" title="Antique Coffee Yeonnam Branch — official source">Y1 ↗</a></td>
+            </tr><tr>
+              <td class="tm">11:30</td>
+              <td>Yeonnam back alleys on foot — Donggyo-ro 46-gil and Seongmisan-ro</td>
+              <td class="ref"></td>
+            </tr><tr>
+              <td class="tm">13:00</td>
+              <td>Lunch: Jincheongyujeom (second visit; different menu)</td>
+              <td class="ref"><a href="https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38" target="_blank" rel="noopener" title="Jincheongyujeom (진천유점) — official source">Y2 ↗</a></td>
+            </tr><tr>
+              <td class="tm">15:00</td>
+              <td>Parole &amp; Langue — opens 13:00, closed Mondays but open today</td>
+              <td class="ref"><a href="https://english.visitseoul.net/restaurants/Parole-Langue/ENP0p4bkd" target="_blank" rel="noopener" title="Parole &amp; Langue — official source">Y3 ↗</a></td>
+            </tr><tr>
+              <td class="tm">18:00</td>
+              <td>Dinner: YANG IN HWAN DAE or Blue Roof Town</td>
+              <td class="ref"><a href="https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom" target="_blank" rel="noopener" title="YANG IN HWAN DAE Hongdae — official source">F5 ↗</a></td>
+            </tr></tbody></table>
+          
+        </div>
+        <div class="day">
+          <div class="day-h">
+            <span class="d">Sat 21 Nov</span>
+            <span class="b moderate">Moderate</span>
+            <span class="t">Saturday in the core</span>
+          </div>
+          <table class="sched"><tbody><tr>
+              <td class="tm">11:00</td>
+              <td>Avelop (Sat opens 11:00) then Gyeongui Line Book Street</td>
+              <td class="ref"><a href="https://english.visitseoul.net/area/Avelop/ENP22oa3h" target="_blank" rel="noopener" title="Avelop Hongdae Flagship — official source">F7 ↗</a></td>
+            </tr><tr>
+              <td class="tm">13:00</td>
+              <td>Walk past Hongik Cultural Park — if the Free Market is running it will be here; it is NOT confirmed for 2026, so nothing is planned around it</td>
+              <td class="ref"><a href="http://www.freemarket.or.kr/" target="_blank" rel="noopener" title="Hongdae Free Market (홍대앞 예술시장 프리마켓) — official source">H8 ↗</a></td>
+            </tr><tr>
+              <td class="tm">14:00</td>
+              <td>Lunch: Busanjib Hongdae</td>
+              <td class="ref"><a href="https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw" target="_blank" rel="noopener" title="Busanjib Hongdae — official source">F2 ↗</a></td>
+            </tr><tr>
+              <td class="tm">16:00</td>
+              <td>Trick Eye Museum — open to 22:00, last admission 21:00</td>
+              <td class="ref"><a href="https://www.trickeye.com/seoul/Visit" target="_blank" rel="noopener" title="Trick Eye Museum Seoul — official source">H3 ↗</a></td>
+            </tr><tr>
+              <td class="tm">19:00</td>
+              <td>Dinner: MGM Hongdae</td>
+              <td class="ref"><a href="https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy" target="_blank" rel="noopener" title="MGM Hongdae Branch — official source">F3 ↗</a></td>
+            </tr></tbody></table>
+          
+        </div>
+        <div class="day">
+          <div class="day-h">
+            <span class="d">Sun 22 Nov</span>
+            <span class="b relax">Relaxed</span>
+            <span class="t">Check out</span>
+          </div>
+          <table class="sched"><tbody><tr>
+              <td class="tm">08:00</td>
+              <td>Hotel breakfast (07:00–10:00, last entry 09:30)</td>
+              <td class="ref"></td>
+            </tr><tr>
+              <td class="tm">10:00</td>
+              <td>Final walk on the forest park</td>
+              <td class="ref"><a href="https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216" target="_blank" rel="noopener" title="Gyeongui Line Forest Park (경의선숲길 / Yeontral Park) — official source">H6 ↗</a></td>
+            </tr><tr>
+              <td class="tm">12:00</td>
+              <td>Check out — 12:00 is the hotel's stated latest time</td>
+              <td class="ref"></td>
+            </tr></tbody></table>
+          <div class="daynote">⚑ Chosun Hwaro Gui is closed Sundays and is not scheduled today.</div>
+        </div></div>
   </section>
 
   <!-- ============ INVENTORY ============ -->
   <section id="inventory" class="panel">
     <h2 class="sec">Every verified item</h2>
     <p class="sub">Filter by cluster. Each row carries the hours as printed on the official page, plus the link.</p>
-    <div class="chiprow" id="invChips"></div>
-    <div id="invBody"></div>
+    <div class="chiprow" id="invChips"><button class="chip on" data-cl="all">All (34)</button><button class="chip" data-cl="core">Hongdae core (16)</button><button class="chip" data-cl="yeonnam">Yeonnam-dong (4)</button><button class="chip" data-cl="sangsu">Sangsu / Hapjeong (4)</button><button class="chip" data-cl="sinchon">Sinchon (2)</button><button class="chip" data-cl="sangam">World Cup Park / Sangam (3)</button><button class="chip" data-cl="away">Ticketed outings (outside Mapo) (5)</button></div>
+    <div id="invBody"><div class="inv">
+        <div class="top">
+          <span class="id">E1</span>
+          <h3>Kings of Convenience — “SJF at the Theater 2026”</h3>
+          <span class="b confirmed">Confirmed</span>
+          
+        </div>
+        <dl><dt>When</dt><dd>Wed 18 Nov 2026 · 20:00</dd><dt>Price</dt><dd>R ₩143,000 / S ₩132,000 / A ₩110,000 / B ₩99,000</dd><dt>Getting there</dt><dd>Hongik Univ. → Line 2 → transfer Line 5 → Gwanghwamun. Single destination; nothing else scheduled that evening.</dd><dt>Detail</dt><dd>Sejong Center (Gwanghwamun). Running time 80 minutes. Age limit 7 and over. Booking requires a YES24 account with passport identity verification.</dd><dt>Page prints</dt><dd>Page prints: Date Nov 18 2026 · Venue Sejong Center · Age 7+ · Time 80 minutes · R/S/A/B prices as listed.</dd><dt>Cluster</dt><dd>Ticketed outings (outside Mapo)</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://ticket.yes24.com/English/Perf/59136" target="_blank" rel="noopener">YES24 Ticket — official English booking page (Perf 59136) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">E2</span>
+          <h3>Seoul Arts Center — 《The Glass Menagerie》 (유리동물원)</h3>
+          <span class="b confirmed">Confirmed</span>
+          
+        </div>
+        <dl><dt>When</dt><dd>In-window performances: Wed 18 Nov 14:30 · Thu 19 Nov 19:30 · Fri 20 Nov 14:30 &amp; 19:30 · Sat 21 Nov 14:00 &amp; 19:00 · Sun 22 Nov 15:00</dd><dt>Price</dt><dd>R ₩99,000 / S ₩77,000 / A ₩55,000 / OP ₩99,000</dd><dt>Getting there</dt><dd>Seocho. Single-destination outing; ~45–55 min each way from Hongdae.</dd><dt>Detail</dt><dd>CJ Towol Theater, Seoul Arts Center (Seocho). Run 2026-10-17 → 2026-11-22. Korean language. 120 minutes. Elementary-school age and above. No Monday/Tuesday performances.</dd><dt>Page prints</dt><dd>Page prints: 기간 2026-10-17 ~ 2026-11-22 · 시간 수,목 19:30, 금 14:30/19:30, 토 14:00/19:00, 일 15:00 (*11월 18일(수) 14:30) | 월,화 공연없음 · 장소 CJ 토월극장 · 관람시간 120분 · R 99,000 / S 77,000 / A 55,000 / OP 99,000.</dd><dt>Cluster</dt><dd>Ticketed outings (outside Mapo)</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://www.sac.or.kr/site/main/show/show_view?SN=83392" target="_blank" rel="noopener">Seoul Arts Center official production page (SN=83392) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">E3</span>
+          <h3>National Gugak Center — 2026 토요명품 (Saturday Masterpieces)</h3>
+          <span class="b confirmed">Confirmed</span>
+          
+        </div>
+        <dl><dt>When</dt><dd>Sat 21 Nov 2026 · 15:00</dd><dt>Price</dt><dd>A ₩30,000 / B ₩20,000</dd><dt>Getting there</dt><dd>Seocho. Pairs on the same campus with the Gugak Museum English tour at 14:00 (E4).</dd><dt>Detail</dt><dd>Umyeondang hall, National Gugak Center (Seocho). Listed on the official November 2026 monthly schedule as performance_id 37050.</dd><dt>Page prints</dt><dd>November 2026 list prints three Saturday dates: Nov 7, Nov 14, Nov 21 — all 15:00, 우면당, A석 30,000원 / B석 20,000원. Nov 21 is the only one inside the stay.</dd><dt>Cluster</dt><dd>Ticketed outings (outside Mapo)</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">National Gugak Center — November 2026 monthly schedule ↗</a><a href="https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&amp;performance_id=37050" target="_blank" rel="noopener">Performance detail (id 37050) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">E4</span>
+          <h3>Gugak Museum — English Tour</h3>
+          <span class="b confirmed">Confirmed</span>
+          
+        </div>
+        <dl><dt>When</dt><dd>Sat 21 Nov 2026 · 14:00</dd><dt>Price</dt><dd>No price printed on the official listing (museum entry is free)</dd><dt>Getting there</dt><dd>Immediately before the 15:00 토요명품 concert — same site, no travel between the two.</dd><dt>Detail</dt><dd>국악박물관, same Seocho campus as E3. Listed on the official November 2026 schedule as performance_id 37733.</dd><dt>Page prints</dt><dd>November 2026 list prints [Gugak Museum] English Tours on Nov 7, Nov 14, Nov 21, each 14:00, 국악박물관, no price field filled.</dd><dt>Cluster</dt><dd>Ticketed outings (outside Mapo)</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">National Gugak Center — November 2026 monthly schedule ↗</a><a href="https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&amp;performance_id=37733" target="_blank" rel="noopener">English Tours detail (id 37733) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">E5</span>
+          <h3>Bongeunsa — Thursday Temple Life (English)</h3>
+          <span class="b confirmed">Confirmed</span>
+          
+        </div>
+        <dl><dt>When</dt><dd>Thu 19 Nov 2026 · 14:00–16:00</dd><dt>Price</dt><dd>₩30,000</dd><dt>Getting there</dt><dd>Gangnam / COEX. Single-destination half-day; can be followed by an SAC evening show (both south of the river).</dd><dt>Detail</dt><dd>Weekly English-language programme for foreign visitors. 14:00–15:00 temple tour · 15:00–15:30 tea ceremony · 15:30–16:00 gold-ink sutra copying. Arrive at the foreigner information desk on the left of the Bongeunsa entrance by 13:50. Walk-in registration or website booking.</dd><dt>Page prints</dt><dd>Page prints 목요 템플라이프(외국인): 일정 매주 목요일 오후 2시~4시 · 대상 외국인 · 참가비 3만원 · 진행언어 영어 · 오후 1시 50분까지 봉은사 입구 좌측 외국인 안내소.</dd><dt>Cluster</dt><dd>Ticketed outings (outside Mapo)</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="http://temple.bongeunsa.org/public_html/explain/temple_life.asp" target="_blank" rel="noopener">Bongeunsa Templestay — Temple Life official page ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">E6</span>
+          <h3>Mapo Music Gallery (마포 뮤직 갤러리)</h3>
+          <span class="b confirmed">Confirmed</span>
+          
+        </div>
+        <dl><dt>When</dt><dd>Open through 31 Dec 2026 — open every day of the stay</dd><dt>Price</dt><dd>Free admission (무료입장)</dd><dt>Getting there</dt><dd>Mapo Art Center is in Daeheung-dong — Line 6 Daeheung / Gongdeok side, not walkable from the hotel.</dd><dt>Detail</dt><dd>Free exhibition in Gallery MAC at Mapo Art Center, 28 Daeheung-ro 20-gil. Hours 10:00–18:00 (the official listing adds that hours may change at the centre's discretion).</dd><dt>Page prints</dt><dd>Schedule prints 마포 뮤직 갤러리(Mapo Music Gallery) · 기간 2026.04.10 ~ 2026.12.31 · 시간 10:00-18:00 · 장소 갤러리맥 · 가격 무료입장.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://www.mfac.or.kr/performance/whole_list.jsp" target="_blank" rel="noopener">Mapo Foundation for Arts and Culture — performance/exhibition schedule ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H1</span>
+          <h3>Indiespace (인디스페이스)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Culture</span>
+        </div>
+        <dl><dt>Address</dt><dd>8F, 176 Yanghwa-ro, Mapo-gu (Wise Park)</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 8, 80 m — the closest cultural venue to the hotel</dd><dt>Hours</dt><dd>10:00–20:00, daily, open 365 days a year</dd><dt>Price</dt><dd>Per screening</dd><dt>Notes</dt><dd>Korea's first independent cinema; screens Korean independent films. Programme is Korean-language — check subtitles before booking.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/entertainment/Indiespace/ENP040673" target="_blank" rel="noopener">Visit Seoul — Indiespace (ENP040673) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H2</span>
+          <h3>Kakao Friends Hongdae Flagship</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Shopping</span>
+        </div>
+        <dl><dt>Address</dt><dd>162 Yanghwa-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 8, 51 m — ~2 min from the hotel</dd><dt>Hours</dt><dd>Daily 10:30–22:00, open year round</dd><dt>Price</dt><dd>Free to browse</dd><dt>Notes</dt><dd>Three-floor character flagship. Good rainy-hour filler right next to the hotel.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/shopping/Kakao-Friends-Hongdae-Flagship-Store/ENP027304" target="_blank" rel="noopener">Visit Seoul — Kakao Friends Hongdae Flagship (ENP027304) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H3</span>
+          <h3>Trick Eye Museum Seoul</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Attraction</span>
+        </div>
+        <dl><dt>Address</dt><dd>B2, Seogyo Plaza, 20 Hongik-ro 3-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 9, then ~150 m straight and into the side street (official directions page)</dd><dt>Hours</dt><dd>09:00–22:00, last admission 21:00, open every day of the year (연중무휴)</dd><dt>Price</dt><dd>⚠️ Not printed on the official site — buy at the door or via the official ticket channel</dd><dt>Notes</dt><dd>AR trick-art museum. Longest opening hours of anything in the cluster, so it absorbs a late afternoon or a rainy evening.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://www.trickeye.com/seoul/Visit" target="_blank" rel="noopener">Trickeye official — opening hours page ↗</a><a href="https://www.trickeye.com/seoul/FindUs" target="_blank" rel="noopener">Trickeye official — directions page ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H4</span>
+          <h3>KT&amp;G Sangsangmadang Hongdae</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Culture</span>
+        </div>
+        <dl><dt>Address</dt><dd>65 Eoulmadang-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>In the Hongdae core, ~10 min on foot from the hotel (official page gives Hapjeong Exit 3, 760 m)</dd><dt>Hours</dt><dd>11:00–21:00, daily, open year round</dd><dt>Price</dt><dd>Free to browse; cinema and live-hall events ticketed separately</dd><dt>Notes</dt><dd>Seven-floor culture complex: design shop, gallery, art-house cinema, basement live hall.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> The Visit Seoul detail page returned HTTP 500 on direct fetch during the pass; hours/address above were read from the same official page as served in search. Confirm at the door.</div>
+        <div class="srcs"><a href="https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561" target="_blank" rel="noopener">Visit Seoul — KT&amp;G Sangsang Madang (ENP024561) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H5</span>
+          <h3>Gyeongui Line Book Street (경의선책거리)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Walk</span>
+        </div>
+        <dl><dt>Address</dt><dd>35 Wausan-ro 37-gil, Mapo-gu — ~250 m of old trackbed from Hongik Univ. Station Exit 6 to Wau Bridge</dd><dt>From the hotel</dt><dd>Exit 6 — under 5 min from the hotel</dd><dt>Hours</dt><dd>11:00–20:00, break 12:30–13:30. Official listing states: open all year round.</dd><dt>Price</dt><dd>Free</dd><dt>Notes</dt><dd>Independent bookshops, children's bookshops, specialist shops and small galleries in glass pavilions along the park.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> Some secondary guides say the pavilions close on Mondays. The official VisitKorea listing says open all year with a 12:30–13:30 break. Treated as a stroll, not a fixed appointment.</div>
+        <div class="srcs"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574" target="_blank" rel="noopener">VisitKorea — G-line Book Street (vcontsId 64574) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H6</span>
+          <h3>Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Walk</span>
+        </div>
+        <dl><dt>Address</dt><dd>188 Yanghwa-ro, Mapo-gu (Aekyung Tower reference point)</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 3, 447 m</dd><dt>Hours</dt><dd>Open park — no closing time published</dd><dt>Price</dt><dd>Free</dd><dt>Notes</dt><dd>6.3 km linear park on the old railway. The Yeonnam-dong stretch (Yeontral Park) is the long green spine that links the Hongdae core to the Yeonnam cafés.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216" target="_blank" rel="noopener">Visit Seoul — Gyeongui Line Forest Park (37216) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H7</span>
+          <h3>Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground)</h3>
+          <span class="b recheck">Re-check</span>
+          <span class="type">Park</span>
+        </div>
+        <dl><dt>Address</dt><dd>19-3 Wausan-ro 21-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>Line 6 Sangsu Station Exit 1, 549 m (official); ~8–10 min from the hotel</dd><dt>Hours</dt><dd>10:00–18:00 · Tue–Sun · CLOSED MONDAYS</dd><dt>Price</dt><dd>Free admission</dd><dt>Notes</dt><dd>Reopened December 2025 after environmental improvement works, merged with Red Road and rebranded “Drawing Village”, with a creative centre and shared studios.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> IMPORTANT CHANGE. This site is no longer described as an always-open playground: the official page now prints staffed hours 10:00–18:00 and a Monday closure. Check-in day (Mon 16 Nov) is a Monday — treated as closed in every itinerary.</div>
+        <div class="srcs"><a href="https://english.visitseoul.net/area/Hongdae-Playground/ENP011070" target="_blank" rel="noopener">Visit Seoul — Hongik Cultural Park (ENP011070), edited 8 Jul 2026 ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">H8</span>
+          <h3>Hongdae Free Market (홍대앞 예술시장 프리마켓)</h3>
+          <span class="b recheck">Re-check</span>
+          <span class="type">Market</span>
+        </div>
+        <dl><dt>Address</dt><dd>Hongik Cultural Park, 19-3 Wausan-ro 21-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>~8–10 min from the hotel</dd><dt>Hours</dt><dd>Historically Saturdays 13:00–18:00, March–November only</dd><dt>Price</dt><dd>Free</dd><dt>Notes</dt><dd>Original-work-only outdoor artist market running since 2002, with an afternoon stage.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> NOT CONFIRMED FOR NOV 2026 — DO NOT PLAN AROUND IT. The organiser's own domain no longer resolves to the market, the venue has been rebranded, and TripAdvisor's listing carries a “reported permanently closed” notice. Sat 21 Nov is left as a walk-past, never as the anchor of a day.</div>
+        <div class="srcs"><a href="http://www.freemarket.or.kr/" target="_blank" rel="noopener">Organiser site freemarket.or.kr — DOMAIN NO LONGER SERVES THE MARKET (parked page) as checked 2026-09-01 ↗</a><a href="https://english.visitseoul.net/area/Hongdae-Playground/ENP011070" target="_blank" rel="noopener">Visit Seoul — Hongik Cultural Park, the venue ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">F1</span>
+          <h3>Blue Roof Town Hongdae Branch</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean BBQ</span>
+        </div>
+        <dl><dt>Address</dt><dd>1F, 128 Yanghwa-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 9, 271 m — the closest sit-down BBQ to the hotel</dd><dt>Hours</dt><dd>11:15–22:00, daily, open year-round</dd><dt>Price</dt><dd>Price range printed as ₩30,000</dd><dt>Notes</dt><dd>Suwon wang galbi and LA galbi; LA-Koreatown styling; English-speaking staff; free wine corkage; step-free access path.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7" target="_blank" rel="noopener">Visit Seoul — Blue Roof Town Hongdae Branch (ENPn88gm7) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">F2</span>
+          <h3>Busanjib Hongdae</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean-Chinese</span>
+        </div>
+        <dl><dt>Address</dt><dd>2F, 100-6 Eoulmadang-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>~5 min from the hotel, in the Eoulmadang-ro block</dd><dt>Hours</dt><dd>11:30–22:00 (last order 21:00)</dd><dt>Price</dt><dd>Jjajangmyeon ₩14,000 · LA Galbi ₩38,000</dd><dt>Notes</dt><dd>Hongdae branch of the Myeongdong Busanjip. Official page: halal ingredients, but alcohol is not sold and there is no Muslim cook on site.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw" target="_blank" rel="noopener">Visit Seoul — Busanjib Hongdae (ENPwpiwpw) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">F3</span>
+          <h3>MGM Hongdae Branch</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean BBQ</span>
+        </div>
+        <dl><dt>Address</dt><dd>1F, 8 World Cup buk-ro 4-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 1, 379 m</dd><dt>Hours</dt><dd>Daily 12:00–00:00 (last order 23:30)</dd><dt>Price</dt><dd>Price range printed as ₩20,000</dd><dt>Notes</dt><dd>Samgyeopsal, galbi and moksal grilled on a cauldron lid, often with minari; staff grill for you. Latest-closing sit-down option in the core — the safe post-show dinner.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy" target="_blank" rel="noopener">Visit Seoul — MGM Hongdae Branch (ENPtojamy) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">F4</span>
+          <h3>Eongteori Saenggogi Hongdae (엉터리생고기 홍대)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean BBQ (all-you-can-eat)</span>
+        </div>
+        <dl><dt>Address</dt><dd>118 Eoulmadang-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>~6 min from the hotel</dd><dt>Hours</dt><dd>11:00–23:00, open all year round</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>All-you-can-eat grilled beef and pork with a salad bar; free rice refills. Cards accepted.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862" target="_blank" rel="noopener">VisitKorea — Eongteori Saenggogi Hongdae (vcontsId 56862) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">F5</span>
+          <h3>YANG IN HWAN DAE Hongdae</h3>
+          <span class="b recheck">Re-check</span>
+          <span class="type">Grilled lamb (halal-certified lamb)</span>
+        </div>
+        <dl><dt>Address</dt><dd>1F, 86 Wausan-ro 29ga-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>~7 min from the hotel (200 m from Busanjib Hongdae per the official “nearby” list)</dd><dt>Hours</dt><dd>Monday to Friday 16:00–22:00 (last order 21:00). Holidays: none.</dd><dt>Price</dt><dd>French Rack ₩35,000 · Shoulder Rack ₩33,000</dd><dt>Notes</dt><dd>Marinated lamb barbecue with halal-certified lamb; alcohol is sold; no Muslim cook on site.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> Only Monday–Friday hours are printed. Weekend opening is unknown — every itinerary places it on a weekday (Tue/Wed/Thu/Fri) only.</div>
+        <div class="srcs"><a href="https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom" target="_blank" rel="noopener">Visit Seoul — YANG IN HWAN DAE Hongdae (ENPxuebom) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">F6</span>
+          <h3>Chosun Hwaro Gui (조선화로구이)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean BBQ</span>
+        </div>
+        <dl><dt>Address</dt><dd>5 World Cup buk-ro, Mapo-gu (Seogyo-dong)</dd><dt>From the hotel</dt><dd>Hongdae core, ~8 min from the hotel</dd><dt>Hours</dt><dd>11:30–24:00 · break 15:00–17:00 · last order 23:30 · CLOSED SUNDAYS</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Charcoal grill using 1++ Korean beef and domestic pork; boneless Korean galbi is the printed signature.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> Closed Sundays — never scheduled for Sun 22 Nov, and never inside its 15:00–17:00 break.</div>
+        <div class="srcs"><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996" target="_blank" rel="noopener">VisitKorea — Chosun Hwaro Gui (vcontsId 214996) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">F7</span>
+          <h3>Avelop Hongdae Flagship</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Bakery café</span>
+        </div>
+        <dl><dt>Address</dt><dd>6 Yanghwa-ro 15an-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 1, 468 m</dd><dt>Hours</dt><dd>Mon–Fri 08:00–20:00 · Sat–Sun 11:00–21:00</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Bakery café inside a 1972 house by the architect Kim Chung-up; all bread baked fresh daily. The only cluster café that opens at 08:00 on weekdays — the early-breakfast option.</dd><dt>Cluster</dt><dd>Hongdae core</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/area/Avelop/ENP22oa3h" target="_blank" rel="noopener">Visit Seoul — Avelop Hongdae Flagship (ENP22oa3h) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">Y1</span>
+          <h3>Antique Coffee Yeonnam Branch</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Café</span>
+        </div>
+        <dl><dt>Address</dt><dd>1F, 25-1 Yeonhui-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 3, 384 m — the first café you reach walking into Yeonnam</dd><dt>Hours</dt><dd>Daily 10:00–22:00</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Dirty &amp; Cream coffee, cherry chocolat cake, Dirty &amp; Cream croissant are the printed signatures. This Yeonnam branch only.</dd><dt>Cluster</dt><dd>Yeonnam-dong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc" target="_blank" rel="noopener">Visit Seoul — Antique Coffee Yeonnam Branch (ENPfru4mc) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">Y2</span>
+          <h3>Jincheongyujeom (진천유점)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Contemporary Korean</span>
+        </div>
+        <dl><dt>Address</dt><dd>27 Donggyo-ro 46-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 3, 571 m</dd><dt>Hours</dt><dd>11:30–22:00, daily · weekday break 15:30–17:00</dd><dt>Price</dt><dd>Perilla Oil Makguksu ₩10,500 · Seasonal Bibimbap ₩13,000 · Gangdoenjang Ssambap ₩14,000 · Beef Tartare Gamtae Gimbap ₩16,000 · Grilled Mackerel &amp; Bracken Risotto ₩16,000</dd><dt>Notes</dt><dd>Sesame and perilla oils pressed in-store each morning. Reservations via the Naver link on the official page. The best-value verified sit-down lunch in the Yeonnam cluster.</dd><dt>Cluster</dt><dd>Yeonnam-dong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38" target="_blank" rel="noopener">Visit Seoul — Jincheongyujeom (ENPtgef38) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">Y3</span>
+          <h3>Parole &amp; Langue</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Dessert café</span>
+        </div>
+        <dl><dt>Address</dt><dd>8 Seongmisan-ro 29an-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 3, 821 m</dd><dt>Hours</dt><dd>13:00–21:00 · CLOSED EVERY MONDAY</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Square signature pies in a converted house at the edge of Yeonnam. There is a queue; the official page notes a reservation system with English, Chinese and Japanese options.</dd><dt>Cluster</dt><dd>Yeonnam-dong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> Closed Mondays — never scheduled for Mon 16 Nov.</div>
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/Parole-Langue/ENP0p4bkd" target="_blank" rel="noopener">Visit Seoul — Parole &amp; Langue (ENP0p4bkd) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">Y4</span>
+          <h3>Café Layered Yeonnam</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Bakery café</span>
+        </div>
+        <dl><dt>Address</dt><dd>223-20 Yeonnam-dong, Mapo-gu</dd><dt>From the hotel</dt><dd>Hongik Univ. Station Exit 3, 838 m — 120 m from Parole &amp; Langue per the official nearby list</dd><dt>Hours</dt><dd>Daily 10:00–22:00</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Scones and cakes; window seats and a terrace on the 2nd and 3rd floors. This Yeonnam location only.</dd><dt>Cluster</dt><dd>Yeonnam-dong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/Caf%C3%A9%20Layered%20Yeonnam_/48856" target="_blank" rel="noopener">Visit Seoul — Café Layered Yeonnam (48856) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">S1</span>
+          <h3>Korean Catholic Martyrs' Museum, Jeoldusan Martyrs' Shrine</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Museum / memorial</span>
+        </div>
+        <dl><dt>Address</dt><dd>Jeoldusan, Hapjeong-dong, Mapo-gu (riverside cliff above the Han)</dd><dt>From the hotel</dt><dd>Hapjeong Station — one stop from Hongik Univ. on Line 2, or a 20–25 min riverside walk</dd><dt>Hours</dt><dd>Museum daily 09:30–17:00 · CLOSED MONDAYS. The shrine grounds themselves are open.</dd><dt>Price</dt><dd>Free (groups of 10+ must book two weeks ahead)</dd><dt>Notes</dt><dd>Quiet, sober site over the river. The single best low-energy morning in the Hapjeong cluster.</dd><dt>Cluster</dt><dd>Sangsu / Hapjeong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> Closed Mondays — never scheduled for Mon 16 Nov.</div>
+        <div class="srcs"><a href="https://english.visitseoul.net/attractions/Korean-Catholic-Martyrs%E2%80%99-Museum_/29433" target="_blank" rel="noopener">Visit Seoul — Korean Catholic Martyrs' Museum (29433) ↗</a><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=107565" target="_blank" rel="noopener">VisitKorea — Jeoldusan Martyrs' Shrine (vcontsId 107565) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">S2</span>
+          <h3>Masichaina (맛이차이나)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean-Chinese</span>
+        </div>
+        <dl><dt>Address</dt><dd>68 Dongmak-ro, Mapo-gu (Sangsu / Hapjeong)</dd><dt>From the hotel</dt><dd>One stop from Hongik Univ., or ~15 min walk down Wausan-ro</dd><dt>Hours</dt><dd>Mon–Sun 11:30–22:00 · break 16:00–17:00 · open all year round</dd><dt>Price</dt><dd>Not printed on the official listing (set menus A/B/C)</dd><dt>Notes</dt><dd>Hotel-style Korean-Chinese from a former hotel chef; open kitchen. Jjajangmyeon and oyster jjamppong are on the printed menu.</dd><dt>Cluster</dt><dd>Sangsu / Hapjeong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66922" target="_blank" rel="noopener">VisitKorea — Masichaina (vcontsId 66922) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">S3</span>
+          <h3>Seogang Kkeopdegi (서강껍데기)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean BBQ (pork rind)</span>
+        </div>
+        <dl><dt>Address</dt><dd>36 World Cup-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>Hapjeong Station Exit 9, 311 m</dd><dt>Hours</dt><dd>16:00–03:30 (next day) · open year round</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Pork rind and grilled pork; a long-standing Hapjeong late-night. Opens at 16:00 — evening only.</dd><dt>Cluster</dt><dd>Sangsu / Hapjeong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/Seogang-Kkeopdegi/ENP012289" target="_blank" rel="noopener">Visit Seoul — Seogang Kkeopdegi (ENP012289) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">S4</span>
+          <h3>Jamdubong The Nine</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Korean BBQ</span>
+        </div>
+        <dl><dt>Address</dt><dd>352-6 Hapjeong-dong, Mapo-gu</dd><dt>From the hotel</dt><dd>Hapjeong Station Exit 7, 804 m</dd><dt>Hours</dt><dd>Daily 12:00–22:00</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Barbecue in a former Han River dock building; samgyeopsal and tteokgalbi are the printed signatures.</dd><dt>Cluster</dt><dd>Sangsu / Hapjeong</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/the9bongbong/ENPuv9y9f" target="_blank" rel="noopener">Visit Seoul — Jamdubong The Nine (ENPuv9y9f) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">N1</span>
+          <h3>Hyeongje Galbi (형제갈비)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Galbi</span>
+        </div>
+        <dl><dt>Address</dt><dd>2 Myeongmul 1-gil, Seodaemun-gu</dd><dt>From the hotel</dt><dd>Sinchon Station Exit 3, 261 m — one stop from Hongik Univ. on Line 2</dd><dt>Hours</dt><dd>Daily 11:00–22:00 · closed Seollal &amp; Chuseok only</dd><dt>Price</dt><dd>Not printed on the official listing</dd><dt>Notes</dt><dd>Nearly 40 years old; charcoal beef ribs, plus dolsot bibimbap and galbitang. Staff grill for you; floors are split by menu.</dd><dt>Cluster</dt><dd>Sinchon</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/Hyeongje-Galbi/ENP011643" target="_blank" rel="noopener">Visit Seoul — Hyeongje Galbi (ENP011643) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">N2</span>
+          <h3>Cochon Tonkatsu</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Tonkatsu</span>
+        </div>
+        <dl><dt>Address</dt><dd>2 Myeongmul 1-gil, Seodaemun-gu — same address block as Hyeongje Galbi</dd><dt>From the hotel</dt><dd>Sinchon Station Exit 3, 261 m</dd><dt>Hours</dt><dd>11:00–19:00 · break 16:00–17:00</dd><dt>Price</dt><dd>Tonkatsu ₩4,000 · True Cochon tonkatsu ₩6,000 · Real Cochon tonkatsu ₩8,000</dd><dt>Notes</dt><dd>One-item shop: tonkatsu with rice, soup and salad. The cheapest verified sit-down meal on this whole list.</dd><dt>Cluster</dt><dd>Sinchon</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        
+        <div class="srcs"><a href="https://english.visitseoul.net/restaurants/CochonTonkatsu/ENPf7618z" target="_blank" rel="noopener">Visit Seoul — Cochon Tonkatsu (ENPf7618z) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">W1</span>
+          <h3>Oil Tank Culture Park (문화비축기지)</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Park / architecture</span>
+        </div>
+        <dl><dt>Address</dt><dd>87 Jeungsan-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>Line 6 World Cup Stadium Station</dd><dt>Hours</dt><dd>Park open 24 hours · Tanks T1–T6 10:00–18:00 · Café Tank6 10:00–19:00. Exhibition halls and Café Tank6 closed Mondays.</dd><dt>Price</dt><dd>Free</dd><dt>Notes</dt><dd>Six decommissioned oil tanks from 1976 turned into performance, exhibition and community spaces; opened to the public in 2017.</dd><dt>Cluster</dt><dd>World Cup Park / Sangam</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> Exhibition halls closed Mondays — never scheduled for Mon 16 Nov.</div>
+        <div class="srcs"><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=62572" target="_blank" rel="noopener">VisitKorea — Oil Tank Culture Park (vcontsId 62572) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">W2</span>
+          <h3>Seoul World Cup Stadium Tour</h3>
+          <span class="b verified">Verified</span>
+          <span class="type">Tour</span>
+        </div>
+        <dl><dt>Address</dt><dd>240 World Cup-ro, Mapo-gu</dd><dt>From the hotel</dt><dd>Line 6 World Cup Stadium Station Exit 1, 69 m</dd><dt>Hours</dt><dd>Four tours per day: 09:00 · 11:00 · 14:00 · 16:00. About 1 hour each. Closed Mondays, national holidays, Labour Day and match days.</dd><dt>Price</dt><dd>₩1,000 adults · ₩500 for under-18s, 65+, disabled visitors and national-merit holders · 30% group discount (10+)</dd><dt>Notes</dt><dd>Route: tour lobby → main stadium → FC Seoul locker &amp; warm-up rooms → 2002 World Cup locker &amp; warm-up rooms → video room → history exhibit → gift shop.</dd><dt>Cluster</dt><dd>World Cup Park / Sangam</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> BOOK AHEAD. The operator's page states 현장예매는 불가 — walk-up ticket purchase is not possible; you must reserve through Seoul's public service reservation site, then pay on site. The operator page and the Visit Seoul page also print slightly different session windows (9–17 vs 9–16); the four session times above are from the operator.</div>
+        <div class="srcs"><a href="https://www.sisul.or.kr/open_content/worldcup/guidance/course.jsp" target="_blank" rel="noopener">Seoul Facilities Corporation — official stadium tour page ↗</a><a href="https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251229135612718733" target="_blank" rel="noopener">Seoul public service reservation — stadium tour booking ↗</a><a href="https://english.visitseoul.net/entertainment/Seoul-World-Cup-Stadium/ENP002101" target="_blank" rel="noopener">Visit Seoul — Seoul World Cup Stadium (ENP002101) ↗</a></div>
+      </div><div class="inv">
+        <div class="top">
+          <span class="id">W3</span>
+          <h3>Mangwon Market (망원시장)</h3>
+          <span class="b recheck">Re-check</span>
+          <span class="type">Market</span>
+        </div>
+        <dl><dt>Address</dt><dd>27 Poeun-ro 6-gil, Mapo-gu</dd><dt>From the hotel</dt><dd>Line 6 Mangwon Station</dd><dt>Hours</dt><dd>Daily 10:00–21:00, varies by store (Visit Seoul market page)</dd><dt>Price</dt><dd>Free to walk</dd><dt>Notes</dt><dd>40-year-old traditional market; dakgangjeong, croquettes and street snacks.</dd><dt>Cluster</dt><dd>World Cup Park / Sangam</dd><dt>Verified</dt><dd>2026-09-01</dd></dl>
+        <div class="flagline"><strong>Flag:</strong> TWO OFFICIAL PAGES DISAGREE. The Mangwon Market listing says daily 10:00–21:00; Visit Seoul's own markets feature says 09:00–22:00 closed Tuesdays and Sundays. Itineraries only place it on a Wednesday–Saturday, and never as the only thing planned.</div>
+        <div class="srcs"><a href="https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950" target="_blank" rel="noopener">Visit Seoul — Mangwon Market (ENP037950) ↗</a><a href="https://english.visitseoul.net/tours/Munch-and-Chew-Taste-and-Enjoy-Korean-Traditional-Markets/ENN032105" target="_blank" rel="noopener">Visit Seoul — traditional markets feature (ENN032105) ↗</a></div>
+      </div></div>
   </section>
 
   <!-- ============ MAP / CLUSTERS ============ -->
   <section id="map" class="panel">
     <h2 class="sec">Why the days are grouped this way</h2>
     <p class="sub">The rule for this trip: a day should sit inside one cluster. These are the clusters, in order of distance from the hotel door.</p>
-    <div id="clusterBody"></div>
+    <div id="clusterBody"><div class="cl" style="border-left-color:#c0392b">
+      <h3>Hongdae core <span class="fine">· 16 verified items</span></h3>
+      <p>Everything walkable from the hotel — Hongik Univ. Station exits 1/3/6/8/9. No subway needed.</p>
+      <div class="who">Mapo Music Gallery (마포 뮤직 갤러리) · Indiespace (인디스페이스) · Kakao Friends Hongdae Flagship · Trick Eye Museum Seoul · KT&amp;G Sangsangmadang Hongdae · Gyeongui Line Book Street (경의선책거리) · Gyeongui Line Forest Park (경의선숲길 / Yeontral Park) · Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground) · Hongdae Free Market (홍대앞 예술시장 프리마켓) · Blue Roof Town Hongdae Branch · Busanjib Hongdae · MGM Hongdae Branch · Eongteori Saenggogi Hongdae (엉터리생고기 홍대) · YANG IN HWAN DAE Hongdae · Chosun Hwaro Gui (조선화로구이) · Avelop Hongdae Flagship</div>
+    </div><div class="cl" style="border-left-color:#8e44ad">
+      <h3>Yeonnam-dong <span class="fine">· 4 verified items</span></h3>
+      <p>North of the hotel along Gyeongui Line Forest Park. Hongik Univ. Exit 3 then 380–840 m on foot.</p>
+      <div class="who">Antique Coffee Yeonnam Branch · Jincheongyujeom (진천유점) · Parole &amp; Langue · Café Layered Yeonnam</div>
+    </div><div class="cl" style="border-left-color:#16a085">
+      <h3>Sangsu / Hapjeong <span class="fine">· 4 verified items</span></h3>
+      <p>South-west of the hotel. Walkable in 15–25 min along Wausan-ro / Yanghwa-ro, or one stop on Line 2/6.</p>
+      <div class="who">Korean Catholic Martyrs' Museum, Jeoldusan Martyrs' Shrine · Masichaina (맛이차이나) · Seogang Kkeopdegi (서강껍데기) · Jamdubong The Nine</div>
+    </div><div class="cl" style="border-left-color:#2980b9">
+      <h3>Sinchon <span class="fine">· 2 verified items</span></h3>
+      <p>One stop east on Line 2 (Hongik Univ. → Sinchon), or ~20 min walk.</p>
+      <div class="who">Hyeongje Galbi (형제갈비) · Cochon Tonkatsu</div>
+    </div><div class="cl" style="border-left-color:#e67e22">
+      <h3>World Cup Park / Sangam <span class="fine">· 3 verified items</span></h3>
+      <p>Line 6 from Hapjeong — World Cup Stadium / Mangwon. Short hop, one cluster for a whole day.</p>
+      <div class="who">Oil Tank Culture Park (문화비축기지) · Seoul World Cup Stadium Tour · Mangwon Market (망원시장)</div>
+    </div><div class="cl" style="border-left-color:#7f8c8d">
+      <h3>Ticketed outings (outside Mapo) <span class="fine">· 5 verified items</span></h3>
+      <p>Only used for dated, confirmed shows. Each is a single-destination evening or half-day.</p>
+      <div class="who">Kings of Convenience — “SJF at the Theater 2026” · Seoul Arts Center — 《The Glass Menagerie》 (유리동물원) · National Gugak Center — 2026 토요명품 (Saturday Masterpieces) · Gugak Museum — English Tour · Bongeunsa — Thursday Temple Life (English)</div>
+    </div></div>
     <div class="card note">
       <h3>Walking distances</h3>
       <p>Distances quoted throughout are the <strong>official station-exit distances printed on each venue's own page</strong> (for example “Hongik Univ. Station Exit 9, 271 m”), not estimates. Where a page prints no distance, the text says so. The hotel sits at Exit 9, so an exit-9 distance is effectively a hotel distance.</p>
@@ -94,7 +741,55 @@
   <section id="flags" class="panel">
     <h2 class="sec">Flagged for your review</h2>
     <p class="sub">Anything that could not be pinned down, or that changed since the guides were written. Nothing here is guesswork — each flag names the exact gap.</p>
-    <div id="flagBody"></div>
+    <div id="flagBody"><div class="flag">
+      <h3><span class="b high">Action needed</span> Hongdae Free Market</h3>
+      <p>Not confirmed for the 2026 season. The organiser domain freemarket.or.kr no longer serves the market (it resolves to a parked search page), the venue has been rebranded, and TripAdvisor's listing shows a “reported permanently closed” notice. Removed as a planned activity everywhere; kept only as “walk past on Saturday and see”.</p>
+      <div class="srcs"><a href="http://www.freemarket.or.kr/" target="_blank" rel="noopener">freemarket.or.kr as fetched 2026-09-01 ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b high">Action needed</span> Hongik Cultural Park (old “Hongdae Playground”)</h3>
+      <p>The site changed. Visit Seoul's page, edited 8 Jul 2026, states it was rebuilt in December 2025 and reopened as “Drawing Village”, now with hours 10:00–18:00, Tue–Sun, closed Mondays. Any guide still describing it as a 24-hour playground is out of date.</p>
+      <div class="srcs"><a href="https://english.visitseoul.net/area/Hongdae-Playground/ENP011070" target="_blank" rel="noopener">Visit Seoul ENP011070 ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b high">Action needed</span> Seoul World Cup Stadium Tour</h3>
+      <p>Advance reservation is mandatory — the operator's page states 현장예매는 불가 (no on-the-day ticket sales). Book via Seoul's public service reservation site; payment is then taken on site. Tour is closed Mondays and on match days.</p>
+      <div class="srcs"><a href="https://www.sisul.or.kr/open_content/worldcup/guidance/course.jsp" target="_blank" rel="noopener">Seoul Facilities Corporation ↗</a><a href="https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251229135612718733" target="_blank" rel="noopener">Booking ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b med">Caution</span> YANG IN HWAN DAE Hongdae</h3>
+      <p>Only Monday–Friday 16:00–22:00 is printed on the official page. Weekend hours are unknown, so it is scheduled on weekdays only.</p>
+      <div class="srcs"><a href="https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom" target="_blank" rel="noopener">Visit Seoul ENPxuebom ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b med">Caution</span> Mangwon Market</h3>
+      <p>Two official Visit Seoul pages disagree: the market listing says daily 10:00–21:00; the traditional-markets feature says 09:00–22:00, closed Tuesdays and Sundays. Scheduled only Wed–Sat and never as a day's only activity.</p>
+      <div class="srcs"><a href="https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950" target="_blank" rel="noopener">Market listing ↗</a><a href="https://english.visitseoul.net/tours/Munch-and-Chew-Taste-and-Enjoy-Korean-Traditional-Markets/ENN032105" target="_blank" rel="noopener">Markets feature ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b med">Caution</span> Trick Eye Museum admission price</h3>
+      <p>The official site publishes hours (09:00–22:00, last admission 21:00, open year round) but no price on the hours or directions pages. Third-party prices circulate at ₩12,000–₩15,000; none of them is official, so no price is quoted here.</p>
+      <div class="srcs"><a href="https://www.trickeye.com/seoul/Visit" target="_blank" rel="noopener">Trickeye hours page ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b med">Caution</span> Gyeongui Line Book Street Monday opening</h3>
+      <p>VisitKorea's official listing says open all year round, 11:00–20:00 with a 12:30–13:30 break. Several travel guides claim a Monday closure. It is only ever used as a stroll, never a fixed appointment.</p>
+      <div class="srcs"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574" target="_blank" rel="noopener">VisitKorea 64574 ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b med">Caution</span> KT&amp;G Sangsangmadang page availability</h3>
+      <p>The Visit Seoul detail page returned HTTP 500 on direct fetch during the verification pass. Hours (11:00–21:00 daily, year round) and the address were read from the same official page as served through search. Worth a look at the door.</p>
+      <div class="srcs"><a href="https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561" target="_blank" rel="noopener">Visit Seoul ENP024561 ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b low">For information</span> Kings of Convenience booking</h3>
+      <p>YES24 requires a registered account with passport identity verification before purchase. Do this before the ticket you want sells out, not on the night.</p>
+      <div class="srcs"><a href="https://ticket.yes24.com/English/Perf/59136" target="_blank" rel="noopener">YES24 Perf 59136 ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b low">For information</span> 《The Glass Menagerie》 language</h3>
+      <p>Korean-language production, 120 minutes, no interval printed. Elementary-school age and above. Not recommended if neither traveller reads Korean.</p>
+      <div class="srcs"><a href="https://www.sac.or.kr/site/main/show/show_view?SN=83392" target="_blank" rel="noopener">SAC SN=83392 ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b low">For information</span> Mapo Art Center in the stay window</h3>
+      <p>There is no ticketed MFAC performance at all between Nov 16 and Nov 22 on the official calendar. The next ones are Nov 25 and Nov 29, both after check-out. Only the free Mapo Music Gallery runs during the stay.</p>
+      <div class="srcs"><a href="https://www.mfac.or.kr/performance/whole_list.jsp" target="_blank" rel="noopener">MFAC schedule ↗</a></div>
+    </div><div class="flag">
+      <h3><span class="b low">For information</span> Hotel check-out</h3>
+      <p>Accor's official page states check-in from 15:00 and check-out up to 12:00. Sunday 22 Nov is planned around a 12:00 hard stop.</p>
+      <div class="srcs"><a href="https://all.accor.com/hotel/B696/index.en.shtml" target="_blank" rel="noopener">Accor B696 ↗</a></div>
+    </div></div>
   </section>
 
   <!-- ============ METHOD ============ -->
@@ -108,7 +803,211 @@
       <h3>Line-by-line log</h3>
       <p>Each row below is one check, with what the official page actually printed.</p>
     </div>
-    <div class="tablewrap"><table class="grid" id="logTable"></table></div>
+    <div class="tablewrap"><table class="grid" id="logTable"><thead><tr><th>#</th><th>Item</th><th>Status</th><th>What the official page printed</th><th>Source</th></tr></thead><tbody><tr>
+      <td>1</td>
+      <td><strong>Kings of Convenience — “SJF at the Theater 2026”</strong><br><span class="fine">E1 · Ticketed outings (outside Mapo)</span></td>
+      <td><span class="b confirmed">Confirmed</span></td>
+      <td class="fine">Page prints: Date Nov 18 2026 · Venue Sejong Center · Age 7+ · Time 80 minutes · R/S/A/B prices as listed.</td>
+      <td><a href="https://ticket.yes24.com/English/Perf/59136" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>2</td>
+      <td><strong>Seoul Arts Center — 《The Glass Menagerie》 (유리동물원)</strong><br><span class="fine">E2 · Ticketed outings (outside Mapo)</span></td>
+      <td><span class="b confirmed">Confirmed</span></td>
+      <td class="fine">Page prints: 기간 2026-10-17 ~ 2026-11-22 · 시간 수,목 19:30, 금 14:30/19:30, 토 14:00/19:00, 일 15:00 (*11월 18일(수) 14:30) | 월,화 공연없음 · 장소 CJ 토월극장 · 관람시간 120분 · R 99,000 / S 77,000 / A 55,000 / OP 99,000.</td>
+      <td><a href="https://www.sac.or.kr/site/main/show/show_view?SN=83392" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>3</td>
+      <td><strong>National Gugak Center — 2026 토요명품 (Saturday Masterpieces)</strong><br><span class="fine">E3 · Ticketed outings (outside Mapo)</span></td>
+      <td><span class="b confirmed">Confirmed</span></td>
+      <td class="fine">November 2026 list prints three Saturday dates: Nov 7, Nov 14, Nov 21 — all 15:00, 우면당, A석 30,000원 / B석 20,000원. Nov 21 is the only one inside the stay.</td>
+      <td><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">↗</a> <a href="https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&amp;performance_id=37050" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>4</td>
+      <td><strong>Gugak Museum — English Tour</strong><br><span class="fine">E4 · Ticketed outings (outside Mapo)</span></td>
+      <td><span class="b confirmed">Confirmed</span></td>
+      <td class="fine">November 2026 list prints [Gugak Museum] English Tours on Nov 7, Nov 14, Nov 21, each 14:00, 국악박물관, no price field filled.</td>
+      <td><a href="https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&amp;year=2026&amp;month=11" target="_blank" rel="noopener">↗</a> <a href="https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&amp;performance_id=37733" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>5</td>
+      <td><strong>Bongeunsa — Thursday Temple Life (English)</strong><br><span class="fine">E5 · Ticketed outings (outside Mapo)</span></td>
+      <td><span class="b confirmed">Confirmed</span></td>
+      <td class="fine">Page prints 목요 템플라이프(외국인): 일정 매주 목요일 오후 2시~4시 · 대상 외국인 · 참가비 3만원 · 진행언어 영어 · 오후 1시 50분까지 봉은사 입구 좌측 외국인 안내소.</td>
+      <td><a href="http://temple.bongeunsa.org/public_html/explain/temple_life.asp" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>6</td>
+      <td><strong>Mapo Music Gallery (마포 뮤직 갤러리)</strong><br><span class="fine">E6 · Hongdae core</span></td>
+      <td><span class="b confirmed">Confirmed</span></td>
+      <td class="fine">Schedule prints 마포 뮤직 갤러리(Mapo Music Gallery) · 기간 2026.04.10 ~ 2026.12.31 · 시간 10:00-18:00 · 장소 갤러리맥 · 가격 무료입장.</td>
+      <td><a href="https://www.mfac.or.kr/performance/whole_list.jsp" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>7</td>
+      <td><strong>Indiespace (인디스페이스)</strong><br><span class="fine">H1 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">10:00–20:00, daily, open 365 days a year · Per screening · 8F, 176 Yanghwa-ro, Mapo-gu (Wise Park)</td>
+      <td><a href="https://english.visitseoul.net/entertainment/Indiespace/ENP040673" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>8</td>
+      <td><strong>Kakao Friends Hongdae Flagship</strong><br><span class="fine">H2 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Daily 10:30–22:00, open year round · Free to browse · 162 Yanghwa-ro, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/shopping/Kakao-Friends-Hongdae-Flagship-Store/ENP027304" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>9</td>
+      <td><strong>Trick Eye Museum Seoul</strong><br><span class="fine">H3 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">09:00–22:00, last admission 21:00, open every day of the year (연중무휴) · ⚠️ Not printed on the official site — buy at the door or via the official ticket channel · B2, Seogyo Plaza, 20 Hongik-ro 3-gil, Mapo-gu</td>
+      <td><a href="https://www.trickeye.com/seoul/Visit" target="_blank" rel="noopener">↗</a> <a href="https://www.trickeye.com/seoul/FindUs" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>10</td>
+      <td><strong>KT&amp;G Sangsangmadang Hongdae</strong><br><span class="fine">H4 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:00–21:00, daily, open year round · Free to browse; cinema and live-hall events ticketed separately · 65 Eoulmadang-ro, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>11</td>
+      <td><strong>Gyeongui Line Book Street (경의선책거리)</strong><br><span class="fine">H5 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:00–20:00, break 12:30–13:30. Official listing states: open all year round. · Free · 35 Wausan-ro 37-gil, Mapo-gu — ~250 m of old trackbed from Hongik Univ. Station Exit 6 to Wau Bridge</td>
+      <td><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>12</td>
+      <td><strong>Gyeongui Line Forest Park (경의선숲길 / Yeontral Park)</strong><br><span class="fine">H6 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Open park — no closing time published · Free · 188 Yanghwa-ro, Mapo-gu (Aekyung Tower reference point)</td>
+      <td><a href="https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>13</td>
+      <td><strong>Hongik Cultural Park / “Drawing Village” (홍익문화공원, formerly Hongdae Playground)</strong><br><span class="fine">H7 · Hongdae core</span></td>
+      <td><span class="b recheck">Re-check</span></td>
+      <td class="fine">10:00–18:00 · Tue–Sun · CLOSED MONDAYS · Free admission · 19-3 Wausan-ro 21-gil, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/area/Hongdae-Playground/ENP011070" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>14</td>
+      <td><strong>Hongdae Free Market (홍대앞 예술시장 프리마켓)</strong><br><span class="fine">H8 · Hongdae core</span></td>
+      <td><span class="b recheck">Re-check</span></td>
+      <td class="fine">Historically Saturdays 13:00–18:00, March–November only · Free · Hongik Cultural Park, 19-3 Wausan-ro 21-gil, Mapo-gu</td>
+      <td><a href="http://www.freemarket.or.kr/" target="_blank" rel="noopener">↗</a> <a href="https://english.visitseoul.net/area/Hongdae-Playground/ENP011070" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>15</td>
+      <td><strong>Blue Roof Town Hongdae Branch</strong><br><span class="fine">F1 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:15–22:00, daily, open year-round · Price range printed as ₩30,000 · 1F, 128 Yanghwa-ro, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>16</td>
+      <td><strong>Busanjib Hongdae</strong><br><span class="fine">F2 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:30–22:00 (last order 21:00) · Jjajangmyeon ₩14,000 · LA Galbi ₩38,000 · 2F, 100-6 Eoulmadang-ro, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>17</td>
+      <td><strong>MGM Hongdae Branch</strong><br><span class="fine">F3 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Daily 12:00–00:00 (last order 23:30) · Price range printed as ₩20,000 · 1F, 8 World Cup buk-ro 4-gil, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>18</td>
+      <td><strong>Eongteori Saenggogi Hongdae (엉터리생고기 홍대)</strong><br><span class="fine">F4 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:00–23:00, open all year round · Not printed on the official listing · 118 Eoulmadang-ro, Mapo-gu</td>
+      <td><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>19</td>
+      <td><strong>YANG IN HWAN DAE Hongdae</strong><br><span class="fine">F5 · Hongdae core</span></td>
+      <td><span class="b recheck">Re-check</span></td>
+      <td class="fine">Monday to Friday 16:00–22:00 (last order 21:00). Holidays: none. · French Rack ₩35,000 · Shoulder Rack ₩33,000 · 1F, 86 Wausan-ro 29ga-gil, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>20</td>
+      <td><strong>Chosun Hwaro Gui (조선화로구이)</strong><br><span class="fine">F6 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:30–24:00 · break 15:00–17:00 · last order 23:30 · CLOSED SUNDAYS · Not printed on the official listing · 5 World Cup buk-ro, Mapo-gu (Seogyo-dong)</td>
+      <td><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>21</td>
+      <td><strong>Avelop Hongdae Flagship</strong><br><span class="fine">F7 · Hongdae core</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Mon–Fri 08:00–20:00 · Sat–Sun 11:00–21:00 · Not printed on the official listing · 6 Yanghwa-ro 15an-gil, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/area/Avelop/ENP22oa3h" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>22</td>
+      <td><strong>Antique Coffee Yeonnam Branch</strong><br><span class="fine">Y1 · Yeonnam-dong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Daily 10:00–22:00 · Not printed on the official listing · 1F, 25-1 Yeonhui-ro, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>23</td>
+      <td><strong>Jincheongyujeom (진천유점)</strong><br><span class="fine">Y2 · Yeonnam-dong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:30–22:00, daily · weekday break 15:30–17:00 · Perilla Oil Makguksu ₩10,500 · Seasonal Bibimbap ₩13,000 · Gangdoenjang Ssambap ₩14,000 · Beef Tartare Gamtae Gimbap ₩16,000 · Grilled Mackerel &amp; Bracken Risotto ₩16,000 · 27 Donggyo-ro 46-gil, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>24</td>
+      <td><strong>Parole &amp; Langue</strong><br><span class="fine">Y3 · Yeonnam-dong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">13:00–21:00 · CLOSED EVERY MONDAY · Not printed on the official listing · 8 Seongmisan-ro 29an-gil, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/Parole-Langue/ENP0p4bkd" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>25</td>
+      <td><strong>Café Layered Yeonnam</strong><br><span class="fine">Y4 · Yeonnam-dong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Daily 10:00–22:00 · Not printed on the official listing · 223-20 Yeonnam-dong, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/Caf%C3%A9%20Layered%20Yeonnam_/48856" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>26</td>
+      <td><strong>Korean Catholic Martyrs' Museum, Jeoldusan Martyrs' Shrine</strong><br><span class="fine">S1 · Sangsu / Hapjeong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Museum daily 09:30–17:00 · CLOSED MONDAYS. The shrine grounds themselves are open. · Free (groups of 10+ must book two weeks ahead) · Jeoldusan, Hapjeong-dong, Mapo-gu (riverside cliff above the Han)</td>
+      <td><a href="https://english.visitseoul.net/attractions/Korean-Catholic-Martyrs%E2%80%99-Museum_/29433" target="_blank" rel="noopener">↗</a> <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=107565" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>27</td>
+      <td><strong>Masichaina (맛이차이나)</strong><br><span class="fine">S2 · Sangsu / Hapjeong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Mon–Sun 11:30–22:00 · break 16:00–17:00 · open all year round · Not printed on the official listing (set menus A/B/C) · 68 Dongmak-ro, Mapo-gu (Sangsu / Hapjeong)</td>
+      <td><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66922" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>28</td>
+      <td><strong>Seogang Kkeopdegi (서강껍데기)</strong><br><span class="fine">S3 · Sangsu / Hapjeong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">16:00–03:30 (next day) · open year round · Not printed on the official listing · 36 World Cup-ro, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/Seogang-Kkeopdegi/ENP012289" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>29</td>
+      <td><strong>Jamdubong The Nine</strong><br><span class="fine">S4 · Sangsu / Hapjeong</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Daily 12:00–22:00 · Not printed on the official listing · 352-6 Hapjeong-dong, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/the9bongbong/ENPuv9y9f" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>30</td>
+      <td><strong>Hyeongje Galbi (형제갈비)</strong><br><span class="fine">N1 · Sinchon</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Daily 11:00–22:00 · closed Seollal &amp; Chuseok only · Not printed on the official listing · 2 Myeongmul 1-gil, Seodaemun-gu</td>
+      <td><a href="https://english.visitseoul.net/restaurants/Hyeongje-Galbi/ENP011643" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>31</td>
+      <td><strong>Cochon Tonkatsu</strong><br><span class="fine">N2 · Sinchon</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">11:00–19:00 · break 16:00–17:00 · Tonkatsu ₩4,000 · True Cochon tonkatsu ₩6,000 · Real Cochon tonkatsu ₩8,000 · 2 Myeongmul 1-gil, Seodaemun-gu — same address block as Hyeongje Galbi</td>
+      <td><a href="https://english.visitseoul.net/restaurants/CochonTonkatsu/ENPf7618z" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>32</td>
+      <td><strong>Oil Tank Culture Park (문화비축기지)</strong><br><span class="fine">W1 · World Cup Park / Sangam</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Park open 24 hours · Tanks T1–T6 10:00–18:00 · Café Tank6 10:00–19:00. Exhibition halls and Café Tank6 closed Mondays. · Free · 87 Jeungsan-ro, Mapo-gu</td>
+      <td><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=62572" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>33</td>
+      <td><strong>Seoul World Cup Stadium Tour</strong><br><span class="fine">W2 · World Cup Park / Sangam</span></td>
+      <td><span class="b verified">Verified</span></td>
+      <td class="fine">Four tours per day: 09:00 · 11:00 · 14:00 · 16:00. About 1 hour each. Closed Mondays, national holidays, Labour Day and match days. · ₩1,000 adults · ₩500 for under-18s, 65+, disabled visitors and national-merit holders · 30% group discount (10+) · 240 World Cup-ro, Mapo-gu</td>
+      <td><a href="https://www.sisul.or.kr/open_content/worldcup/guidance/course.jsp" target="_blank" rel="noopener">↗</a> <a href="https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251229135612718733" target="_blank" rel="noopener">↗</a> <a href="https://english.visitseoul.net/entertainment/Seoul-World-Cup-Stadium/ENP002101" target="_blank" rel="noopener">↗</a></td>
+    </tr><tr>
+      <td>34</td>
+      <td><strong>Mangwon Market (망원시장)</strong><br><span class="fine">W3 · World Cup Park / Sangam</span></td>
+      <td><span class="b recheck">Re-check</span></td>
+      <td class="fine">Daily 10:00–21:00, varies by store (Visit Seoul market page) · Free to walk · 27 Poeun-ro 6-gil, Mapo-gu</td>
+      <td><a href="https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950" target="_blank" rel="noopener">↗</a> <a href="https://english.visitseoul.net/tours/Munch-and-Chew-Taste-and-Enjoy-Korean-Traditional-Markets/ENN032105" target="_blank" rel="noopener">↗</a></td>
+    </tr></tbody></table></div>
     <div class="card note">
       <h3>Source repositories</h3>
       <ul class="links">
@@ -124,11 +1023,12 @@
 
 <footer>
   <div class="wrap">
-    <p><strong>HongdaeStay</strong> · verification pass dated <span id="vdate"></span> · every claim on this page links to the official page it came from.</p>
+    <p><strong>HongdaeStay</strong> · verification pass dated <span id="vdate">2026-09-01</span> · every claim on this page links to the official page it came from.</p>
   </div>
 </footer>
 
 <script src="data.js"></script>
 <script src="app.js"></script>
-</body>
-</html>
+
+
+</body></html>

@@ -119,3 +119,18 @@ These supplied the candidate list only. Each candidate was re-opened at its offi
 | `itineraries.md` | Generated master list, day by day |
 | `docs/` | Mirror of the site files |
 
+
+## Building the site
+
+The page is data-driven (`data.js` + `app.js`) but is **pre-rendered** so it is
+never blank if JavaScript fails or is disabled.
+
+```bash
+npm install jsdom
+node build.js
+```
+
+`build.js` runs `data.js` and `app.js` in jsdom, writes the fully rendered
+markup into `index.html`, mirrors the site into `docs/`, and **fails the build**
+if any content region renders empty. Edit `index.template.html` (structure) or
+`data.js` (content) — never `index.html` directly, it is generated.
