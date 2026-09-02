@@ -50,13 +50,13 @@ window.HS = (function () {
     {
       id: "E2", status: "confirmed", cluster: "away",
       name: "Seoul Arts Center — 《The Glass Menagerie》 (유리동물원)",
-      when: "In-window performances: Wed 18 Nov 14:30 · Thu 19 Nov 19:30 · Fri 20 Nov 14:30 & 19:30 · Sat 21 Nov 14:00 & 19:00 · Sun 22 Nov 15:00",
+      when: "In-window performances: Wed 18 Nov 14:30 & 19:30 · Thu 19 Nov 19:30 · Fri 20 Nov 14:30 & 19:30 · Sat 21 Nov 14:00 & 19:00 · Sun 22 Nov 15:00",
       detail: "CJ Towol Theater, Seoul Arts Center (Seocho). Run 2026-10-17 → 2026-11-22. Korean language. 120 minutes. Elementary-school age and above. No Monday/Tuesday performances.",
       price: "R ₩99,000 / S ₩77,000 / A ₩55,000 / OP ₩99,000",
       transit: "Seocho. Single-destination outing; ~45–55 min each way from Hongdae.",
       src: [["Seoul Arts Center official production page (SN=83392)", "https://www.sac.or.kr/site/main/show/show_view?SN=83392"]],
       verifiedOn: "2026-09-01",
-      readsAs: "Page prints: 기간 2026-10-17 ~ 2026-11-22 · 시간 수,목 19:30, 금 14:30/19:30, 토 14:00/19:00, 일 15:00 (*11월 18일(수) 14:30) | 월,화 공연없음 · 장소 CJ 토월극장 · 관람시간 120분 · R 99,000 / S 77,000 / A 55,000 / OP 99,000."
+      readsAs: "Page prints: 기간 2026-10-17 ~ 2026-11-22 · 시간 수,목 19:30, 금 14:30/19:30, 토 14:00/19:00, 일 15:00 (*11월 18일(수) 14:30) | 월,화 공연없음 · 장소 CJ 토월극장 · 관람시간 120분 · R 99,000 / S 77,000 / A 55,000 / OP 99,000. NOTE (re-check 2026-09-02): the printed weekday pattern means Wed 18 Nov has BOTH the regular 19:30 slot AND the added 14:30 matinee — the first pass had listed only the matinee.",
     },
     {
       id: "E3", status: "confirmed", cluster: "away",
@@ -147,7 +147,8 @@ window.HS = (function () {
         ["Trickeye official — opening hours page", "https://www.trickeye.com/seoul/Visit"],
         ["Trickeye official — directions page", "https://www.trickeye.com/seoul/FindUs"]
       ],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02",
+      flag: "Re-check 2026-09-02: the directions page loaded and re-confirmed the address (Seogyo Plaza B2, 20 Hongik-ro 3-gil) and the Exit-9 walking route. The hours page sat behind a bot check on both days; the 09:00–22:00 / last admission 21:00 / open year-round figures were read from that official hours page during the first pass (2026-09-01). Worth a final look at the door."
     },
     {
       id: "H4", status: "verified", cluster: "core", type: "Culture",
@@ -158,8 +159,8 @@ window.HS = (function () {
       price: "Free to browse; cinema and live-hall events ticketed separately",
       note: "Seven-floor culture complex: design shop, gallery, art-house cinema, basement live hall.",
       src: [["Visit Seoul — KT&G Sangsang Madang (ENP024561)", "https://english.visitseoul.net/area/KT-G-Sangsang-Madang-en/ENP024561"]],
-      verifiedOn: "2026-09-01",
-      flag: "The Visit Seoul detail page returned HTTP 500 on direct fetch during the pass; hours/address above were read from the same official page as served in search. Confirm at the door."
+      verifiedOn: "2026-09-02",
+      flag: "First pass (2026-09-01): the page returned HTTP 500 on direct fetch and hours were read via search. Re-check 2026-09-02: page loaded normally and printed the same hours (11:00 a.m.–9:00 p.m., daily, open year-round) and address (65 Eoulmadang-ro; Hapjeong Exit 3, 760 m). Flag downgraded — no action needed."
     },
     {
       id: "H5", status: "verified", cluster: "core", type: "Walk",
@@ -209,7 +210,7 @@ window.HS = (function () {
         ["Visit Seoul — Hongik Cultural Park, the venue", "https://english.visitseoul.net/area/Hongdae-Playground/ENP011070"]
       ],
       verifiedOn: "2026-09-01",
-      flag: "NOT CONFIRMED FOR NOV 2026 — DO NOT PLAN AROUND IT. The organiser's own domain no longer resolves to the market, the venue has been rebranded, and TripAdvisor's listing carries a “reported permanently closed” notice. Sat 21 Nov is left as a walk-past, never as the anchor of a day."
+      flag: "NOT CONFIRMED FOR NOV 2026 — DO NOT PLAN AROUND IT. The organiser's own domain no longer resolves to the market, the venue has been rebranded, and TripAdvisor's listing carries a “reported permanently closed” notice. Re-checked 2026-09-02: freemarket.or.kr still serves only a parked/blocked page, so nothing has changed. Sat 21 Nov is left as a walk-past, never as the anchor of a day."
     },
     /* ---- HONGDAE CORE — FOOD ---- */
     {
@@ -291,6 +292,39 @@ window.HS = (function () {
       src: [["Visit Seoul — Avelop Hongdae Flagship (ENP22oa3h)", "https://english.visitseoul.net/area/Avelop/ENP22oa3h"]],
       verifiedOn: "2026-09-01"
     },
+    {
+      id: "C1", status: "verified", cluster: "core", type: "Flower café",
+      name: "Colline",
+      addr: "45 Eulmadang-ro, Mapo-gu",
+      walk: "Hongdae core — on the Eoulmadang-ro block, ~10–15 min walk from the hotel (official page: Sangsu Station Exit 1, 392 m)",
+      hours: "Sun–Thu 10:30–23:00 · Fri–Sat 10:30–24:00 · daily",
+      price: "Price range printed as ₩10,000",
+      note: "Café and flower shop run as one; signature is the cotton-latte (latte topped with giant cotton candy). Open late every day of the stay.",
+      src: [["Visit Seoul — Colline (ENP040675)", "https://english.visitseoul.net/restaurants/Colline/ENP040675"]],
+      verifiedOn: "2026-09-02"
+    },
+    {
+      id: "C2", status: "verified", cluster: "core", type: "French dessert",
+      name: "FLAN",
+      addr: "Room 102, 9-8 Wausan-ro 11-gil, Mapo-gu",
+      walk: "Sangsu Station Exit 1, 163 m (official); ~15 min walk from the hotel",
+      hours: "11:00–21:00, daily · CLOSED the first Monday of every month (Nov 2026: Mon 2 Nov — outside the stay)",
+      price: "Flan ₩4,100 · Sablé Breton ₩2,200 · Vanilla Milk ₩3,600 · Seasonal flan from ₩4,000",
+      note: "French flan specialist in the Sangsu side-streets. Open the whole stay — the monthly closure falls on Mon 2 Nov, before check-in.",
+      src: [["Visit Seoul — FLAN (ENPjns5q9)", "https://english.visitseoul.net/restaurants/FLAN/ENPjns5q9"]],
+      verifiedOn: "2026-09-02"
+    },
+    {
+      id: "C3", status: "verified", cluster: "core", type: "Dessert & coffee pairing",
+      name: "Imi Coffee",
+      addr: "1F, 7 Donggyo-ro 25-gil, Mapo-gu",
+      walk: "Hongik Univ. Station Exit 1, 242 m (official) — in the core",
+      hours: "12:00–21:00 (last order 20:30) · CLOSED TUESDAYS (operating days Wed–Mon)",
+      price: "Not printed on the official listing",
+      note: "You pick the dessert, the roaster matches the coffee. The official page says reservations are essential — no phone is printed; use Instagram @imi.coffee.",
+      src: [["Visit Seoul — Imi Coffee (46418)", "https://english.visitseoul.net/restaurants/2024-imicoffee_/46418"]],
+      verifiedOn: "2026-09-02"
+    },
     /* ---- YEONNAM ---- */
     {
       id: "Y1", status: "verified", cluster: "yeonnam", type: "Café",
@@ -344,7 +378,7 @@ window.HS = (function () {
       addr: "Jeoldusan, Hapjeong-dong, Mapo-gu (riverside cliff above the Han)",
       walk: "Hapjeong Station — one stop from Hongik Univ. on Line 2, or a 20–25 min riverside walk",
       hours: "Museum daily 09:30–17:00 · CLOSED MONDAYS. The shrine grounds themselves are open.",
-      price: "Free (groups of 10+ must book two weeks ahead)",
+      price: "No fee printed on the official Visit Seoul listing; the shrine's own page (CBCK, per the KoreaFun repo's 2026-08-19 review) records a voluntary offering. Groups of 10+ must book two weeks ahead.",
       note: "Quiet, sober site over the river. The single best low-energy morning in the Hapjeong cluster.",
       src: [
         ["Visit Seoul — Korean Catholic Martyrs' Museum (29433)", "https://english.visitseoul.net/attractions/Korean-Catholic-Martyrs%E2%80%99-Museum_/29433"],
@@ -409,6 +443,28 @@ window.HS = (function () {
       src: [["Visit Seoul — Cochon Tonkatsu (ENPf7618z)", "https://english.visitseoul.net/restaurants/CochonTonkatsu/ENPf7618z"]],
       verifiedOn: "2026-09-01"
     },
+    {
+      id: "N3", status: "verified", cluster: "sinchon", type: "Bingsu (shaved ice)",
+      name: "Homilbat",
+      addr: "43 Sinchonnyeok-ro, Seodaemun-gu",
+      walk: "Sinchon Station Exit 1, 230 m (official) — between Ewha and Sinchon",
+      hours: "Daily 12:00–22:00 (last order 21:30)",
+      price: "Not printed on the official listing (the page stresses affordable prices)",
+      note: "Ten-year bingsu shop; signature is soft milk bingsu topped with fresh red beans and rice cakes, with free refills of the topping. The natural dessert stop on any Sinchon day.",
+      src: [["Visit Seoul — Homilbat (ENPpteyc2)", "https://english.visitseoul.net/restaurants/2024-homilbat/ENPpteyc2"]],
+      verifiedOn: "2026-09-02"
+    },
+    {
+      id: "N4", status: "verified", cluster: "sinchon", type: "Pork cutlet",
+      name: "MBRO Donkkaseu (엠브로돈까스)",
+      addr: "26 Myeongmul-gil, Seodaemun-gu — Myeongmul Street, the Sinchon shopping street",
+      walk: "Sinchon; the verified neighbours Hyeongje Galbi (N1) and Cochon Tonkatsu (N2) sit at 2 Myeongmul 1-gil, Sinchon Station Exit 3, 261 m per their official pages",
+      hours: "11:30–21:30 (break 15:30–17:00, last order 21:00) · no closing day printed",
+      price: "Not printed on the official listing",
+      note: "Japanese-style pork cutlet house; the printed mains are pork cutlet and spicy chewy noodles. The lunch alternative in the Sinchon cluster.",
+      src: [["VisitKorea — MBRO Donkkaseu (vcontsId 59341)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=59341"]],
+      verifiedOn: "2026-09-02"
+    },
     /* ---- SANGAM / WORLD CUP PARK ---- */
     {
       id: "W1", status: "verified", cluster: "sangam", type: "Park / architecture",
@@ -419,8 +475,8 @@ window.HS = (function () {
       price: "Free",
       note: "Six decommissioned oil tanks from 1976 turned into performance, exhibition and community spaces; opened to the public in 2017.",
       src: [["VisitKorea — Oil Tank Culture Park (vcontsId 62572)", "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=62572"]],
-      verifiedOn: "2026-09-01",
-      flag: "Exhibition halls closed Mondays — never scheduled for Mon 16 Nov."
+      verifiedOn: "2026-09-02",
+      flag: "Exhibition halls and Café Tank6 closed Mondays — never scheduled for Mon 16 Nov. Re-check 2026-09-02: the official KTO listing above still prints park 24 h / tanks 10:00–18:00 / café 10:00–19:00 and free entry. CAUTION: the KoreaFun repo's 2026-08-19 review reported that since April 2025 the T1–T6 interiors are a licensed-use facility (walk-in access restricted; docent space tour Tue/Thu/Fri/Sat 10:00 & 15:00), citing the city's parks.seoul.go.kr page — that city URL now returns 404, so treat interior access as “confirm at the door”. Itineraries only rely on the outdoor park, Café Tank6 and the documented Monday closure."
     },
     {
       id: "W2", status: "verified", cluster: "sangam", type: "Tour",
@@ -450,8 +506,44 @@ window.HS = (function () {
         ["Visit Seoul — Mangwon Market (ENP037950)", "https://english.visitseoul.net/shopping/Mangwon-Market/ENP037950"],
         ["Visit Seoul — traditional markets feature (ENN032105)", "https://english.visitseoul.net/tours/Munch-and-Chew-Taste-and-Enjoy-Korean-Traditional-Markets/ENN032105"]
       ],
-      verifiedOn: "2026-09-01",
-      flag: "TWO OFFICIAL PAGES DISAGREE. The Mangwon Market listing says daily 10:00–21:00; Visit Seoul's own markets feature says 09:00–22:00 closed Tuesdays and Sundays. Itineraries only place it on a Wednesday–Saturday, and never as the only thing planned."
+      verifiedOn: "2026-09-02",
+      flag: "TWO OFFICIAL PAGES DISAGREE. The Mangwon Market listing (edited May 2026) says daily 10:00–21:00 varies by store; Visit Seoul's own markets feature (edited 2019) says 09:00–22:00 closed Tuesdays and Sundays. Re-checked both pages 2026-09-02 — the conflict still stands, so itineraries only place the market on a Wednesday–Saturday, and never as the only thing planned."
+    },
+    {
+      id: "W4", status: "verified", cluster: "sangam", type: "Book café",
+      name: "Cafe Gongmyung Mangwon Book Bakery",
+      addr: "22-3 World Cup-ro 13-gil, Mapo-gu",
+      walk: "Mangwon Station Exit 2, 152 m (official) — inside the Mangwon cluster, a short walk from the market",
+      hours: "Daily 10:00–22:00",
+      price: "Not printed on the official listing",
+      note: "Largest book café in Mangwon-dong; bakery goods baked each morning, rooftop and terrace. The natural long-stop on the Mangwon market side of the World Cup Park day.",
+      src: [["Visit Seoul — Cafe Gongmyung Mangwon Book Bakery (ENPbg0u5h)", "https://english.visitseoul.net/restaurants/GongMyoung/ENPbg0u5h"]],
+      verifiedOn: "2026-09-02"
+    },
+    {
+      id: "W5", status: "verified", cluster: "sangam", type: "Grilled pork ribs",
+      name: "Seongsan Wanggalbi",
+      addr: "233 World Cup buk-ro, Mapo-gu",
+      walk: "World Cup Stadium Station (Seongsan) Exit 2, 435 m (official) — the lunch option for the stadium-cluster day",
+      hours: "12:00–15:00 · 17:00–21:00 · open all year round",
+      price: "Not printed on the official listing",
+      note: "Fresh pork short ribs (saeng dwaeji galbi) with gyeranjjim and doenjang jjigae as printed accompaniments. Sits between the stadium and the oil tanks, so the cluster day needs no further travel for lunch.",
+      src: [["Visit Seoul — Seongsan Wanggalbi (ENP014893)", "https://english.visitseoul.net/restaurants/Seongsan-Wanggalbi/ENP014893"]],
+      verifiedOn: "2026-09-02"
+    },
+    {
+      id: "W6", status: "verified", cluster: "sangam", type: "Museum / ship park",
+      name: "Seoul Battleship Park (서울함공원)",
+      addr: "407 Mapo-naru-gil, Mangwon Hangang Park, Mapo-gu",
+      walk: "Line 6 Mangwon Station Exit 1 → Mapo 09 bus → “Hangang Park entrance” stop, 7 min on foot (official); or Hapjeong Station Exit 1 → Mapo 16 bus, 7 min on foot",
+      hours: "Winter (Nov–Feb): Tue–Fri 10:00–18:00, Sat–Sun 10:00–18:00. Closed Mondays, Jan 1, Seollal & Chuseok day. Free docent tour weekends & holidays: 13:00 / 15:00 in winter.",
+      price: "₩3,000 adult (19+) · ₩2,000 teen (13–18) & military · ₩1,000 child (6–12); groups 20+ get 30% off; 50% off for 65+, disabled, national-merit holders",
+      note: "Walk-through decommissioned naval park: the 1,900-ton frigate ROKS Seoul, a 150-ton patrol boat and a 175-ton Dolphin-class submarine, plus a rooftop library. The submarine is a genuine squeeze. November is winter hours, and Saturday 21 Nov has free docent tours at 13:00 and 15:00.",
+      src: [
+        ["Seoul Future Hangang Office — Seoul Battleship Park (official hours, fares, docent times)", "https://hangang.seoul.go.kr/www/contents/803.do?mid=527"],
+        ["Seoul Battleship Park official site", "https://seoulbattleshippark.com/"]
+      ],
+      verifiedOn: "2026-09-02"
     }
   ];
 
@@ -462,7 +554,8 @@ window.HS = (function () {
     { name: "National Gugak Center 토요명품 on Nov 7 and Nov 14", why: "Both Saturdays fall before check-in. Only Nov 21 is inside the stay.", src: ["https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11"] },
     { name: "Gugak Museum English Tour on Nov 7 and Nov 14", why: "Before check-in. Only Nov 21 is inside the stay.", src: ["https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11"] },
     { name: "Mapo Art Center — everything else in the Nov 2026 calendar", why: "The official schedule shows no ticketed MFAC performance at all between Nov 16 and Nov 22. Only the free Mapo Music Gallery is running.", src: ["https://www.mfac.or.kr/performance/whole_list.jsp"] },
-    { name: "Hongdae Free Market as a planned activity", why: "Organiser domain no longer serves the market; venue rebranded; no 2026 season calendar on any official page. Downgraded to “walk past and see”.", src: ["http://www.freemarket.or.kr/"] }
+    { name: "Hongdae Free Market as a planned activity", why: "Organiser domain no longer serves the market; venue rebranded; no 2026 season calendar on any official page. Downgraded to “walk past and see”.", src: ["http://www.freemarket.or.kr/"] },
+    { name: "Regallily “Dawn” Asia Tour — KT&G Sangsangmadang Hongdae Live Hall", why: "Sat 7 Nov 2026 — nine days before check-in. The only dated Hongdae-concert candidate that was found, and it is outside the stay.", src: ["https://github.com/karagemop466-tech/KoreaFun"] }
   ];
 
   /* ---------------- ITINERARIES ---------------- */
@@ -808,6 +901,249 @@ window.HS = (function () {
             ["12:00", "Check out", null]
           ] }
       ]
+    },
+    {
+      id: "I7",
+      name: "Sinchon & the Student Quarter",
+      tagline: "Two one-stop cluster days in Sinchon, four walkable days at home.",
+      best: "Travellers who want the other side of the station — student streets, cutlet shops and bingsu — without a long commute.",
+      transitDays: 2,
+      summary: "Sinchon is one stop east on Line 2 (or a 20-minute walk), and both verified sit-downs sit on the same street block off Sinchon Station Exit 3, so each Sinchon day is really one destination with a lunch and a dinner at the same address. The in-between days stay entirely in the Hongdae core and Yeonnam.",
+      days: [
+        { date: "Mon 16 Nov", pace: "relax", title: "Arrive",
+          items: [
+            ["15:00", "Check in", null],
+            ["16:30", "Kakao Friends Hongdae Flagship — 51 m from the exit, open to 22:00", "H2"],
+            ["18:00", "Dinner: Busanjib Hongdae (11:30–22:00)", "F2"]
+          ] },
+        { date: "Tue 17 Nov", pace: "relax", title: "Yeonnam warm-up",
+          items: [
+            ["10:30", "Antique Coffee Yeonnam — opens 10:00", "Y1"],
+            ["12:30", "Walk the forest park, Yeonnam stretch", "H6"],
+            ["15:30", "FLAN, Sangsu side-streets — 11:00–21:00, open the whole stay", "C2"],
+            ["18:30", "Dinner: Eongteori Saenggogi (all-you-can-eat, 11:00–23:00)", "F4"]
+          ] },
+        { date: "Wed 18 Nov", pace: "moderate", title: "Full Sinchon day",
+          items: [
+            ["11:30", "One stop to Sinchon; lunch at MBRO Donkkaseu — opens 11:30 (break 15:30–17:00)", "N4"],
+            ["14:00", "Myeongmul Street and Sinchon student shops on foot", null],
+            ["18:30", "Dinner: Hyeongje Galbi — 20 m from MBRO per the official nearby list, daily 11:00–22:00", "N1"],
+            ["21:00", "One stop back to Hongdae", null]
+          ],
+          note: "Both restaurants sit on the same street block (2 Myeongmul 1-gil / Myeongmul-gil, Sinchon Stn Exit 3, 261 m per the official pages) — zero travel between lunch and dinner." },
+        { date: "Thu 19 Nov", pace: "relax", title: "Pie and a film",
+          items: [
+            ["13:00", "Parole & Langue — opens 13:00, closed Mondays but open today", "Y3"],
+            ["16:00", "Café Layered Yeonnam — 120 m away per the official nearby list", "Y4"],
+            ["18:30", "Indiespace — 80 m from Exit 8, screens to 20:00", "H1"],
+            ["20:00", "Late dinner: MGM Hongdae (last order 23:30)", "F3"]
+          ] },
+        { date: "Fri 20 Nov", pace: "moderate", title: "Sinchon snacks, Hongdae night",
+          items: [
+            ["12:00", "One stop to Sinchon; Cochon Tonkatsu — ₩4,000–8,000, closes 19:00 with a 16:00 break", "N2"],
+            ["14:00", "Homilbat milk bingsu — daily 12:00–22:00, Exit 1, 230 m", "N3"],
+            ["16:30", "Back to Hongdae (one stop, or ~20 min walk)", null],
+            ["18:00", "Dinner: Chosun Hwaro Gui — after its 15:00–17:00 break, closed Sundays", "F6"]
+          ] },
+        { date: "Sat 21 Nov", pace: "moderate", title: "Saturday in the core",
+          items: [
+            ["11:00", "Avelop (Sat opens 11:00) — 468 m from the hotel", "F7"],
+            ["12:30", "Hongik Cultural Park / Drawing Village — open Tue–Sun 10:00–18:00", "H7"],
+            ["15:30", "Trick Eye Museum — open to 22:00, last admission 21:00", "H3"],
+            ["19:00", "Dinner: Blue Roof Town (11:15–22:00)", "F1"]
+          ] },
+        { date: "Sun 22 Nov", pace: "relax", title: "Check out",
+          items: [
+            ["08:30", "Hotel breakfast — last entry 09:30", null],
+            ["10:00", "Final forest park walk", "H6"],
+            ["12:00", "Check out", null]
+          ] }
+      ]
+    },
+    {
+      id: "I8",
+      name: "Sangam Deep — Stadium, Ships & Market",
+      tagline: "Two cluster days out west: the World Cup Park day and the Mangwon market day.",
+      best: "Travellers who want the landmarks of Mapo — stadium, oil tanks, warships, market — with everything else on foot.",
+      transitDays: 2,
+      summary: "Only two days leave the walking radius, and each is a single cluster with no backtracking: Tuesday takes the World Cup Stadium → Oil Tank Park → Seongsan lunch → Battleship Park line in one sweep, and Saturday does Mangwon Market → book café → Drawing Village. The other five days are Hongdae, Yeonnam and the Sangsu/Hapjeong walking strip.",
+      days: [
+        { date: "Mon 16 Nov", pace: "relax", title: "Arrive",
+          items: [
+            ["15:00", "Check in", null],
+            ["17:00", "Dinner: Blue Roof Town — 271 m from the hotel", "F1"],
+            ["19:30", "Kakao Friends flagship, open to 22:00", "H2"]
+          ] },
+        { date: "Tue 17 Nov", pace: "busy", title: "World Cup Park cluster day",
+          items: [
+            ["09:00", "Line 6 to World Cup Stadium Station", null],
+            ["09:00", "Stadium Tour, session 1 of 09:00/11:00/14:00/16:00 — RESERVE IN ADVANCE, no walk-up sales (₩1,000)", "W2"],
+            ["10:30", "Oil Tank Culture Park, outdoor grounds — park is 24 h, free; tank-interior access: confirm at the door", "W1"],
+            ["12:00", "Lunch: Seongsan Wanggalbi — 12:00–15:00 session, 435 m from the stadium station exit", "W5"],
+            ["15:00", "One stop to Mangwon; Seoul Battleship Park — winter hours Tue–Sun 10:00–18:00, ₩3,000 adult, bus + 7 min walk from Exit 1", "W6"],
+            ["17:30", "Line 6 back to Hongdae (park closes 18:00 — board by 17:30)", null],
+            ["19:30", "Dinner: MGM Hongdae (12:00–00:00, last order 23:30)", "F3"]
+          ],
+          note: "Every stop today is inside the World Cup Park / Mangwon cluster — the only transit is the round trip in and out. Mangwon Market is deliberately NOT on this Tuesday: one official page says the market closes Tuesdays, so it goes on Saturday instead." },
+        { date: "Wed 18 Nov", pace: "relax", title: "Recovery in the core",
+          items: [
+            ["11:00", "KT&G Sangsangmadang — opens 11:00, design shop and gallery floors", "H4"],
+            ["13:00", "Lunch: Busanjib Hongdae", "F2"],
+            ["16:00", "Gyeongui Line Book Street and forest park (11:00–20:00, break 12:30–13:30)", "H5"],
+            ["19:00", "Dinner: Chosun Hwaro Gui — after the 15:00–17:00 break", "F6"]
+          ] },
+        { date: "Thu 19 Nov", pace: "relax", title: "Yeonnam recovery",
+          items: [
+            ["10:30", "Antique Coffee Yeonnam", "Y1"],
+            ["12:30", "Lunch: Jincheongyujeom — before the 15:30 weekday break", "Y2"],
+            ["15:00", "Forest park walk", "H6"],
+            ["18:00", "Dinner: YANG IN HWAN DAE — weekday hours 16:00–22:00", "F5"]
+          ] },
+        { date: "Fri 20 Nov", pace: "moderate", title: "Sangsu → Hapjeong walking strip",
+          items: [
+            ["11:00", "FLAN — 163 m from Sangsu Station Exit 1, opens 11:00", "C2"],
+            ["12:30", "Lunch: Masichaina — 15-min walk, before the 16:00 break", "S2"],
+            ["15:00", "Colline flower café — 392 m from Sangsu Exit 1, open to 23:00", "C1"],
+            ["18:00", "Dinner: Seogang Kkeopdegi — Hapjeong Exit 9, 311 m; opens 16:00, runs to 03:30", "S3"]
+          ],
+          note: "One continuous strip south of the core — the cluster note covers it as a 15–25 min walk along Wausan-ro / Yanghwa-ro. No subway needed." },
+        { date: "Sat 21 Nov", pace: "busy", title: "Mangwon market + book café + Drawing Village",
+          items: [
+            ["10:30", "Line 6 to Mangwon", null],
+            ["11:00", "Mangwon Market — open Saturdays under BOTH official pages", "W3"],
+            ["13:00", "Cafe Gongmyung Mangwon Book Bakery — 152 m from Mangwon Exit 2, daily 10:00–22:00", "W4"],
+            ["15:00", "Line 6 back to Hongik Univ.", null],
+            ["15:30", "Hongik Cultural Park / Drawing Village — open to 18:00", "H7"],
+            ["19:00", "Dinner: Blue Roof Town", "F1"]
+          ] },
+        { date: "Sun 22 Nov", pace: "relax", title: "Check out",
+          items: [
+            ["08:30", "Breakfast — last entry 09:30", null],
+            ["10:00", "Final forest park walk", "H6"],
+            ["12:00", "Check out", null]
+          ] }
+      ]
+    },
+    {
+      id: "I9",
+      name: "Cafés & Desserts",
+      tagline: "A pastry-first week: pies, bingsu, flan and a bingsu hop in Sinchon.",
+      best: "Two travellers whose plan is coffee, cake and one bingsu at a time.",
+      transitDays: 1,
+      summary: "Built around the eight verified cafés and dessert spots: six walkable from the hotel (Avelop, Colline, FLAN, Imi Coffee, Antique Coffee, Parole & Langue, Café Layered) plus the Sinchon hop, where Homilbat's milk bingsu and MBRO's cutlet sit on the same street block. Every day ends at a verified table.",
+      days: [
+        { date: "Mon 16 Nov", pace: "relax", title: "Arrive & bake",
+          items: [
+            ["15:00", "Check in", null],
+            ["16:00", "Avelop — weekday hours 08:00–20:00, 468 m from the hotel", "F7"],
+            ["18:00", "Dinner: Busanjib Hongdae", "F2"]
+          ] },
+        { date: "Tue 17 Nov", pace: "relax", title: "Yeonnam dessert trail",
+          items: [
+            ["10:00", "Antique Coffee Yeonnam — opens 10:00, Dirty & Cream on the printed menu", "Y1"],
+            ["13:00", "Lunch: Jincheongyujeom — before the 15:30 weekday break", "Y2"],
+            ["15:30", "Colline — cotton latte, open Sun–Thu 10:30–23:00", "C1"],
+            ["17:30", "FLAN — flan ₩4,100, until 21:00", "C2"],
+            ["19:30", "Dinner: Eongteori Saenggogi", "F4"]
+          ] },
+        { date: "Wed 18 Nov", pace: "moderate", title: "Paired desserts & pies",
+          items: [
+            ["11:00", "Gyeongui Line Book Street — opens 11:00", "H5"],
+            ["12:30", "Imi Coffee — pick the dessert, the roaster matches the coffee; CLOSED TUESDAYS, open today; reservation essential", "C3"],
+            ["15:00", "Parole & Langue — signature square pies, opens 13:00", "Y3"],
+            ["17:00", "Café Layered Yeonnam — 10:00–22:00", "Y4"],
+            ["19:30", "Dinner: Chosun Hwaro Gui — after the 15:00–17:00 break", "F6"]
+          ] },
+        { date: "Thu 19 Nov", pace: "moderate", title: "Sinchon dessert hop",
+          items: [
+            ["12:00", "One stop to Sinchon; Homilbat — milk bingsu with free red-bean refills, daily 12:00–22:00", "N3"],
+            ["14:00", "Lunch: MBRO Donkkaseu — 11:30–21:30, before the 15:30 break; same street block", "N4"],
+            ["16:30", "Walk back to Hongdae", null],
+            ["18:00", "KT&G Sangsangmadang — design shop and gallery floors, open to 21:00", "H4"],
+            ["20:00", "Dinner: MGM Hongdae (last order 23:30)", "F3"]
+          ],
+          note: "The only transit day — one stop each way, one street block for both stops." },
+        { date: "Fri 20 Nov", pace: "relax", title: "Slow core day",
+          items: [
+            ["10:30", "Forest park walk", "H6"],
+            ["12:30", "Lunch: Blue Roof Town — 11:15–22:00", "F1"],
+            ["15:00", "Free block", null],
+            ["17:00", "Colline — Fri–Sat hours 10:30–24:00", "C1"],
+            ["19:00", "Dinner: YANG IN HWAN DAE — weekday hours, closes 22:00", "F5"]
+          ] },
+        { date: "Sat 21 Nov", pace: "moderate", title: "Saturday pastry loop",
+          items: [
+            ["11:00", "Avelop (Sat opens 11:00)", "F7"],
+            ["12:30", "Hongik Cultural Park / Drawing Village", "H7"],
+            ["15:00", "Trick Eye Museum — open to 22:00, last admission 21:00", "H3"],
+            ["18:00", "Dinner: MGM Hongdae", "F3"],
+            ["20:00", "FLAN for a second flan — open until 21:00", "C2"]
+          ] },
+        { date: "Sun 22 Nov", pace: "relax", title: "Check out",
+          items: [
+            ["08:30", "Hotel breakfast — last entry 09:30", null],
+            ["10:00", "Café Layered Yeonnam — one last scone (daily 10:00–22:00)", "Y4"],
+            ["12:00", "Check out", null]
+          ] }
+      ]
+    },
+    {
+      id: "I10",
+      name: "Rainy-Day & Indoor Plan",
+      tagline: "The whole week rearranged for grey Seoul — museums, film and covered streets.",
+      best: "A backup week if November shows its cold, wet side. Zero transit days; longest exposure to the weather is a park stroll you can abort.",
+      transitDays: 0,
+      summary: "Every fixed stop is indoors: Trick Eye, Kakao, KT&G's gallery and art-house cinema, Indiespace, the Drawing Village creative centre, and the glass pavilions of the Book Street. The forest park appears only as optional morning walks you can skip entirely. Meals all sit under a roof within 270 m–840 m of the hotel door.",
+      days: [
+        { date: "Mon 16 Nov", pace: "relax", title: "Arrive, then indoors",
+          items: [
+            ["15:00", "Check in", null],
+            ["16:30", "Kakao Friends flagship — 51 m from the exit, open to 22:00", "H2"],
+            ["18:30", "Dinner: Blue Roof Town — 271 m", "F1"]
+          ] },
+        { date: "Tue 17 Nov", pace: "moderate", title: "Museum + complex + grill",
+          items: [
+            ["10:00", "Trick Eye Museum — 09:00–22:00, last admission 21:00", "H3"],
+            ["12:30", "Lunch: Busanjib Hongdae (11:30–22:00)", "F2"],
+            ["15:00", "KT&G Sangsangmadang — gallery and art-house cinema floors", "H4"],
+            ["18:30", "Dinner: Eongteori Saenggogi (11:00–23:00)", "F4"]
+          ] },
+        { date: "Wed 18 Nov", pace: "moderate", title: "Covered streets + film",
+          items: [
+            ["11:00", "Avelop — weekday 08:00–20:00, 468 m", "F7"],
+            ["12:30", "Lunch: Jincheongyujeom — before the 15:30 break", "Y2"],
+            ["15:00", "Book Street glass pavilions — mostly covered, open to 20:00", "H5"],
+            ["18:00", "Indiespace film — 80 m from Exit 8, screens to 20:00", "H1"],
+            ["20:15", "Late dinner: MGM Hongdae (to 00:00)", "F3"]
+          ] },
+        { date: "Thu 19 Nov", pace: "relax", title: "Café hop, zero rain",
+          items: [
+            ["10:30", "Antique Coffee Yeonnam", "Y1"],
+            ["13:00", "Parole & Langue — opens 13:00, closed Mondays", "Y3"],
+            ["15:30", "Colline — flower café, open to 23:00", "C1"],
+            ["18:00", "Dinner: Chosun Hwaro Gui — after the 15:00–17:00 break", "F6"]
+          ] },
+        { date: "Fri 20 Nov", pace: "moderate", title: "Sangsu side-streets indoors",
+          items: [
+            ["11:00", "FLAN — opens 11:00, 163 m from Sangsu Exit 1", "C2"],
+            ["13:00", "Lunch: Masichaina — open kitchen, ~15 min walk, before the 16:00 break", "S2"],
+            ["15:30", "Imi Coffee — dessert-coffee pairing, 242 m from Exit 1; CLOSED TUESDAYS, open today", "C3"],
+            ["18:00", "Dinner: YANG IN HWAN DAE — weekday 16:00–22:00", "F5"]
+          ] },
+        { date: "Sat 21 Nov", pace: "moderate", title: "Indoor Saturday",
+          items: [
+            ["11:00", "Avelop (Sat 11:00–21:00)", "F7"],
+            ["12:30", "Hongik Cultural Park — creative centre and shared studios", "H7"],
+            ["15:00", "Free block — Trick Eye is open to 22:00 if you want a second visit", "H3"],
+            ["19:00", "Dinner: Blue Roof Town", "F1"]
+          ] },
+        { date: "Sun 22 Nov", pace: "relax", title: "Check out",
+          items: [
+            ["08:30", "Hotel breakfast — last entry 09:30", null],
+            ["10:00", "Slow loop of the covered Eoulmadang-ro block", null],
+            ["12:00", "Check out", null]
+          ] }
+      ]
     }
   ];
 
@@ -824,8 +1160,10 @@ window.HS = (function () {
     { level: "low", item: "Kings of Convenience booking", text: "YES24 requires a registered account with passport identity verification before purchase. Do this before the ticket you want sells out, not on the night.", src: [["YES24 Perf 59136", "https://ticket.yes24.com/English/Perf/59136"]] },
     { level: "low", item: "《The Glass Menagerie》 language", text: "Korean-language production, 120 minutes, no interval printed. Elementary-school age and above. Not recommended if neither traveller reads Korean.", src: [["SAC SN=83392", "https://www.sac.or.kr/site/main/show/show_view?SN=83392"]] },
     { level: "low", item: "Mapo Art Center in the stay window", text: "There is no ticketed MFAC performance at all between Nov 16 and Nov 22 on the official calendar. The next ones are Nov 25 and Nov 29, both after check-out. Only the free Mapo Music Gallery runs during the stay.", src: [["MFAC schedule", "https://www.mfac.or.kr/performance/whole_list.jsp"]] },
+    { level: "low", item: "Mapo Art Center play 〈투신〉 (Diving) — season-lineup only", text: "The KoreaFun repo records a co-produced play 〈투신〉 (Geukgongjakso Mabangjin, dir. Go Sun-woong) announced for Nov 13–21, 2026 at Art Hall MAC in the foundation's 2026 season lineup. As of the 2026-09-02 fetch of the official calendar it is NOT yet listed with times or prices, so it cannot be scheduled. If it appears on the official calendar in October, the in-window dates (Tue 17 – Sat 21 Nov) would make it the strongest Mapo theatre option of the stay — re-check then.", src: [["MFAC official calendar (negative evidence, fetched 2026-09-02)", "https://www.mfac.or.kr/performance/whole_list.jsp"], ["KoreaFun repo — KoreaFun/audit + seoul-districts.md entry 9", "https://github.com/karagemop466-tech/KoreaFun"], ["Season-lineup announcement (corroboration only)", "http://www.thepreview.co.kr/news/articleView.html?idxno=12022"]] },
     { level: "low", item: "Hotel check-out", text: "Accor's official page states check-in from 15:00 and check-out up to 12:00. Sunday 22 Nov is planned around a 12:00 hard stop.", src: [["Accor B696", "https://all.accor.com/hotel/B696/index.en.shtml"]] }
   ];
 
-  return { STAY, CLUSTERS, EVENTS, PLACES, ITINS, FLAGS, EXCLUDED, VERIFIED_ON: "2026-09-01" };
+  const VERIFIED_ON = "2026-09-01 initial verification of all items · 2026-09-02 full re-verification (every page re-fetched) + 8 new items added (C1–C3, N3–N4, W4–W6)";
+  return { STAY, CLUSTERS, EVENTS, PLACES, ITINS, FLAGS, EXCLUDED, VERIFIED_ON };
 })();
