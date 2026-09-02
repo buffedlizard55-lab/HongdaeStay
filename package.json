@@ -1,0 +1,13 @@
+{
+  "name": "hongdaestay",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Source-verified itineraries for Mercure Ambassador Seoul Hongdae, 16-22 November 2026 — static site build tooling",
+  "scripts": {
+    "build": "node build.js",
+    "gen": "node gen-md.js && node gen-readme.js"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}

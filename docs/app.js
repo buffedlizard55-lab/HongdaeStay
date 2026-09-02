@@ -32,6 +32,23 @@
     ["Verified items", (D.PLACES.length + D.EVENTS.length) + " with official links"]
   ].map(f => `<span class="fact">${esc(f[0])} · <b>${esc(f[1])}</b></span>`).join("");
 
+  /* ---------- hero week strip ---------- */
+  const WEEK = [
+    ["Mon 16", "Arrive", "check in from 15:00"],
+    ["Tue 17", "Day 1", ""],
+    ["Wed 18", "Day 2", "concert · play nights"],
+    ["Thu 19", "Day 3", "temple life 14:00"],
+    ["Fri 20", "Day 4", ""],
+    ["Sat 21", "Day 5", "gugak 15:00 · free tour 14:00"],
+    ["Sun 22", "Check out", "by 12:00"]
+  ];
+  $("#weekStrip").innerHTML = WEEK.map((w, i) => `
+    <div class="wday${i === 0 || i === 6 ? " edge" : ""}">
+      <span class="wd">${esc(w[0])}</span>
+      <span class="wt">${esc(w[1])}</span>
+      ${w[2] ? `<span class="ws">${esc(w[2])}</span>` : ""}
+    </div>`).join("");
+
   const S = D.STAY;
   $("#hotelTable").innerHTML = [
     ["Hotel", S.hotel], ["Address", S.address], ["Station", S.station], ["On foot", S.walk],
@@ -88,6 +105,13 @@
   function renderItin(id) {
     const it = D.ITINS.find(x => x.id === id);
     itinChips.querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c.dataset.itin === id));
+    const dayChips = $("#dayChips");
+    dayChips.innerHTML = it.days.map((d, i) =>
+      `<button class="chip daychip" data-day="${i}">${esc(d.date.split(" ")[0])} ${esc(d.date.split(" ")[1])} · ${esc(d.title)}</button>`).join("");
+    dayChips.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+      const el = document.getElementById("day-" + c.dataset.day);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
     $("#itinBody").innerHTML = `
       <div class="itin-head">
         <h2>${esc(it.name)}</h2>
@@ -99,8 +123,8 @@
           <span class="meta"><strong>Nights:</strong> 6 · Mon 16 → Sun 22 Nov 2026</span>
         </div>
       </div>` +
-      it.days.map(d => `
-        <div class="day">
+      it.days.map((d, di) => `
+        <div class="day" id="day-${di}">
           <div class="day-h">
             <span class="d">${esc(d.date)}</span>
             <span class="b ${d.pace}">${PACE_LABEL[d.pace]}</span>
@@ -195,7 +219,7 @@
     "<thead><tr><th>#</th><th>Item</th><th>Status</th><th>What the official page printed</th><th>Source</th></tr></thead><tbody>" +
     ALL.map((x, i) => `<tr>
       <td>${i + 1}</td>
-      <td><strong>${esc(x.name)}</strong><br><span class="fine">${esc(x.id)} · ${esc(D.CLUSTERS[x.cluster].name)}</span></td>
+      <td><strong>${esc(x.name)}</strong><br><span class="fine">${esc(x.id)} · ${esc(D.CLUSTERS[x.cluster].name)} · re-read ${esc(x.verifiedOn)}</span></td>
       <td><span class="b ${x.status}">${STATUS_LABEL[x.status]}</span></td>
       <td class="fine">${esc(x.readsAs || [x.hours, x.when, x.price, x.addr].filter(Boolean).join(" · "))}</td>
       <td>${x.src.map(s => `<a href="${esc(s[1])}" target="_blank" rel="noopener">↗</a>`).join(" ")}</td>
