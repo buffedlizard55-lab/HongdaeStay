@@ -276,7 +276,7 @@ window.HS = (function () {
       hours: "11:30–24:00 · break 15:00–17:00 · last order 23:30 · CLOSED SUNDAYS",
       price: "Not printed on the official listing",
       note: "Charcoal grill using 1++ Korean beef and domestic pork; boneless Korean galbi is the printed signature.",
-      src: [["VisitKorea — Chosun Hwaro Gui (vcontsId 214996)", "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=214996"]],
+      src: [["VisitKorea — Chosun Hwaro Gui (vcontsId 214996)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=214996"]],
       verifiedOn: "2026-09-01",
       flag: "Closed Sundays — never scheduled for Sun 22 Nov, and never inside its 15:00–17:00 break."
     },

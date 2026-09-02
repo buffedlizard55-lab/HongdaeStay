@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HongdaeStay · Verified itineraries — Mercure Ambassador Seoul Hongdae, Nov 16–22 2026</title>
+<meta name="description" content="Six source-verified itineraries for a Hongdae stay, 16–22 November 2026. Every place and event links to its official page.">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.panel{display:block !important}.tabs{display:none}</style></noscript>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Mapo-gu, Seoul · 16–22 November 2026</div>
+    <h1>Hongdae<span>Stay</span></h1>
+    <p class="lede">Six itineraries for two travellers based at the Mercure Ambassador Seoul Hongdae. Every activity, restaurant and show below was read off its official page before it was allowed onto this site — and every one links back so you can check it yourself.</p>
+    <div class="hero-facts" id="heroFacts"></div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs" aria-label="Sections">
+  <div class="wrap tabs-inner">
+    <button data-tab="start" class="on">Start here</button>
+    <button data-tab="itins">Itineraries</button>
+    <button data-tab="inventory">Verified list</button>
+    <button data-tab="map">Clusters &amp; walking</button>
+    <button data-tab="flags">Flags</button>
+    <button data-tab="method">How this was verified</button>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <!-- ============ START ============ -->
+  <section id="start" class="panel on">
+    <div class="cards2">
+      <div class="card">
+        <h2>Your base</h2>
+        <table class="kv" id="hotelTable"></table>
+      </div>
+      <div class="card">
+        <h2>How to use this</h2>
+        <ol class="steps">
+          <li>Pick an itinerary from the table below — they differ mainly in <strong>how much you move</strong>.</li>
+          <li>Open the <strong>Verified list</strong> tab to see the hours, price and official source for anything mentioned.</li>
+          <li>Read the <strong>Flags</strong> tab before booking anything. Three items need action or caution.</li>
+        </ol>
+        <p class="fine">Two things need advance booking: the <strong>Seoul World Cup Stadium tour</strong> (no walk-up sales) and the <strong>Kings of Convenience</strong> concert (passport verification required on YES24).</p>
+      </div>
+    </div>
+
+    <h2 class="sec">Choose your week</h2>
+    <div class="tablewrap">
+      <table class="grid" id="masterTable"></table>
+    </div>
+
+    <div class="cards3" id="statCards"></div>
+
+    <h2 class="sec">What is confirmed for these exact dates</h2>
+    <p class="sub">Dated events with an official 2026 listing that falls between check-in and check-out.</p>
+    <div class="tablewrap"><table class="grid" id="eventsTable"></table></div>
+
+    <h2 class="sec">Deliberately excluded</h2>
+    <p class="sub">Real things that people will tell you to do, and the reason they are not in any itinerary.</p>
+    <div class="tablewrap"><table class="grid" id="excludedTable"></table></div>
+  </section>
+
+  <!-- ============ ITINERARIES ============ -->
+  <section id="itins" class="panel">
+    <div class="chiprow" id="itinChips"></div>
+    <div id="itinBody"></div>
+  </section>
+
+  <!-- ============ INVENTORY ============ -->
+  <section id="inventory" class="panel">
+    <h2 class="sec">Every verified item</h2>
+    <p class="sub">Filter by cluster. Each row carries the hours as printed on the official page, plus the link.</p>
+    <div class="chiprow" id="invChips"></div>
+    <div id="invBody"></div>
+  </section>
+
+  <!-- ============ MAP / CLUSTERS ============ -->
+  <section id="map" class="panel">
+    <h2 class="sec">Why the days are grouped this way</h2>
+    <p class="sub">The rule for this trip: a day should sit inside one cluster. These are the clusters, in order of distance from the hotel door.</p>
+    <div id="clusterBody"></div>
+    <div class="card note">
+      <h3>Walking distances</h3>
+      <p>Distances quoted throughout are the <strong>official station-exit distances printed on each venue's own page</strong> (for example “Hongik Univ. Station Exit 9, 271 m”), not estimates. Where a page prints no distance, the text says so. The hotel sits at Exit 9, so an exit-9 distance is effectively a hotel distance.</p>
+    </div>
+  </section>
+
+  <!-- ============ FLAGS ============ -->
+  <section id="flags" class="panel">
+    <h2 class="sec">Flagged for your review</h2>
+    <p class="sub">Anything that could not be pinned down, or that changed since the guides were written. Nothing here is guesswork — each flag names the exact gap.</p>
+    <div id="flagBody"></div>
+  </section>
+
+  <!-- ============ METHOD ============ -->
+  <section id="method" class="panel">
+    <h2 class="sec">How this was verified</h2>
+    <div class="card">
+      <h3>The rule</h3>
+      <p>An item is only allowed into an itinerary if its hours, address and (where relevant) its 2026 date were read directly from an official page: the operator's own site, VisitKorea, Visit Seoul, the venue's ticketing page, or the Seoul city body that runs it. Where a page prints no price, this site prints “not printed on the official listing” rather than a number from somewhere else.</p>
+      <h3>What that ruled out</h3>
+      <p>Two items that appear in most Hongdae guides did not survive: the Hongdae Free Market, whose organiser domain no longer serves it, and the old “Hongdae Playground” description, which the city replaced in December 2025. Both are documented in the Flags tab rather than quietly dropped.</p>
+      <h3>Line-by-line log</h3>
+      <p>Each row below is one check, with what the official page actually printed.</p>
+    </div>
+    <div class="tablewrap"><table class="grid" id="logTable"></table></div>
+    <div class="card note">
+      <h3>Source repositories</h3>
+      <ul class="links">
+        <li><a href="https://github.com/karagemop466-tech/KoreaFun">karagemop466-tech/KoreaFun</a> — events and activities shortlist</li>
+        <li><a href="https://github.com/karagemop466-tech/Koreafood">karagemop466-tech/Koreafood</a> — restaurant and café shortlist</li>
+        <li><a href="https://karagemop466-tech.github.io/Koreafood/">Koreafood browsable guide</a></li>
+      </ul>
+      <p class="fine">Those repositories were used as the candidate list. Nothing was carried over on trust — every candidate was re-opened at its official source during this pass, and several entries changed as a result.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>HongdaeStay</strong> · verification pass dated <span id="vdate"></span> · every claim on this page links to the official page it came from.</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
