@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HongdaeStay · Verified itineraries — Mercure Ambassador Seoul Hongdae, Nov 16–22 2026</title>
-<meta name="description" content="Ten source-verified itineraries for a Hongdae stay, 16–22 November 2026. Every place and event links to its official page.">
+<meta name="description" content="Twelve source-verified itineraries for a Hongdae stay, 16–22 November 2026. Every place and event links to its official page.">
 <link rel="stylesheet" href="styles.css">
 <noscript><style>.panel{display:block !important}.tabs{display:none}</style></noscript>
 </head>
@@ -14,7 +14,7 @@
   <div class="wrap">
     <div class="kicker">Mapo-gu, Seoul · 16–22 November 2026</div>
     <h1>Hongdae<span>Stay</span></h1>
-    <p class="lede">Ten itineraries for two travellers based at the Mercure Ambassador Seoul Hongdae. Every activity, restaurant and show below was read off its official page before it was allowed onto this site — and every one links back so you can check it yourself.</p>
+    <p class="lede">Twelve itineraries for two travellers based at the Mercure Ambassador Seoul Hongdae. Every activity, restaurant and show below was read off its official page before it was allowed onto this site — and every one links back so you can check it yourself.</p>
     <div class="hero-facts" id="heroFacts"></div>
     <div class="weekstrip" id="weekStrip" aria-label="The seven days at a glance"></div>
   </div>
@@ -43,7 +43,7 @@
       <div class="card">
         <h2>Before you go</h2>
         <ul class="checklist">
-          <li><strong>Reserve the World Cup Stadium Tour now</strong> — no walk-up sales; sessions 09:00 / 11:00 / 14:00 / 16:00, ₩1,000, at yeyak.seoul.go.kr. Used by itineraries 3 and 8.</li>
+          <li><strong>Reserve the World Cup Stadium Tour now</strong> — no walk-up sales; sessions 09:00 / 11:00 / 14:00 / 16:00, ₩1,000, at yeyak.seoul.go.kr. Used by itineraries 3, 8 and 11.</li>
           <li><strong>Kings of Convenience, Wed 18 Nov (YES24)</strong> — member ID + passport needed at the venue; from ₩99,000. Only if you take itinerary 5.</li>
           <li><strong>Imi Coffee</strong> — the official page says reservations are essential; it appears in itineraries 9 and 10.</li>
           <li><strong>Hotel:</strong> check in Mon 16 Nov from 15:00 · check out Sun 22 Nov by 12:00 · breakfast 07:00–10:00, last entry 09:30.</li>
@@ -55,7 +55,7 @@
         <ol class="steps">
           <li>Pick an itinerary from the table below — they differ mainly in <strong>how much you move</strong>.</li>
           <li>Open the <strong>Verified list</strong> tab to see the hours, price and official source for anything mentioned.</li>
-          <li>Read the <strong>Flags</strong> tab before booking anything — 13 items are flagged, three of them high priority.</li>
+          <li>Read the <strong>Flags</strong> tab before booking anything — every irregularity is listed there with its official source.</li>
         </ol>
       </div>
     </div>
@@ -86,7 +86,8 @@
   <!-- ============ INVENTORY ============ -->
   <section id="inventory" class="panel">
     <h2 class="sec">Every verified item</h2>
-    <p class="sub">Filter by cluster. Each row carries the hours as printed on the official page, plus the link.</p>
+    <p class="sub">Filter by cluster or search by name, type or address. Each row carries the hours as printed on the official page, plus the link.</p>
+    <input id="invSearch" class="search" type="search" placeholder="Search 52 verified items…" aria-label="Search the verified list">
     <div class="chiprow" id="invChips"></div>
     <div id="invBody"></div>
   </section>
@@ -117,8 +118,8 @@
       <p>An item is only allowed into an itinerary if its hours, address and (where relevant) its 2026 date were read directly from an official page: the operator's own site, VisitKorea, Visit Seoul, the venue's ticketing page, or the Seoul city body that runs it. Where a page prints no price, this site prints “not printed on the official listing” rather than a number from somewhere else.</p>
       <h3>What that ruled out</h3>
       <p>Two items that appear in most Hongdae guides did not survive: the Hongdae Free Market, whose organiser domain no longer serves it, and the old “Hongdae Playground” description, which the city replaced in December 2025. Both are documented in the Flags tab rather than quietly dropped.</p>
-      <h3>Two passes, every line re-read</h3>
-      <p><strong>Pass 1 — 2026-09-01:</strong> every candidate from the two source repositories was opened at its official page and only then written into the master list. <strong>Pass 2 — 2026-09-02:</strong> all 34 surviving items were re-fetched from scratch (hours, prices, dates re-read against this site), which fixed one wrong showtime (the Glass Menagerie now lists its extra Nov 18 performance) and added eight more verified items — three cafés, two Sinchon restaurants and three World Cup Park / Mangwon stops. The full line-by-line ledger of pass 2 is in <code>audit/VERIFICATION-2026-09-02.md</code> in this repository.</p>
+      <h3>Three passes, every line re-read</h3>
+      <p><strong>Pass 1 — 2026-09-01:</strong> every candidate from the two source repositories was opened at its official page and only then written into the master list. <strong>Pass 2 — 2026-09-02:</strong> all 34 surviving items were re-fetched from scratch (hours, prices, dates re-read against this site), which fixed one wrong showtime (the Glass Menagerie now lists its extra Nov 18 performance) and added eight more verified items — three cafés, two Sinchon restaurants and three World Cup Park / Mangwon stops. <strong>Pass 3 — 2026-09-02:</strong> ten further items were fetched and read line-by-line from their official pages before being added — Cinematheque KOFA, the Korean Film Museum, Seoul Energy Dream Center, Haneul Park, the Hongdae Walking Street busking zones, Seoul Art Space Seogyo, and the Sangsu/Sinchon cafés B-hind, GMH Dabang, Cafe aA and Dok-Dabang — which made two new itineraries possible (the Sangam cinema/stadium week and the zero-transit art-and-after-dark week). The full line-by-line ledger of pass 2 is in <code>audit/VERIFICATION-2026-09-02.md</code> in this repository.</p>
       <p>Each row below is one item, with what the official page actually printed and the date it was last re-read.</p>
     </div>
     <div class="tablewrap"><table class="grid" id="logTable"></table></div>
@@ -140,6 +141,8 @@
     <p><strong>HongdaeStay</strong> · verification pass dated <span id="vdate"></span> · every claim on this page links to the official page it came from.</p>
   </div>
 </footer>
+
+<button class="topbtn" id="topBtn" aria-label="Back to top" title="Back to top">↑</button>
 
 <script src="data.js"></script>
 <script src="app.js"></script>

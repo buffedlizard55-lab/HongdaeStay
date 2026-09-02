@@ -122,6 +122,7 @@
           <span class="meta"><strong>Days needing transit:</strong> ${it.transitDays === 0 ? "none — fully walkable" : it.transitDays}</span>
           <span class="meta"><strong>Nights:</strong> 6 · Mon 16 → Sun 22 Nov 2026</span>
         </div>
+        <button class="printbtn" id="printItin" type="button">🖨 Print / save as PDF</button>
       </div>` +
       it.days.map((d, di) => `
         <div class="day" id="day-${di}">
@@ -154,16 +155,23 @@
   /* ---------- inventory ---------- */
   const ALL = D.EVENTS.concat(D.PLACES);
   const clusterKeys = Object.keys(D.CLUSTERS);
+  let invCluster = "all";
+  let invQuery = "";
   $("#invChips").innerHTML = `<button class="chip on" data-cl="all">All (${ALL.length})</button>` +
     clusterKeys.map(k => {
       const n = ALL.filter(x => x.cluster === k).length;
       return n ? `<button class="chip" data-cl="${k}">${esc(D.CLUSTERS[k].name)} (${n})</button>` : "";
     }).join("");
 
-  function renderInv(cl) {
-    $("#invChips").querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c.dataset.cl === cl));
-    const list = cl === "all" ? ALL : ALL.filter(x => x.cluster === cl);
-    $("#invBody").innerHTML = list.map(x => {
+  function renderInv() {
+    $("#invChips").querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c.dataset.cl === invCluster));
+    const q = invQuery.trim().toLowerCase();
+    const list = ALL.filter(x =>
+      (invCluster === "all" || x.cluster === invCluster) &&
+      (!q || [x.name, x.type, x.addr, x.note, x.hours, x.price, x.id, x.walk].filter(Boolean).join(" ").toLowerCase().includes(q))
+    );
+    const countLine = q ? `<p class="sub">${list.length} of ${ALL.length} verified items match “${esc(invQuery)}”.</p>` : "";
+    $("#invBody").innerHTML = countLine + (list.length ? list.map(x => {
       const rows = [];
       if (x.addr) rows.push(["Address", x.addr]);
       if (x.walk) rows.push(["From the hotel", x.walk]);
@@ -187,10 +195,11 @@
         ${x.flag ? `<div class="flagline"><strong>Flag:</strong> ${esc(x.flag)}</div>` : ""}
         ${srcLinks(x.src)}
       </div>`;
-    }).join("");
+    }).join("") : '<div class="card note">No verified item matches that search in this cluster — try clearing the box.</div>');
   }
-  $("#invChips").addEventListener("click", e => { if (e.target.dataset.cl) renderInv(e.target.dataset.cl); });
-  renderInv("all");
+  $("#invChips").addEventListener("click", e => { if (e.target.dataset.cl) { invCluster = e.target.dataset.cl; renderInv(); } });
+  $("#invSearch").addEventListener("input", e => { invQuery = e.target.value; renderInv(); });
+  renderInv();
 
   /* ---------- clusters ---------- */
   $("#clusterBody").innerHTML = clusterKeys.map(k => {
@@ -228,4 +237,18 @@
   /* ---------- deep link ---------- */
   const h = location.hash.replace("#", "");
   if (h) { const b = document.querySelector(`#tabs button[data-tab="${h}"]`); if (b) b.click(); }
+
+  /* ---------- print current itinerary ---------- */
+  document.addEventListener("click", e => {
+    if (e.target && e.target.id === "printItin") {
+      document.body.classList.add("print-one");
+      window.print();
+      setTimeout(() => document.body.classList.remove("print-one"), 60);
+    }
+  });
+
+  /* ---------- back to top ---------- */
+  const topBtn = $("#topBtn");
+  window.addEventListener("scroll", () => topBtn.classList.toggle("show", window.scrollY > 500), { passive: true });
+  topBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 })();

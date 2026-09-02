@@ -30,7 +30,7 @@ window.HS = (function () {
     yeonnam: { name: "Yeonnam-dong", note: "North of the hotel along Gyeongui Line Forest Park. Hongik Univ. Exit 3 then 380–840 m on foot.", color: "#8e44ad" },
     sangsu: { name: "Sangsu / Hapjeong", note: "South-west of the hotel. Walkable in 15–25 min along Wausan-ro / Yanghwa-ro, or one stop on Line 2/6.", color: "#16a085" },
     sinchon: { name: "Sinchon", note: "One stop east on Line 2 (Hongik Univ. → Sinchon), or ~20 min walk.", color: "#2980b9" },
-    sangam: { name: "World Cup Park / Sangam", note: "Line 6 from Hapjeong — World Cup Stadium / Mangwon. Short hop, one cluster for a whole day.", color: "#e67e22" },
+    sangam: { name: "World Cup Park / Sangam", note: "Line 6 from Hapjeong — World Cup Stadium, Mangwon and Digital Media City (the film archive). A short hop out; each of the three stops is a cluster for part of a day.", color: "#e67e22" },
     away: { name: "Ticketed outings (outside Mapo)", note: "Only used for dated, confirmed shows. Each is a single-destination evening or half-day.", color: "#7f8c8d" }
   };
 
@@ -212,6 +212,30 @@ window.HS = (function () {
       verifiedOn: "2026-09-02",
       flag: "NOT CONFIRMED FOR NOV 2026 — DO NOT PLAN AROUND IT. The organiser's own domain no longer resolves to the market, the venue has been rebranded, and TripAdvisor's listing carries a “reported permanently closed” notice. Re-checked 2026-09-02: freemarket.or.kr still serves only a parked/blocked page, so nothing has changed. Sat 21 Nov is left as a walk-past, never as the anchor of a day."
     },
+    {
+      id: "H9", status: "verified", cluster: "core", type: "Walk / street performance",
+      name: "Hongdae Walking Street & Busking Zones (홍대 걷고싶은거리)",
+      addr: "Eoulmadang-ro 107–155-1, Seogyo-dong, Mapo-gu — ~500 m pedestrian strip",
+      walk: "Hongik Univ. Station Exit 9 — straight ahead, under 2 min from the hotel",
+      hours: "Busking slots 12:00–22:00 in two-hour blocks (Mapo-gu booking system); busiest Fri–Sun evenings; the street is car-free Fri–Sun",
+      price: "Free to watch",
+      note: "Official busking zones, a plaza stage, a travel stage and a meeting square built by the city in 2016–17 so street performers could play legally. Dance crews, bands and solo singers; density peaks Friday–Sunday evening.",
+      src: [["Korea Tourism Organization — Hongdae Walking Street (500 m strip, zones, car-free Fri–Sun)", "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=c92fa510-548b-4da9-b6f4-7491c603bba6"]],
+      verifiedOn: "2026-09-02",
+      flag: "The KTO page (re-fetched 2026-09-02) confirms the ~500 m strip, the numbered busking zones, the plaza/travel stages and the Friday–Sunday car-free rule. The 12:00–22:00 two-hour-block slot window comes from Mapo-gu's zone-booking system as recorded in the KoreaFun repo (enquiries 02-3153-8663) — treat times as approximate; the street is a stroll, never a fixed appointment."
+    },
+    {
+      id: "H10", status: "verified", cluster: "core", type: "Culture / art space",
+      name: "Seoul Art Space Seogyo (서교예술실험센터)",
+      addr: "Eoulmadang-ro 5-gil, Seogyo-dong, Mapo-gu",
+      walk: "Sangsu / Hongdae core — a few minutes' walk from the busking street",
+      hours: "Art Info kiosk 11:00–22:00 · exhibition hall & art dabang 11:00–20:00 · multipurpose hall 11:00–20:00 · CLOSED MONDAYS and national holidays",
+      price: "Free (programme-dependent; a working art space, not a museum)",
+      note: "Seoul Foundation for Arts & Culture's experimental art space in a former ward office: exhibitions, screenings, workshops and forums, plus an outdoor Art Info kiosk listing what is on across Hongdae's independent spaces. What is showing changes constantly — treat as a short check, not a destination. Enquiries 02-333-1551.",
+      src: [["Seoul Foundation for Arts and Culture — Seoul Art Space Seogyo facility page", "https://www.sfac.or.kr/site/SFAC_KOR/02/10209030000002018102303.jsp"]],
+      verifiedOn: "2026-09-02",
+      flag: "Closed Mondays — never scheduled for Mon 16 Nov."
+    },
     /* ---- HONGDAE CORE — FOOD ---- */
     {
       id: "F1", status: "verified", cluster: "core", type: "Korean BBQ",
@@ -324,6 +348,41 @@ window.HS = (function () {
       note: "You pick the dessert, the roaster matches the coffee. The official page says reservations are essential — no phone is printed; use Instagram @imi.coffee.",
       src: [["Visit Seoul — Imi Coffee (46418)", "https://english.visitseoul.net/restaurants/2024-imicoffee_/46418"]],
       verifiedOn: "2026-09-02"
+    },
+    {
+      id: "C4", status: "verified", cluster: "core", type: "Café / dessert",
+      name: "B-hind",
+      addr: "18 Eoulmadang-ro 5-gil, Mapo-gu",
+      walk: "Sangsu Station Exit 1, 436 m (official) — 70 m from Colline and 140 m from FLAN per the official nearby list",
+      hours: "Mon–Fri 11:30–22:00 · Sat–Sun 13:00–22:00 · closed Seollal & Chuseok",
+      price: "Price range printed as ₩10,000",
+      note: "Affogato al caffè (Molinari-bean espresso over vanilla ice cream) is the printed signature. Comfortable, couple-friendly café that often holds a flea market.",
+      src: [["Visit Seoul — B-hind (ENP011936), edited 9 May 2026", "https://english.visitseoul.net/restaurants/B-hind-E/ENP011936"]],
+      verifiedOn: "2026-09-02"
+    },
+    {
+      id: "C5", status: "verified", cluster: "core", type: "Café / wine saloon",
+      name: "GMH Dabang",
+      addr: "49 Wausan-ro 3-gil, Mapo-gu",
+      walk: "Sangsu Station Exit 4, 404 m (official)",
+      hours: "Mon & Wed–Fri 17:00–24:00 · Sat 14:00–24:00 · Sun 14:00–22:00 · CLOSED TUESDAYS",
+      price: "Not printed on the official listing",
+      note: "Café by day, wine saloon by night — 200+ wines with tasting guidance. A Hongdae-artist favourite and a quiet date spot; weekdays open only from 17:00.",
+      src: [["Visit Seoul — GMH Dabang (ENP1v5xop), edited 11 May 2026", "https://english.visitseoul.net/restaurants/2024-gmhdabang/ENP1v5xop"]],
+      verifiedOn: "2026-09-02",
+      flag: "Closed Tuesdays and weekday-evening-only hours (Mon & Wed–Fri from 17:00). Never scheduled on a Tuesday, and only after 17:00 on weekdays."
+    },
+    {
+      id: "C6", status: "verified", cluster: "core", type: "Museum café",
+      name: "Cafe aA",
+      addr: "19-18 Wausan-ro 17-gil, Mapo-gu (Agio Building)",
+      walk: "Sangsu Station Exit 1 (official) — 90 m from Colline and 140 m from FLAN per the official nearby list",
+      hours: "Daily 12:00–23:30 · open year round",
+      price: "Not printed on the official listing",
+      note: "Museum café with a furniture showroom on the 1st floor; spacious antique interior.",
+      src: [["Visit Seoul — Cafe aA (ENP000997)", "https://english.visitseoul.net/restaurants/cafe-aA-EN/ENP000997"]],
+      verifiedOn: "2026-09-02",
+      flag: "The official Visit Seoul page was last edited 1 Feb 2021 — the hours (daily 12:00–23:30) may be stale. Confirm on the day; never used as a day's only stop."
     },
     /* ---- YEONNAM ---- */
     {
@@ -465,6 +524,17 @@ window.HS = (function () {
       src: [["VisitKorea — MBRO Donkkaseu (vcontsId 59341)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=59341"]],
       verifiedOn: "2026-09-02"
     },
+    {
+      id: "N5", status: "verified", cluster: "sinchon", type: "Dabang / café",
+      name: "Dok-Dabang (독수리다방)",
+      addr: "8F, 36 Yeonse-ro, Seodaemun-gu",
+      walk: "Sinchon Station Exit 3, 360 m (official)",
+      hours: "11:00–23:30 (last order 23:00) · daily · no holidays printed",
+      price: "Not printed on the official listing",
+      note: "A 1971 dabang that became a student dormitory and meeting place in the 1970s–80s, closed in 2005 and reopened in 2013 by the founder's grandson. A designated Seoul Future Heritage, with old photos and a note board.",
+      src: [["Visit Seoul — Dok-Dabang (28403), edited 25 Jul 2026", "https://english.visitseoul.net/restaurants/Doksuri-Dabang_/28403"]],
+      verifiedOn: "2026-09-02"
+    },
     /* ---- SANGAM / WORLD CUP PARK ---- */
     {
       id: "W1", status: "verified", cluster: "sangam", type: "Park / architecture",
@@ -542,6 +612,65 @@ window.HS = (function () {
       src: [
         ["Seoul Future Hangang Office — Seoul Battleship Park (official hours, fares, docent times)", "https://hangang.seoul.go.kr/www/contents/803.do?mid=527"],
         ["Seoul Battleship Park official site", "https://seoulbattleshippark.com/"]
+      ],
+      verifiedOn: "2026-09-02"
+    },
+    {
+      id: "W7", status: "verified", cluster: "sangam", type: "Museum / architecture",
+      name: "Seoul Energy Dream Center (서울에너지드림센터)",
+      addr: "14 Jeungsan-ro, Mapo-gu (Peace Park, Sangam)",
+      walk: "World Cup Stadium Station (Line 6) Exit 1, ~1 km / 15 min walk through Peace Park",
+      hours: "Tue–Sun 09:00–17:30 · CLOSED MONDAYS",
+      price: "Free (some hands-on programmes charge for materials)",
+      note: "Korea's first zero-energy public building, a spiral design by Berlin architects, with hands-on exhibits on energy, climate and renewables. ~40 min for the exhibition; docent tours bookable up to two days ahead. Enquiries 02-3151-0562.",
+      src: [
+        ["Seoul Metropolitan Government energy portal — Seoul Energy Dream Center notice (hours, free, Monday closure)", "https://energyinfo.seoul.go.kr/board/content?menu-id=Z110100&boardType=0001&boardNo=378"],
+        ["VisitKorea — Seoul Energy Dream Center (address, hours, fares)", "https://access.visitkorea.or.kr/ms/detail.do?cotId=c32b848d-3b48-4e72-8030-2da73e98a77e"]
+      ],
+      verifiedOn: "2026-09-02",
+      flag: "Two official pages differ on the opening time: the city energy-portal notice prints 09:00–17:30 (Tue–Sun), VisitKorea prints 09:30–17:30 with last entry 17:00 and also closes 1 Jan, Seollal & Chuseok and 12 Dec. Arrive after 09:30 to be safe."
+    },
+    {
+      id: "W8", status: "verified", cluster: "sangam", type: "Park / viewpoint",
+      name: "Haneul Park (하늘공원) — Sky Park",
+      addr: "95 Haneulgongwon-ro, Mapo-gu (World Cup Park)",
+      walk: "World Cup Stadium Station (Line 6) Exit 1, ~10 min to the park entrance, then the Maengkkongi cart or 291 steps to the plateau",
+      hours: "Open park, free; seasonal hours (November roughly 06:30–19:00 — confirm on parks.seoul.go.kr). Maengkkongi electric cart roughly 09:00–19:00.",
+      price: "Park free · Maengkkongi cart ₩2,000 one-way / ₩3,000 return (child/senior/disabled ₩1,500 / ₩2,200), tickets at the Nanjicheon Park ticket booth",
+      note: "98 m-high plateau built over a capped landfill — the highest of the five World Cup parks, with wide city and Namsan views. IMPORTANT for November: the silver-grass festival is October (2025: Oct 18–24) and the city extended grass-field viewing only to 2 Nov, so by 16–22 Nov expect a mostly cleared plateau — treat this as a free viewpoint walk, not a foliage stop.",
+      src: [
+        ["Seoul city — World Cup Park / Haneul Park (parks.seoul.go.kr)", "https://parks.seoul.go.kr/"],
+        ["Seoul city — 24th Seoul Eoksae (silver grass) Festival notice (dates + cart fares)", "https://news.seoul.go.kr/env/archives/564833"]
+      ],
+      verifiedOn: "2026-09-02",
+      flag: "parks.seoul.go.kr returned HTTP 500 on this pass, so the Maengkkongi cart fares (₩2,000/₩3,000) are carried from the Seoul city Eoksae-festival notice and the KoreaFun repo's 2026-08-19 read, not from a page fetched today; the fares are also consistent across Seoul city posts. Re-confirm the cart and park hours on parks.seoul.go.kr nearer the date."
+    },
+    {
+      id: "K1", status: "verified", cluster: "sangam", type: "Cinema (free screenings)",
+      name: "Cinematheque KOFA (시네마테크KOFA)",
+      addr: "400 World Cup buk-ro, Mapo-gu (Korean Film Archive, Sangam / DMC)",
+      walk: "Line 6 Digital Media City Station Exit 2 → bus 771/6715/7711/7730 to Nuritkum Square·MBC (5 min), or AREX Exit 9 ~15 min walk",
+      hours: "Tue–Sat · ticket box opens 1 h before the first screening, closes at the last screening's start · CLOSED Sun, Mon, 1 Jan, Seollal & Chuseok, 18 Jan, 1 May",
+      price: "All screenings free",
+      note: "Two-screen national archive cinema (321 + 150 seats): restored Korean classics, retrospectives, festival and independent film. Online booking daily from 11:00 (2 tickets/person, same-day to 5 days ahead) or on-site from 1 h before the first show. No late entry — screenings start on time. Many titles are Korean-language; check each film's page for subtitles. Enquiries 02-3153-2075 / 2077.",
+      src: [
+        ["Cinematheque KOFA — official visitor guide (free, Tue–Sat, booking rules)", "https://www.koreafilm.or.kr/pages/PC_00000004"],
+        ["Cinematheque KOFA — screening calendar", "https://www.koreafilm.or.kr/cinematheque/schedule"]
+      ],
+      verifiedOn: "2026-09-02",
+      flag: "Closed Sundays and Mondays, and no late entry. Schedule only Tue–Sat; always check the film's language before booking."
+    },
+    {
+      id: "K2", status: "verified", cluster: "sangam", type: "Museum",
+      name: "Korean Film Museum (한국영화박물관)",
+      addr: "400 World Cup buk-ro, Mapo-gu (Korean Film Archive, Sangam / DMC) — same building as Cinematheque KOFA",
+      walk: "As for Cinematheque KOFA — same address, same campus",
+      hours: "Tue–Sat 10:30–19:00 (last entry 18:30) · CLOSED Sun, Mon, 1 Jan, Seollal & Chuseok, 18 Jan, 1 May",
+      price: "Free",
+      note: "100+ years of Korean cinema across 14 permanent sections plus special exhibitions; opened 2008 and registered a national museum in 2015. A film library with free viewing booths shares the building. Free 2-hour parking. Enquiries 02-3153-2072.",
+      src: [
+        ["Korean Film Museum — official visitor guide (hours, free, closures)", "https://www.koreafilm.or.kr/pages/PC_00000012"],
+        ["Korean Film Museum — permanent exhibition", "https://www.koreafilm.or.kr/pages/PC_00000241"]
       ],
       verifiedOn: "2026-09-02"
     }
@@ -1144,6 +1273,140 @@ window.HS = (function () {
             ["12:00", "Check out", null]
           ] }
       ]
+    },
+    {
+      id: "I11",
+      name: "Sangam Cinema, Stadium & Sky Park",
+      tagline: "Two out-west cluster days — the film archive and the stadium parks — the rest on foot in Hongdae.",
+      best: "Travellers who want the free national film archive plus the stadium-and-park landmarks, without ever crossing the river.",
+      transitDays: 2,
+      summary: "Two days leave the walking radius, and each stays inside one cluster on Line 6: a World Cup Park / stadium day (stadium tour, zero-energy centre, Haneul Park, oil tanks) and a Digital Media City / Mangwon film-archive day. Every other day is the walkable Hongdae core.",
+      days: [
+        { date: "Mon 16 Nov", pace: "relax", title: "Arrive & busking stroll",
+          items: [
+            ["15:00", "Check in at the hotel, 144 Yanghwa-ro (Exit 9)", null],
+            ["16:00", "Kakao Friends Hongdae Flagship — 51 m, open to 22:00", "H2"],
+            ["18:00", "Dinner: Blue Roof Town Hongdae Branch — 271 m, open to 22:00", "F1"],
+            ["19:30", "Hongdae Walking Street — first busking stroll (Exit 9, straight ahead)", "H9"]
+          ],
+          note: "Monday closures respected today: Seoul Art Space Seogyo, the Film Museum and Cinematheque KOFA (closed Sun/Mon), the Energy Dream Center, Oil Tank exhibition halls and the stadium tour are all shut and appear on no Monday in this itinerary." },
+        { date: "Tue 17 Nov", pace: "busy", title: "World Cup Park & stadium day (Line 6)",
+          items: [
+            ["09:00", "Line 6 to World Cup Stadium Station (one ride out)", null],
+            ["09:00", "Seoul World Cup Stadium Tour, session 1 — RESERVE IN ADVANCE, no walk-up sales", "W2"],
+            ["11:00", "Seoul Energy Dream Center — Tue–Sun 09:00–17:30, free", "W7"],
+            ["13:00", "Haneul Park — Maengkkongi cart up (₩2,000/₩3,000), city views", "W8"],
+            ["15:00", "Oil Tank Culture Park — outdoor grounds + Café Tank6 (10:00–19:00)", "W1"],
+            ["17:30", "Dinner: Seongsan Wanggalbi — 17:00–21:00, 435 m from the stadium", "W5"]
+          ],
+          note: "Every stop today sits inside the World Cup Park cluster — no further transit after the single Line 6 ride out. Silver-grass note: Haneul Park's October festival has ended, so this is a viewpoint walk, not a foliage stop." },
+        { date: "Wed 18 Nov", pace: "busy", title: "Film archive & Mangwon day (Line 6)",
+          items: [
+            ["10:00", "Line 6 to Digital Media City (DMC)", null],
+            ["10:30", "Korean Film Museum — Tue–Sat 10:30–19:00, free", "K2"],
+            ["13:00", "Lunch: Mangwon Market — one stop back on Line 6, open Wed under either schedule", "W3"],
+            ["15:00", "Cafe Gongmyung Mangwon Book Bakery — 152 m from Mangwon Station", "W4"],
+            ["16:00", "Seoul Battleship Park — winter hours to 18:00, ₩3,000 adult", "W6"],
+            ["19:00", "Cinematheque KOFA free screening — back at DMC, book from 11:00", "K1"]
+          ],
+          note: "DMC and Mangwon are one stop apart, so today has two short Line-6 hops (DMC→Mangwon→DMC). Every stop is otherwise on foot within each cluster. Check the screening's language before booking — many KOFA titles are Korean-only." },
+        { date: "Thu 19 Nov", pace: "relax", title: "Recovery day in the core",
+          items: [
+            ["10:00", "Long walk up Gyeongui Line Forest Park and back", "H6"],
+            ["12:30", "Lunch: Eongteori Saenggogi (all-you-can-eat, 11:00–23:00)", "F4"],
+            ["15:00", "Rest at the hotel — afternoon deliberately left empty", null],
+            ["18:00", "Indiespace — 80 m from Exit 8, open to 20:00", "H1"],
+            ["20:30", "Late dinner: MGM Hongdae (last order 23:30)", "F3"]
+          ] },
+        { date: "Fri 20 Nov", pace: "moderate", title: "Art, cafés & after-dark Friday",
+          items: [
+            ["11:00", "Seoul Art Space Seogyo — Art Info kiosk 11:00–22:00, free", "H10"],
+            ["12:30", "Lunch: Busanjib Hongdae (last order 21:00, no alcohol)", "F2"],
+            ["14:30", "B-hind affogato — 70 m from Colline; or FLAN next door", "C4"],
+            ["16:00", "KT&G Sangsangmadang — design shop and gallery floors", "H4"],
+            ["19:00", "Hongdae Walking Street — car-free Friday, busking at its fullest", "H9"],
+            ["21:00", "GMH Dabang — wine saloon, open to 24:00 on Friday", "C5"]
+          ] },
+        { date: "Sat 21 Nov", pace: "relax", title: "Easy Saturday",
+          items: [
+            ["11:00", "Avelop Hongdae Flagship (Sat opens 11:00)", "F7"],
+            ["12:30", "Hongik Cultural Park / Drawing Village — Tue–Sun 10:00–18:00", "H7"],
+            ["15:00", "Colline — flower café, cotton latte", "C1"],
+            ["18:00", "Dinner: MGM Hongdae or Chosun Hwaro Gui (after 17:00 break)", "F3"]
+          ] },
+        { date: "Sun 22 Nov", pace: "relax", title: "Check out",
+          items: [
+            ["08:00", "Hotel breakfast (07:00–10:00, last entry 09:30)", null],
+            ["10:00", "Final walk on the forest park", "H6"],
+            ["12:00", "Check out — 12:00 is the hotel's stated latest time", null]
+          ],
+          note: "Chosun Hwaro Gui is closed Sundays and is not scheduled today." }
+      ]
+    },
+    {
+      id: "I12",
+      name: "Art, Indie & After-Dark Hongdae",
+      tagline: "The week for galleries, busking, cafés and late nights — every stop on foot.",
+      best: "Two travellers who want the creative Hongdae — art spaces, indie cinema, street performance and wine — with no transit at all.",
+      transitDays: 0,
+      summary: "A zero-transit week built from the art and night-time side of the verified list: the SFAC art space, the official busking street, indie cinema, three Sangsu cafés and the latest-closing restaurants. Nothing is scheduled before 10:00 and most days end after dark.",
+      days: [
+        { date: "Mon 16 Nov", pace: "relax", title: "Arrive",
+          items: [
+            ["15:00", "Check in at the hotel (Exit 9)", null],
+            ["17:00", "Dinner: Busanjib Hongdae (5 min walk)", "F2"],
+            ["19:00", "First busking stroll on the Walking Street", "H9"]
+          ] },
+        { date: "Tue 17 Nov", pace: "moderate", title: "Art & design day",
+          items: [
+            ["11:00", "Seoul Art Space Seogyo — open Tue, free", "H10"],
+            ["12:30", "Lunch: Masichaina — Korean-Chinese, arrive before the 16:00 break", "S2"],
+            ["14:30", "B-hind — affogato al caffè (Mon–Fri from 11:30)", "C4"],
+            ["16:00", "KT&G Sangsangmadang — design shop and gallery floors", "H4"],
+            ["19:00", "Dinner: Chosun Hwaro Gui — after its 15:00–17:00 break", "F6"]
+          ],
+          note: "GMH Dabang is closed Tuesdays, so the wine saloon is not today." },
+        { date: "Wed 18 Nov", pace: "moderate", title: "Cafés, flan & a film",
+          items: [
+            ["11:00", "FLAN — French flan shop, opens 11:00", "C2"],
+            ["12:30", "Lunch: Eongteori Saenggogi (Eoulmadang-ro, 11:00–23:00)", "F4"],
+            ["14:30", "Colline — flower café (Sun–Thu to 23:00)", "C1"],
+            ["16:00", "Cafe aA — museum café, daily 12:00–23:30", "C6"],
+            ["18:30", "Indiespace — indie film, 80 m from Exit 8", "H1"],
+            ["20:30", "Late dinner: MGM Hongdae (last order 23:30)", "F3"]
+          ] },
+        { date: "Thu 19 Nov", pace: "moderate", title: "Yeonnam café day",
+          items: [
+            ["10:30", "Antique Coffee Yeonnam — first coffee", "Y1"],
+            ["12:30", "Lunch: Jincheongyujeom — before the 15:30 weekday break", "Y2"],
+            ["15:00", "Parole & Langue — square pies, opens 13:00, open today", "Y3"],
+            ["17:00", "Café Layered Yeonnam — 120 m further on", "Y4"],
+            ["19:00", "Dinner: YANG IN HWAN DAE (weekday hours 16:00–22:00)", "F5"]
+          ] },
+        { date: "Fri 20 Nov", pace: "busy", title: "After-dark Friday",
+          items: [
+            ["11:00", "Hongik Cultural Park / Drawing Village — Tue–Sun 10:00–18:00", "H7"],
+            ["13:00", "Lunch: Blue Roof Town Hongdae Branch", "F1"],
+            ["15:00", "Trick Eye Museum — open to 22:00, last admission 21:00", "H3"],
+            ["17:00", "Hongdae Walking Street — car-free Friday, busking peaks", "H9"],
+            ["19:30", "Dinner: Seogang Kkeopdegi (opens 16:00) — pork rind, Hapjeong side", "S3"],
+            ["21:30", "GMH Dabang — wine saloon, open to 24:00", "C5"]
+          ] },
+        { date: "Sat 21 Nov", pace: "moderate", title: "Saturday markets & stages",
+          items: [
+            ["11:00", "Avelop Hongdae Flagship (Sat opens 11:00)", "F7"],
+            ["12:30", "Walk past Hongik Cultural Park — if the Free Market is running it is here; it is NOT confirmed for 2026", "H8"],
+            ["14:00", "Lunch: Busanjib Hongdae", "F2"],
+            ["16:00", "Hongdae Walking Street — Saturday busking in full swing", "H9"],
+            ["18:30", "Dinner: Chosun Hwaro Gui — after the 17:00 break", "F6"]
+          ] },
+        { date: "Sun 22 Nov", pace: "relax", title: "Check out",
+          items: [
+            ["08:30", "Hotel breakfast — last entry 09:30", null],
+            ["10:00", "Final walk on the forest park", "H6"],
+            ["12:00", "Check out", null]
+          ] }
+      ]
     }
   ];
 
@@ -1161,9 +1424,16 @@ window.HS = (function () {
     { level: "low", item: "《The Glass Menagerie》 language", text: "Korean-language production, 120 minutes, no interval printed. Elementary-school age and above. Not recommended if neither traveller reads Korean.", src: [["SAC SN=83392", "https://www.sac.or.kr/site/main/show/show_view?SN=83392"]] },
     { level: "low", item: "Mapo Art Center in the stay window", text: "There is no ticketed MFAC performance at all between Nov 16 and Nov 22 on the official calendar. The next ones are Nov 25 and Nov 29, both after check-out. Only the free Mapo Music Gallery runs during the stay.", src: [["MFAC schedule", "https://www.mfac.or.kr/performance/whole_list.jsp"]] },
     { level: "low", item: "Mapo Art Center play 〈투신〉 (Diving) — season-lineup only", text: "The KoreaFun repo records a co-produced play 〈투신〉 (Geukgongjakso Mabangjin, dir. Go Sun-woong) announced for Nov 13–21, 2026 at Art Hall MAC in the foundation's 2026 season lineup. As of the 2026-09-02 fetch of the official calendar it is NOT yet listed with times or prices, so it cannot be scheduled. If it appears on the official calendar in October, the in-window dates (Tue 17 – Sat 21 Nov) would make it the strongest Mapo theatre option of the stay — re-check then.", src: [["MFAC official calendar (negative evidence, fetched 2026-09-02)", "https://www.mfac.or.kr/performance/whole_list.jsp"], ["KoreaFun repo — KoreaFun/audit + seoul-districts.md entry 9", "https://github.com/karagemop466-tech/KoreaFun"], ["Season-lineup announcement (corroboration only)", "http://www.thepreview.co.kr/news/articleView.html?idxno=12022"]] },
-    { level: "low", item: "Hotel check-out", text: "Accor's official page states check-in from 15:00 and check-out up to 12:00. Sunday 22 Nov is planned around a 12:00 hard stop.", src: [["Accor B696", "https://all.accor.com/hotel/B696/index.en.shtml"]] }
+    { level: "low", item: "Hotel check-out", text: "Accor's official page states check-in from 15:00 and check-out up to 12:00. Sunday 22 Nov is planned around a 12:00 hard stop.", src: [["Accor B696", "https://all.accor.com/hotel/B696/index.en.shtml"]] },
+    { level: "med", item: "FC Seoul — K League 1 Final Rounds at Seoul World Cup Stadium", text: "The final rounds run Oct 31 – Dec 6, 2026, and FC Seoul play their home matches at the World Cup Stadium, ~15 min from the hotel on Line 6. Individual fixtures are only announced around mid-October, so NO in-window home match is confirmed yet. If a home game lands on 16–22 Nov it would be the best Mapo sporting evening of the stay — but it is not scheduled in any itinerary, and a match day also closes the stadium tour (W2). Re-check fcseoul.com / kleague.com in October.", src: [["K League official", "https://www.kleague.com"], ["FC Seoul official", "https://www.fcseoul.com"]] },
+    { level: "low", item: "Korea national-team friendlies (Nov 9–17 window)", text: "The November FIFA window carries two Korea friendlies; the venue is not yet fixed and could be Seoul World Cup Stadium. If announced for the stadium inside the stay it would affect the stadium tour on that day. Watch kfa.or.kr.", src: [["Korea Football Association", "https://www.kfa.or.kr"]] },
+    { level: "low", item: "“Culture Flowing Through Seoul Plaza” — free Wednesday concerts", text: "Free outdoor concerts on Wednesdays (~18:30) through the season; Wed 18 Nov falls inside the stay. The stage is Seoul Plaza at City Hall — a cross-city trip, so it is kept out of the Hongdae-focused core and listed here for anyone willing to cross the city that evening.", src: [["Seoul festival calendar", "https://festival.seoul.go.kr"]] },
+    { level: "med", item: "Haneul Park silver grass in mid-November", text: "The silver-grass (eoksae) festival is October (2025: Oct 18–24) and the city extended the grass-field viewing only to 2 Nov. By 16–22 Nov the plateau is expected to be mostly cleared — Haneul Park is kept as a free city-viewpoint walk (cart up / steps), not a foliage stop. Also, parks.seoul.go.kr returned HTTP 500 on this pass, so park/cart hours should be re-confirmed nearer the date.", src: [["Seoul Eoksae Festival notice", "https://news.seoul.go.kr/env/archives/564833"]] },
+    { level: "med", item: "Cafe aA opening hours may be stale", text: "The official Visit Seoul page was last edited 1 Feb 2021. The printed hours (daily 12:00–23:30) are carried as-is but should be confirmed the morning you go; it is never a day's only stop.", src: [["Visit Seoul ENP000997", "https://english.visitseoul.net/restaurants/cafe-aA-EN/ENP000997"]] },
+    { level: "med", item: "Seoul Energy Dream Center opening time", text: "The city energy-portal notice prints 09:00–17:30 (Tue–Sun); VisitKorea prints 09:30–17:30 with last entry 17:00. Arrive after 09:30 and you are safe under either.", src: [["Seoul energy portal", "https://energyinfo.seoul.go.kr/board/content?menu-id=Z110100&boardType=0001&boardNo=378"], ["VisitKorea", "https://access.visitkorea.or.kr/ms/detail.do?cotId=c32b848d-3b48-4e72-8030-2da73e98a77e"]] },
+    { level: "low", item: "Cinematheque KOFA — free but plan the evening", text: "Screenings are free but ticketed: online booking opens 11:00 (2 per person) and there is no late entry. It is closed Sundays and Mondays, and many titles are Korean-language — check the individual film's page for subtitles before booking.", src: [["Cinematheque KOFA visitor guide", "https://www.koreafilm.or.kr/pages/PC_00000004"]] }
   ];
 
-  const VERIFIED_ON = "2026-09-01 initial verification of all items · 2026-09-02 full re-verification (every page re-fetched) + 8 new items added (C1–C3, N3–N4, W4–W6)";
+  const VERIFIED_ON = "2026-09-01 initial verification of all items · 2026-09-02 full re-verification (every page re-fetched) + 8 new items (C1–C3, N3–N4, W4–W6) · 2026-09-02 pass 3: 10 further items verified line-by-line from official pages (Cinematheque KOFA, Korean Film Museum, Energy Dream Center, Haneul Park, Hongdae Walking Street, Seoul Art Space Seogyo, B-hind, GMH Dabang, Cafe aA, Dok-Dabang) and two new itineraries (I11, I12)";
   return { STAY, CLUSTERS, EVENTS, PLACES, ITINS, FLAGS, EXCLUDED, VERIFIED_ON };
 })();
