@@ -21,7 +21,7 @@ window.HS = (function () {
     src: [
       ["Accor official hotel page (B696)", "https://all.accor.com/hotel/B696/index.en.shtml"]
     ],
-    verifiedOn: "2026-09-01"
+    verifiedOn: "2026-09-02"
   };
 
   /* ---------------- CLUSTERS ---------------- */
@@ -44,7 +44,7 @@ window.HS = (function () {
       price: "R ₩143,000 / S ₩132,000 / A ₩110,000 / B ₩99,000",
       transit: "Hongik Univ. → Line 2 → transfer Line 5 → Gwanghwamun. Single destination; nothing else scheduled that evening.",
       src: [["YES24 Ticket — official English booking page (Perf 59136)", "https://ticket.yes24.com/English/Perf/59136"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       readsAs: "Page prints: Date Nov 18 2026 · Venue Sejong Center · Age 7+ · Time 80 minutes · R/S/A/B prices as listed."
     },
     {
@@ -55,7 +55,7 @@ window.HS = (function () {
       price: "R ₩99,000 / S ₩77,000 / A ₩55,000 / OP ₩99,000",
       transit: "Seocho. Single-destination outing; ~45–55 min each way from Hongdae.",
       src: [["Seoul Arts Center official production page (SN=83392)", "https://www.sac.or.kr/site/main/show/show_view?SN=83392"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       readsAs: "Page prints: 기간 2026-10-17 ~ 2026-11-22 · 시간 수,목 19:30, 금 14:30/19:30, 토 14:00/19:00, 일 15:00 (*11월 18일(수) 14:30) | 월,화 공연없음 · 장소 CJ 토월극장 · 관람시간 120분 · R 99,000 / S 77,000 / A 55,000 / OP 99,000. NOTE (re-check 2026-09-02): the printed weekday pattern means Wed 18 Nov has BOTH the regular 19:30 slot AND the added 14:30 matinee — the first pass had listed only the matinee.",
     },
     {
@@ -69,7 +69,7 @@ window.HS = (function () {
         ["National Gugak Center — November 2026 monthly schedule", "https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11"],
         ["Performance detail (id 37050)", "https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&performance_id=37050"]
       ],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       readsAs: "November 2026 list prints three Saturday dates: Nov 7, Nov 14, Nov 21 — all 15:00, 우면당, A석 30,000원 / B석 20,000원. Nov 21 is the only one inside the stay."
     },
     {
@@ -83,7 +83,7 @@ window.HS = (function () {
         ["National Gugak Center — November 2026 monthly schedule", "https://www.gugak.go.kr/site/program/performance/month_list?menuid=001001001&year=2026&month=11"],
         ["English Tours detail (id 37733)", "https://www.gugak.go.kr/site/program/performance/detail?menuid=001001001&performance_id=37733"]
       ],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       readsAs: "November 2026 list prints [Gugak Museum] English Tours on Nov 7, Nov 14, Nov 21, each 14:00, 국악박물관, no price field filled."
     },
     {
@@ -94,7 +94,7 @@ window.HS = (function () {
       price: "₩30,000",
       transit: "Gangnam / COEX. Single-destination half-day; can be followed by an SAC evening show (both south of the river).",
       src: [["Bongeunsa Templestay — Temple Life official page", "http://temple.bongeunsa.org/public_html/explain/temple_life.asp"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       readsAs: "Page prints 목요 템플라이프(외국인): 일정 매주 목요일 오후 2시~4시 · 대상 외국인 · 참가비 3만원 · 진행언어 영어 · 오후 1시 50분까지 봉은사 입구 좌측 외국인 안내소."
     },
     {
@@ -105,7 +105,7 @@ window.HS = (function () {
       price: "Free admission (무료입장)",
       transit: "Mapo Art Center is in Daeheung-dong — Line 6 Daeheung / Gongdeok side, not walkable from the hotel.",
       src: [["Mapo Foundation for Arts and Culture — performance/exhibition schedule", "https://www.mfac.or.kr/performance/whole_list.jsp"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       readsAs: "Schedule prints 마포 뮤직 갤러리(Mapo Music Gallery) · 기간 2026.04.10 ~ 2026.12.31 · 시간 10:00-18:00 · 장소 갤러리맥 · 가격 무료입장."
     }
   ];
@@ -122,7 +122,7 @@ window.HS = (function () {
       price: "Per screening",
       note: "Korea's first independent cinema; screens Korean independent films. Programme is Korean-language — check subtitles before booking.",
       src: [["Visit Seoul — Indiespace (ENP040673)", "https://english.visitseoul.net/entertainment/Indiespace/ENP040673"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "H2", status: "verified", cluster: "core", type: "Shopping",
@@ -133,7 +133,7 @@ window.HS = (function () {
       price: "Free to browse",
       note: "Three-floor character flagship. Good rainy-hour filler right next to the hotel.",
       src: [["Visit Seoul — Kakao Friends Hongdae Flagship (ENP027304)", "https://english.visitseoul.net/shopping/Kakao-Friends-Hongdae-Flagship-Store/ENP027304"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "H3", status: "verified", cluster: "core", type: "Attraction",
@@ -171,7 +171,7 @@ window.HS = (function () {
       price: "Free",
       note: "Independent bookshops, children's bookshops, specialist shops and small galleries in glass pavilions along the park.",
       src: [["VisitKorea — G-line Book Street (vcontsId 64574)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=64574"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "Some secondary guides say the pavilions close on Mondays. The official VisitKorea listing says open all year with a 12:30–13:30 break. Treated as a stroll, not a fixed appointment."
     },
     {
@@ -183,7 +183,7 @@ window.HS = (function () {
       price: "Free",
       note: "6.3 km linear park on the old railway. The Yeonnam-dong stretch (Yeontral Park) is the long green spine that links the Hongdae core to the Yeonnam cafés.",
       src: [["Visit Seoul — Gyeongui Line Forest Park (37216)", "https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "H7", status: "recheck", cluster: "core", type: "Park",
@@ -194,7 +194,7 @@ window.HS = (function () {
       price: "Free admission",
       note: "Reopened December 2025 after environmental improvement works, merged with Red Road and rebranded “Drawing Village”, with a creative centre and shared studios.",
       src: [["Visit Seoul — Hongik Cultural Park (ENP011070), edited 8 Jul 2026", "https://english.visitseoul.net/area/Hongdae-Playground/ENP011070"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "IMPORTANT CHANGE. This site is no longer described as an always-open playground: the official page now prints staffed hours 10:00–18:00 and a Monday closure. Check-in day (Mon 16 Nov) is a Monday — treated as closed in every itinerary."
     },
     {
@@ -209,7 +209,7 @@ window.HS = (function () {
         ["Organiser site freemarket.or.kr — DOMAIN NO LONGER SERVES THE MARKET (parked page) as checked 2026-09-01", "http://www.freemarket.or.kr/"],
         ["Visit Seoul — Hongik Cultural Park, the venue", "https://english.visitseoul.net/area/Hongdae-Playground/ENP011070"]
       ],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "NOT CONFIRMED FOR NOV 2026 — DO NOT PLAN AROUND IT. The organiser's own domain no longer resolves to the market, the venue has been rebranded, and TripAdvisor's listing carries a “reported permanently closed” notice. Re-checked 2026-09-02: freemarket.or.kr still serves only a parked/blocked page, so nothing has changed. Sat 21 Nov is left as a walk-past, never as the anchor of a day."
     },
     /* ---- HONGDAE CORE — FOOD ---- */
@@ -222,7 +222,7 @@ window.HS = (function () {
       price: "Price range printed as ₩30,000",
       note: "Suwon wang galbi and LA galbi; LA-Koreatown styling; English-speaking staff; free wine corkage; step-free access path.",
       src: [["Visit Seoul — Blue Roof Town Hongdae Branch (ENPn88gm7)", "https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "F2", status: "verified", cluster: "core", type: "Korean-Chinese",
@@ -233,7 +233,7 @@ window.HS = (function () {
       price: "Jjajangmyeon ₩14,000 · LA Galbi ₩38,000",
       note: "Hongdae branch of the Myeongdong Busanjip. Official page: halal ingredients, but alcohol is not sold and there is no Muslim cook on site.",
       src: [["Visit Seoul — Busanjib Hongdae (ENPwpiwpw)", "https://english.visitseoul.net/restaurants/Busanjib-HongdaeKR/ENPwpiwpw"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "F3", status: "verified", cluster: "core", type: "Korean BBQ",
@@ -244,7 +244,7 @@ window.HS = (function () {
       price: "Price range printed as ₩20,000",
       note: "Samgyeopsal, galbi and moksal grilled on a cauldron lid, often with minari; staff grill for you. Latest-closing sit-down option in the core — the safe post-show dinner.",
       src: [["Visit Seoul — MGM Hongdae Branch (ENPtojamy)", "https://english.visitseoul.net/MapoArea/2024-MGM/ENPtojamy"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "F4", status: "verified", cluster: "core", type: "Korean BBQ (all-you-can-eat)",
@@ -255,7 +255,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "All-you-can-eat grilled beef and pork with a salad bar; free rice refills. Cards accepted.",
       src: [["VisitKorea — Eongteori Saenggogi Hongdae (vcontsId 56862)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=56862"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "F5", status: "recheck", cluster: "core", type: "Grilled lamb (halal-certified lamb)",
@@ -266,7 +266,7 @@ window.HS = (function () {
       price: "French Rack ₩35,000 · Shoulder Rack ₩33,000",
       note: "Marinated lamb barbecue with halal-certified lamb; alcohol is sold; no Muslim cook on site.",
       src: [["Visit Seoul — YANG IN HWAN DAE Hongdae (ENPxuebom)", "https://english.visitseoul.net/editorspicks/YANGINHWANDAEHongdae/ENPxuebom"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "Only Monday–Friday hours are printed. Weekend opening is unknown — every itinerary places it on a weekday (Tue/Wed/Thu/Fri) only."
     },
     {
@@ -278,7 +278,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Charcoal grill using 1++ Korean beef and domestic pork; boneless Korean galbi is the printed signature.",
       src: [["VisitKorea — Chosun Hwaro Gui (vcontsId 214996)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=214996"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "Closed Sundays — never scheduled for Sun 22 Nov, and never inside its 15:00–17:00 break."
     },
     {
@@ -290,7 +290,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Bakery café inside a 1972 house by the architect Kim Chung-up; all bread baked fresh daily. The only cluster café that opens at 08:00 on weekdays — the early-breakfast option.",
       src: [["Visit Seoul — Avelop Hongdae Flagship (ENP22oa3h)", "https://english.visitseoul.net/area/Avelop/ENP22oa3h"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "C1", status: "verified", cluster: "core", type: "Flower café",
@@ -335,7 +335,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Dirty & Cream coffee, cherry chocolat cake, Dirty & Cream croissant are the printed signatures. This Yeonnam branch only.",
       src: [["Visit Seoul — Antique Coffee Yeonnam Branch (ENPfru4mc)", "https://english.visitseoul.net/restaurants/ANTIQUE-COFFEE/ENPfru4mc"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "Y2", status: "verified", cluster: "yeonnam", type: "Contemporary Korean",
@@ -346,7 +346,7 @@ window.HS = (function () {
       price: "Perilla Oil Makguksu ₩10,500 · Seasonal Bibimbap ₩13,000 · Gangdoenjang Ssambap ₩14,000 · Beef Tartare Gamtae Gimbap ₩16,000 · Grilled Mackerel & Bracken Risotto ₩16,000",
       note: "Sesame and perilla oils pressed in-store each morning. Reservations via the Naver link on the official page. The best-value verified sit-down lunch in the Yeonnam cluster.",
       src: [["Visit Seoul — Jincheongyujeom (ENPtgef38)", "https://english.visitseoul.net/MapoArea/jincheongyujeom/ENPtgef38"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "Y3", status: "verified", cluster: "yeonnam", type: "Dessert café",
@@ -357,7 +357,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Square signature pies in a converted house at the edge of Yeonnam. There is a queue; the official page notes a reservation system with English, Chinese and Japanese options.",
       src: [["Visit Seoul — Parole & Langue (ENP0p4bkd)", "https://english.visitseoul.net/restaurants/Parole-Langue/ENP0p4bkd"]],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "Closed Mondays — never scheduled for Mon 16 Nov."
     },
     {
@@ -369,7 +369,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Scones and cakes; window seats and a terrace on the 2nd and 3rd floors. This Yeonnam location only.",
       src: [["Visit Seoul — Café Layered Yeonnam (48856)", "https://english.visitseoul.net/restaurants/Caf%C3%A9%20Layered%20Yeonnam_/48856"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     /* ---- SANGSU / HAPJEONG ---- */
     {
@@ -384,7 +384,7 @@ window.HS = (function () {
         ["Visit Seoul — Korean Catholic Martyrs' Museum (29433)", "https://english.visitseoul.net/attractions/Korean-Catholic-Martyrs%E2%80%99-Museum_/29433"],
         ["VisitKorea — Jeoldusan Martyrs' Shrine (vcontsId 107565)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=107565"]
       ],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "Closed Mondays — never scheduled for Mon 16 Nov."
     },
     {
@@ -396,7 +396,7 @@ window.HS = (function () {
       price: "Not printed on the official listing (set menus A/B/C)",
       note: "Hotel-style Korean-Chinese from a former hotel chef; open kitchen. Jjajangmyeon and oyster jjamppong are on the printed menu.",
       src: [["VisitKorea — Masichaina (vcontsId 66922)", "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66922"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "S3", status: "verified", cluster: "sangsu", type: "Korean BBQ (pork rind)",
@@ -407,7 +407,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Pork rind and grilled pork; a long-standing Hapjeong late-night. Opens at 16:00 — evening only.",
       src: [["Visit Seoul — Seogang Kkeopdegi (ENP012289)", "https://english.visitseoul.net/restaurants/Seogang-Kkeopdegi/ENP012289"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "S4", status: "verified", cluster: "sangsu", type: "Korean BBQ",
@@ -418,7 +418,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Barbecue in a former Han River dock building; samgyeopsal and tteokgalbi are the printed signatures.",
       src: [["Visit Seoul — Jamdubong The Nine (ENPuv9y9f)", "https://english.visitseoul.net/restaurants/the9bongbong/ENPuv9y9f"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     /* ---- SINCHON ---- */
     {
@@ -430,7 +430,7 @@ window.HS = (function () {
       price: "Not printed on the official listing",
       note: "Nearly 40 years old; charcoal beef ribs, plus dolsot bibimbap and galbitang. Staff grill for you; floors are split by menu.",
       src: [["Visit Seoul — Hyeongje Galbi (ENP011643)", "https://english.visitseoul.net/restaurants/Hyeongje-Galbi/ENP011643"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "N2", status: "verified", cluster: "sinchon", type: "Tonkatsu",
@@ -441,7 +441,7 @@ window.HS = (function () {
       price: "Tonkatsu ₩4,000 · True Cochon tonkatsu ₩6,000 · Real Cochon tonkatsu ₩8,000",
       note: "One-item shop: tonkatsu with rice, soup and salad. The cheapest verified sit-down meal on this whole list.",
       src: [["Visit Seoul — Cochon Tonkatsu (ENPf7618z)", "https://english.visitseoul.net/restaurants/CochonTonkatsu/ENPf7618z"]],
-      verifiedOn: "2026-09-01"
+      verifiedOn: "2026-09-02"
     },
     {
       id: "N3", status: "verified", cluster: "sinchon", type: "Bingsu (shaved ice)",
@@ -491,7 +491,7 @@ window.HS = (function () {
         ["Seoul public service reservation — stadium tour booking", "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251229135612718733"],
         ["Visit Seoul — Seoul World Cup Stadium (ENP002101)", "https://english.visitseoul.net/entertainment/Seoul-World-Cup-Stadium/ENP002101"]
       ],
-      verifiedOn: "2026-09-01",
+      verifiedOn: "2026-09-02",
       flag: "BOOK AHEAD. The operator's page states 현장예매는 불가 — walk-up ticket purchase is not possible; you must reserve through Seoul's public service reservation site, then pay on site. The operator page and the Visit Seoul page also print slightly different session windows (9–17 vs 9–16); the four session times above are from the operator."
     },
     {
