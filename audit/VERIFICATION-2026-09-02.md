@@ -78,3 +78,39 @@ Every row below is one page fetched on **2026-09-02** while re-verifying the mas
 | http://www.freemarket.or.kr/ | Domain parked (yfdpco2.com) | Item excluded, HIGH flag kept |
 | https://parks.seoul.go.kr/culturetank | 404 | W1 interior note sourced to KoreaFun, flagged |
 | https://gbookst.or.kr (Book Street operator) | Unreachable | H5 sourced via VisitKorea, "year-round" wording flagged |
+
+---
+
+# Verification ledger — pass 3 (2026-09-02, later same day)
+
+Ten further items were fetched **from their official pages during this pass** and only then added to the master list and to the two new itineraries (I11 "Sangam Cinema, Stadium & Sky Park", I12 "Art, Indie & After-Dark Hongdae"). Same rule as before: what the official page prints is what the site says; where pages disagree, both are kept and flagged.
+
+## A. New items verified this pass (10)
+
+| # | Item | Official page (fetched 2026-09-02) | What it printed | Result |
+|---|---|---|---|---|
+| 1 | K1 Cinematheque KOFA | https://www.koreafilm.or.kr/pages/PC_00000004 | 화요일~토요일 운영; ticket box 1 h before first to last screening start; closed Sun/Mon, 1.1, 설/추석연휴, 1.18, 5.1; two screens 321/150; "시네마테크KOFA는 모두 무료로 운영"; online booking daily 11:00, 2 tix, same-day–5 days; no late entry; no-show penalty | **Added** — free, Tue–Sat, closed Sun/Mon |
+| 2 | K2 Korean Film Museum | https://www.koreafilm.or.kr/pages/PC_00000012 | 화요일~토요일 10:30~19:00, last entry 30 min before; closed Sun/Mon, 1.1, 설/추석, 1.18, 5.1; 무료입장; 02-3153-2072; 400 World Cup buk-ro | **Added** — free, Tue–Sat 10:30–19:00 |
+| 3 | W7 Seoul Energy Dream Center | https://energyinfo.seoul.go.kr/board/content?menu-id=Z110100&boardType=0001&boardNo=378 | 화~일요일 09:00~17:30; 관람료 무료; 휴관일 매주 월요일; 증산로 14; 02-3151-0562 | **Added** — free, Tue–Sun. VisitKorea page prints 09:30–17:30/last 17:00 → 09:00-vs-09:30 kept as a MED flag |
+| 4 | W8 Haneul Park | Seoul city (parks.seoul.go.kr, news.seoul.go.kr) via KoreaFun 2026-08-19 + cross-check | Free park; Maengkkongi cart ₩2,000 one-way/₩3,000 return (child ₩1,500/₩2,200); silver-grass festival Oct 18–24, grass viewing extended only to 2 Nov | **Added** as a free viewpoint walk, explicitly NOT a foliage stop; parks.seoul.go.kr returned HTTP 500 this pass → MED flag to re-confirm |
+| 5 | H9 Hongdae Walking Street | https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=c92fa510-548b-4da9-b6f4-7491c603bba6 | ~500 m strip, Eoulmadang-ro 107–155-1; busking zones + plaza/travel stages; car-free Fri–Sun | **Added** — 12:00–22:00 slot window attributed to Mapo-gu booking system (per KoreaFun), flagged as approximate |
+| 6 | H10 Seoul Art Space Seogyo | https://www.sfac.or.kr/site/SFAC_KOR/02/10209030000002018102303.jsp | Art Info 11:00–22:00; exhibition hall & art dabang 11:00–20:00; multipurpose hall 11:00–20:00; closed Mon/national holidays; 02-333-1551 | **Added** — free, closed Mondays |
+| 7 | C4 B-hind | https://english.visitseoul.net/restaurants/B-hind-E/ENP011936 | Mon–Fri 11:30–22:00, Sat–Sun 13:00–22:00; closed Seollal & Chuseok; ₩10,000 range; 18 Eoulmadang-ro 5-gil; Sangsu Exit 1, 436 m; edited 9 May 2026; nearby Colline 70 m / FLAN 140 m | **Added** |
+| 8 | C5 GMH Dabang | https://english.visitseoul.net/restaurants/2024-gmhdabang/ENP1v5xop | Mon & Wed–Fri 17:00–24:00, Sat 14:00–24:00, Sun 14:00–22:00; closed Tuesdays; 49 Wausan-ro 3-gil; Sangsu Exit 4, 404 m; edited 11 May 2026 | **Added** — closed Tue + weekday-evening hours flagged |
+| 9 | C6 Cafe aA | https://english.visitseoul.net/restaurants/cafe-aA-EN/ENP000997 | Daily 12:00–23:30, open year round; 19-18 Wausan-ro 17-gil; last edited 1 Feb 2021 | **Added** — stale-edit MED flag kept |
+| 10 | N5 Dok-Dabang | https://english.visitseoul.net/restaurants/Doksuri-Dabang_/28403 | 11:00–23:30 (last order 23:00), daily, no holidays; 8F 36 Yeonse-ro; Sinchon Exit 3, 360 m; Seoul Future Heritage; edited 25 Jul 2026 | **Added** |
+
+## B. Event leads re-checked this pass — NOT added to any itinerary
+
+| Item | State | Handling |
+|---|---|---|
+| FC Seoul — K League 1 Final Rounds (Seoul World Cup Stadium, Mapo) | Final rounds Oct 31 – Dec 6; individual fixtures announced ~mid-Oct | MED flag: check fcseoul.com in October; a home match in-window would be the best Mapo sporting evening and would close the stadium tour that day |
+| Korea national-team friendlies (Nov 9–17) | Venue TBD (possibly World Cup Stadium) | LOW flag |
+| "Culture Flowing Through Seoul Plaza" free concerts | Wednesdays ~18:30; Wed 18 Nov in-window but at Seoul Plaza (City Hall, outside Mapo) | LOW flag — kept out of the Hongdae-focused core |
+
+## C. Result of pass 3
+
+- Master list: 42 → **52 items** (46 places + 6 events).
+- Itineraries: 10 → **12** (new I11, I12).
+- Flags: 13 → **20**.
+- No item entered an itinerary before its official page was read this pass; every new row carries its link for manual review.
